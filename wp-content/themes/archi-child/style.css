@@ -1,0 +1,159 @@
+/*
+ Theme Name:   Archi Child
+ Theme URI:    http://demo.vegatheme.com/archi
+ Description:  Archi Child Theme
+ Author:       OceanThemes Team
+ Author URI:   http://oceanthemes.net
+ Template:     archi
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  archi-child
+*/
+
+@import url("../archi/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*Menu -------------------------------------------------*/
+header.header-bg {
+ background-color: white;
+}
+header {
+ height: 120px;
+}
+
+header.header-bg.smaller {
+ height: 120px;
+}
+
+header h1#logo a img {
+ max-height: 120px;
+}
+
+header h1#logo {
+ padding-top: 8px;
+}
+
+/* subheader and title--------------------------------*/
+#subheader {
+ padding-bottom: 0px;
+ background: white;
+}
+
+#subheader h1 {
+ color:darkgrey;
+ margin-top:80px;
+ font-size: 32px;
+ letter-spacing: 5px;
+ text-align: left;
+ padding-right: 40px;
+ margin-right: 40px;
+ max-width: 85%;
+ text-transform:uppercase;
+}
+#subheader span {
+ letter-spacing:2px;
+ display: inline-block;
+ font-size: 15px;
+ margin-top:88px;
+ color:#fff;
+}
+/*#subheader .crumb*/
+#subheader .crumb{
+ display: none;
+}
+
+/*Cercle homepage -------------------------------------*/
+.de_tab.tab_steps .de_nav li span:active {
+ background-color: orange;
+ color: black;
+}
+
+.de_tab.tab_steps .de_nav li span {
+ background-color: orange;
+ color: white;
+}
+
+.de_tab.tab_steps .de_nav li span:hover {
+ background-color: orange;
+ color: black;
+}
+
+.de_tab.tab_steps .de_tab_content {
+ font-size: 16px;
+}
+
+ /*Blog excerpt----------------------------------------*/
+.de_light .blog-list .btn-more {
+ background: black;
+ color: white;
+}
+
+.de_light .blog-list .btn-more:hover {
+ background: black;
+ color: orange !important;
+}
+
+.blog-list .date-box .month {
+ letter-spacing: 8px;
+}
+
+/*Media queries menu---------------------------------------*/
+@media only screen and (max-width: 992px) {
+ #mainmenu li a {
+  color: black;
+ }
+}
+
+ /*Video homepage fonds------------------------------------*/
+ .de-video-overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  /* background: url(images/dot-70.png); */
+  display: none;
+ }
+
+.video {
+ display: inline-block;
+ vertical-align: baseline;
+ max-width: 100% !important;
+ max-height: 100% !important;
+}
+
+/*Sous-menus-----------------------------------------------*/
+#mainmenu li li a {
+ padding: 10px 15px 10px 15px;
+  background: white;
+ text-align: left;
+}
+
+#mainmenu li li a:hover {
+ color: orange;
+}
+
+header.smaller #mainmenu li li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#mainmenu {
+ font-family: lato, sans-serif !important;
+ align-content: right;
+ /*font-size: 11px;*/
+ /*font-weight: 400;*/
+ letter-spacing: 0px;
+ text-transform: uppercase;
+}
+
+#mainmenu li {
+ margin: 0px 0px;
+ padding: 0px 20px 0px 0px;
+ align-content: right;
+ display: inline;
+ list-style: none;
+ position: relative;
+}

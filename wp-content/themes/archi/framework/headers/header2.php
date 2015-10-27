@@ -1,0 +1,1 @@
+<?php global $archi_option; ?>

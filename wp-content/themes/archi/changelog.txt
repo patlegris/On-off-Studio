@@ -1,0 +1,13 @@
+/**** Changelog ****/
+
+"Please backup your theme pack files at first before you update the theme into the latest version"
+
+18/10/2015 - version 2.0
+- Update font-awesome 4.4.0
+- Update menu scroll One Page (Use new js)
+- Update Demo Content
+- Update new Landing Page
+- 
+
+14/09/2015 - version 1.0.0
+- First release.
