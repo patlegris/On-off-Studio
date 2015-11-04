@@ -17,14 +17,13 @@ global $archi_option;
   background-image:url(<?php echo esc_url($archi_option['bg_allpage']['url']); ?>);
 }
 header{
-  background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?>;
+  background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?> !important;
 }
 header.smaller{
-  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?>;
-  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?>; 
+  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?> !important;
+  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?> !important; 
 }
-#mainmenu li li a{}
-#mainmenu a,#mainmenu li li a{
+#mainmenu a{
   color: <?php echo esc_attr( $archi_option['header-text-color'] ); ?>;
 }
 #mainmenu li a:after, #mainmenu li a.mPS2id-highlight {color: <?php echo esc_attr( $archi_option['main-color'] ); ?>;}
@@ -32,8 +31,7 @@ header.smaller{
 
 .bg-color, .de_light .bg-fixed.bg-color,
 section.call-to-action,
-#mainmenu li li a:hover,
-.price-row,
+#mainmenu li li a:hover, #mainmenu li li.active a,
 .blog-list .date,
 .blog-read .date,
 .slider-info .text1,
@@ -109,7 +107,6 @@ address div i,
 .price,#mainmenu .current_page_parent.menu-item-has-children > a,
 #mainmenu a:hover,
 #mainmenu a.active,
-.pricing-dark .pricing-box li.price-row,
 .dark .feature-box-small-icon i,
 a.btn-slider:after,
 .feature-box-small-icon i,
@@ -140,6 +137,8 @@ h3 b,nav ul#mainmenu > li.current-menu-ancestor > a, .woocommerce .star-rating s
 {
   color:<?php echo esc_attr( $archi_option['main-color'] ); ?>;
 }
+
+.pricing-dark.pricing-box h1, .de_light .pricing-dark.pricing-box h1 {color: #fff;}
 
 .feature-box i,
 #filters a:hover,

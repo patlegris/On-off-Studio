@@ -437,6 +437,7 @@ function folio_gallery_func($atts, $content = null){
 	extract(shortcode_atts(array(
 		'all'		=> 	'',
 		'num'		=> 	'',
+		'columns'   => 	4,
 	), $atts));
 
 	$all1 = (!empty($all) ? $all : 'All Designs');
@@ -444,27 +445,27 @@ function folio_gallery_func($atts, $content = null){
 
 	ob_start(); ?>        
 		<div class="container">
-        <!-- portfolio filter begin -->
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                	<li><a href="#" data-filter="*" class="selected"><?php echo htmlspecialchars_decode($all1); ?></a></li>                    
-                    <?php 
-	                  $categories = get_terms('categories');
-	                   foreach( (array)$categories as $categorie){
-	                    $cat_name = $categorie->name;
-	                    $cat_slug = $categorie->slug;
-	                    $cat_count = $categorie->count;
-	                  ?>
-	                  <li><a href="#" data-filter=".<?php echo htmlspecialchars_decode( $cat_slug ); ?>"><?php echo htmlspecialchars_decode( $cat_name ); ?></a></li>
-	                <?php } ?>                   
-                </ul>
-            </div>
-        </div>
-        <!-- portfolio filter close -->
+	        <!-- portfolio filter begin -->
+	        <div class="row">
+	            <div class="col-md-12 text-center">
+	                <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
+	                	<li><a href="#" data-filter="*" class="selected"><?php echo htmlspecialchars_decode($all1); ?></a></li>                    
+	                    <?php 
+		                  $categories = get_terms('categories');
+		                   foreach( (array)$categories as $categorie){
+		                    $cat_name = $categorie->name;
+		                    $cat_slug = $categorie->slug;
+		                    $cat_count = $categorie->count;
+		                  ?>
+		                  <li><a href="#" data-filter=".<?php echo htmlspecialchars_decode( $cat_slug ); ?>"><?php echo htmlspecialchars_decode( $cat_name ); ?></a></li>
+		                <?php } ?>                   
+	                </ul>
+	            </div>
+	        </div>
+	        <!-- portfolio filter close -->
         </div>
 
-	    <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
+	    <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width <?php if ($columns == 2) {echo 'pf_2_cols'; }elseif ($columns == 3) { echo 'pf_3_cols'; }else{} ?> wow fadeInUp" data-wow-delay=".3s">
 	        <?php 
 	          $args = array(   
 	            'post_type' => 'portfolio',   
@@ -483,7 +484,78 @@ function folio_gallery_func($atts, $content = null){
             <!-- gallery item -->
             <div class="item <?php echo esc_attr($cate_slug); ?>">
                 <div class="picframe">
-                    <a title="<?php the_title(); ?>" href="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id()));?>">
+                    <a class="image-popup-gallery" title="<?php the_title(); ?>" href="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id()));?>">
+                        <span class="overlay">
+                            <span class="pf_text">
+                                <span class="project-name"><?php the_title(); ?></span>
+                            </span>
+                        </span>
+                    </a>
+                    <?php $params = array( 'width' => 700, 'height' => 466 ); $image = bfi_thumb( wp_get_attachment_url(get_post_thumbnail_id()), $params ); ?>
+                    <img src="<?php echo esc_url($image);?>" alt="">
+                </div>
+            </div>
+            <!-- close gallery item -->
+           <?php endwhile; wp_reset_postdata(); ?>
+        </div>
+<?php
+    return ob_get_clean();
+}
+
+// Portfolio Gallery 2
+add_shortcode('folio_gallery2', 'folio_gallery2_func');
+function folio_gallery2_func($atts, $content = null){
+	extract(shortcode_atts(array(
+		'all'		=> 	'',
+		'num'		=> 	'',
+		'columns'   => 	4,
+	), $atts));
+
+	$all1 = (!empty($all) ? $all : 'All Designs');
+	$num1 = (!empty($num) ? $num : 8);
+
+	ob_start(); ?>        
+		<div class="container">
+	        <!-- portfolio filter begin -->
+	        <div class="row">
+	            <div class="col-md-12 text-center">
+	                <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
+	                	<li><a href="#" data-filter="*" class="selected"><?php echo htmlspecialchars_decode($all1); ?></a></li>                    
+	                    <?php 
+		                  $categories = get_terms('categories');
+		                   foreach( (array)$categories as $categorie){
+		                    $cat_name = $categorie->name;
+		                    $cat_slug = $categorie->slug;
+		                    $cat_count = $categorie->count;
+		                  ?>
+		                  <li><a href="#" data-filter=".<?php echo htmlspecialchars_decode( $cat_slug ); ?>"><?php echo htmlspecialchars_decode( $cat_name ); ?></a></li>
+		                <?php } ?>                   
+	                </ul>
+	            </div>
+	        </div>
+	        <!-- portfolio filter close -->
+        </div>
+
+        <div id="gallery" class="row grid_gallery gallery de-gallery wow fadeInUp" data-wow-delay=".3s">	
+	        <?php 
+	          $args = array(   
+	            'post_type' => 'portfolio',   
+	            'posts_per_page' => $num1,	            
+	          );  
+	          $wp_query = new WP_Query($args);
+	          while ($wp_query -> have_posts()) : $wp_query -> the_post(); 
+	          $cates = get_the_terms(get_the_ID(),'categories');
+	          $cate_slug = '';
+	              foreach((array)$cates as $cate){
+	              if(count($cates)>0){	                
+	                $cate_slug .= $cate->slug .' ';     
+	              } 
+	          }
+	        ?>             
+            <!-- gallery item -->
+            <div class="<?php if ($columns == 2) {echo 'col-md-6'; }elseif ($columns == 3) { echo 'col-md-4'; }else{echo 'col-md-3';} ?> item <?php echo esc_attr($cate_slug); ?>">
+                <div class="picframe">
+                    <a class="image-popup-gallery" title="<?php the_title(); ?>" href="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id()));?>">
                         <span class="overlay">
                             <span class="pf_text">
                                 <span class="project-name"><?php the_title(); ?></span>
@@ -563,10 +635,13 @@ function testslide_func($atts, $content = null){
     	jQuery(document).ready(function() {		
 			'use strict';
 			jQuery("#testimonial-carousel").owlCarousel({
-			    items : <?php echo esc_attr($visible); ?>,
+			    items : 2,
+				itemsDesktop : [1199,2],
+				itemsDesktopSmall : [980,2],
+			    itemsTablet: [768,1],
+			    itemsTabletSmall: false,
+			    itemsMobile : [479,1],
 			    navigation : false,
-			    itemsDesktop : [1199,2],
-				itemsDesktopSmall : [979,1]
 		    });
 		});
     </script>
@@ -670,7 +745,6 @@ function quickview_func($atts, $content = null){
 }
 
 // Latest Blog
-
 add_shortcode('latestblog','latestblog_func');
 function latestblog_func($atts, $content = null){
 	extract(shortcode_atts(array(
@@ -787,30 +861,22 @@ function latestblog_func($atts, $content = null){
                   	<?php } ?>
                   	<?php } ?>
                 </div>
-
-
                 <div class="date-box">
                     <div class="day"><?php the_time('d'); ?></div>
                     <div class="month"><?php the_time('M'); ?></div>
                 </div>
-
                 <div class="post-text">
                     <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <?php echo archi_blog_excerpt($excerpt1); ?>
                 </div>
-
             </div>
         </li>
        <?php endwhile; wp_reset_postdata(); ?>
     </ul>
     
-
-	<?php
-
+<?php
     return ob_get_clean();
-
 }
-
 
 // Our Facts
 add_shortcode('ourfacts', 'ourfacts_func');
@@ -828,8 +894,7 @@ function ourfacts_func($atts, $content = null){
         <span><?php echo htmlspecialchars_decode($title); ?></span>
     </div>
 
-    <?php
-
+<?php
     return ob_get_clean();
 }
 
@@ -843,13 +908,10 @@ function logos_func($atts, $content = null){
 
 	ob_start(); ?>
 
-	 
     <div class="logo-carousel">
         <ul id="logo-carousel" class="slides">
             <?php $img_ids = explode(",",$gallery);
-
             foreach( $img_ids AS $img_id ){
-
             $image_src = wp_get_attachment_image_src($img_id,''); ?>
             <li>
                 <img src="<?php echo esc_url($image_src[0]); ?>" alt="">
@@ -868,111 +930,144 @@ function logos_func($atts, $content = null){
 		    });		   
 		});
     </script>
-	<?php
-
+<?php
     return ob_get_clean();
 }
 
 // Portfolio Filter
-
 add_shortcode('foliof', 'foliof_func');
 function foliof_func($atts, $content = null){
 	extract(shortcode_atts(array(
 		'all'		=> 	'',
-		'num'		=> 	'',
+		'num'		=> 	8,
+		'columns'   => 	4,
 	), $atts));
 
 	$all1 = (!empty($all) ? $all : 'ALL PROJECTS');
 	$num1 = (!empty($num) ? $num : 8);
 
-	ob_start(); ?>        
-		<div class="container">
-        <!-- portfolio filter begin -->
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                	<li><a href="#" data-filter="*" class="selected"><?php echo htmlspecialchars_decode($all1); ?></a></li>
-                    
-                    <?php 
+	ob_start(); ?>  
 
+	<div class="container">
+    	<!-- portfolio filter begin -->
+	    <div class="row">
+	        <div class="col-md-12 text-center">
+	            <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
+	            	<li><a href="#" data-filter="*" class="selected"><?php echo htmlspecialchars_decode($all1); ?></a></li>                    
+	                <?php 
 	                  $categories = get_terms('categories');
-
 	                   foreach( (array)$categories as $categorie){
-
 	                    $cat_name = $categorie->name;
-
 	                    $cat_slug = $categorie->slug;
-
 	                    $cat_count = $categorie->count;
-
 	                  ?>
 	                  <li><a href="#" data-filter=".<?php echo htmlspecialchars_decode( $cat_slug ); ?>"><?php echo htmlspecialchars_decode( $cat_name ); ?></a></li>
-	                <?php } ?>
-                    
-                </ul>
+	                <?php } ?>                    
+	            </ul>
+	        </div>
+	    </div>
+    	<!-- portfolio filter close -->
+    </div>
 
-            </div>
-        </div>
-        <!-- portfolio filter close -->
-        </div>
-
-	    <div id="gallery" class="gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
-	        <?php 
-
-	          $args = array(   
-
-	            'post_type' => 'portfolio',   
-
-	            'posts_per_page' => $num1,	            
-
-	          );  
-
-	          $wp_query = new WP_Query($args);
-
-	          while ($wp_query -> have_posts()) : $wp_query -> the_post(); 
-
-	          $cates = get_the_terms(get_the_ID(),'categories');
-
-	          $cate_name ='';
-
-	          $cate_slug = '';
-
-	              foreach((array)$cates as $cate){
-
-	              if(count($cates)>0){
-
-	                $cate_name .= $cate->name.'<span>, </span> ' ;
-
-	                $cate_slug .= $cate->slug .' ';     
-
-	              } 
-
-	          }
-
-	        ?>             
-            <!-- gallery item -->
-            <div class="item <?php echo esc_attr($cate_slug); ?>">
-                <div class="picframe">
-                    <a class="simple-ajax-popup-align-top" href="<?php the_permalink(); ?>">
-                        <span class="overlay">
-                            <span class="pf_text">
-                                <span class="project-name"><?php the_title(); ?></span>
-                            </span>
+    <div id="gallery" class="gallery full-gallery de-gallery pf_full_width <?php if ($columns == 2) {echo 'pf_2_cols'; }elseif ($columns == 3) { echo 'pf_3_cols'; }else{} ?> wow fadeInUp" data-wow-delay=".3s">
+        <?php 
+          $args = array(   
+            'post_type' => 'portfolio',   
+            'posts_per_page' => $num1,	            
+          );  
+          $wp_query = new WP_Query($args);
+          while ($wp_query -> have_posts()) : $wp_query -> the_post(); 
+          $cates = get_the_terms(get_the_ID(),'categories');
+          $cate_name ='';
+          $cate_slug = '';
+              foreach((array)$cates as $cate){
+              if(count($cates)>0){
+                $cate_name .= $cate->name.'<span>, </span> ' ;
+                $cate_slug .= $cate->slug .' ';     
+              } 
+          }
+        ?>             
+        <!-- gallery item -->
+        <div class="item <?php echo esc_attr($cate_slug); ?>">
+            <div class="picframe">
+                <a class="simple-ajax-popup-align-top" href="<?php the_permalink(); ?>">
+                    <span class="overlay">
+                        <span class="pf_text">
+                            <span class="project-name"><?php the_title(); ?></span>
                         </span>
-                    </a>
-                    <?php $image = bfi_thumb( wp_get_attachment_url(get_post_thumbnail_id())); ?>
-                    <img src="<?php echo esc_url($image);?>" alt="">
-                </div>
+                    </span>
+                </a>
+                <?php $image = bfi_thumb( wp_get_attachment_url(get_post_thumbnail_id())); ?>
+                <img src="<?php echo esc_url($image);?>" alt="">
             </div>
-            <!-- close gallery item -->
-           <?php endwhile; wp_reset_postdata(); ?>
         </div>
-
-	<?php
-
+        <!-- close gallery item -->
+       <?php endwhile; wp_reset_postdata(); ?>
+    </div>
+<?php
     return ob_get_clean();
 }
 
+
+// Portfolio Category
+add_shortcode('cate_portfolio', 'cate_portfolio_func');
+function cate_portfolio_func($atts, $content = null){
+	extract(shortcode_atts(array(
+		'show'      =>  '',
+	    'idcate'  =>   '',
+		'columns'   => 	4,
+	), $atts));
+	
+	$show1 = (!empty($show) ? $show : 8);
+
+	ob_start(); ?>  
+
+    <div id="gallery" class="gallery full-gallery de-gallery pf_full_width <?php if ($columns == 2) {echo 'pf_2_cols'; }elseif ($columns == 3) { echo 'pf_3_cols'; }else{} ?> wow fadeInUp" data-wow-delay=".3s">
+        <?php 						
+			$args = array(
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'categories',
+						'field' => 'slug',
+						'terms' => explode(',',$idcate)
+					),
+				),
+				'post_type' => 'portfolio',
+				'showposts' => $show1,
+			);
+			
+			$wp_query = new WP_Query($args);					
+			while ($wp_query -> have_posts()) : $wp_query -> the_post();  
+			$cates = get_the_terms(get_the_ID(),'categories');
+			$cate_name ='';
+			$cate_slug = '';
+				  foreach((array)$cates as $cate){
+					if(count($cates)>0){
+						$cate_name .= $cate->name.' ' ;
+						$cate_slug .= $cate->slug .' ';     
+					} 
+			} 			
+		?>          
+        <!-- gallery item -->
+        <div class="item <?php echo esc_attr($cate_slug); ?>">
+            <div class="picframe">
+                <a class="simple-ajax-popup-align-top" href="<?php the_permalink(); ?>">
+                    <span class="overlay">
+                        <span class="pf_text">
+                            <span class="project-name"><?php the_title(); ?></span>
+                        </span>
+                    </span>
+                </a>
+                <?php $image = bfi_thumb( wp_get_attachment_url(get_post_thumbnail_id())); ?>
+                <img src="<?php echo esc_url($image);?>" alt="">
+            </div>
+        </div>
+        <!-- close gallery item -->
+       <?php endwhile; wp_reset_postdata(); ?>
+    </div>
+<?php
+    return ob_get_clean();
+}
 
 // Pricing Tables
 add_shortcode('pricingtable','pricing_func');

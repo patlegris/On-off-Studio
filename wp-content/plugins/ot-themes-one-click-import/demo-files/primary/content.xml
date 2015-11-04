@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.2.5" created="2015-10-20 09:18" -->
+<!-- generator="WordPress/4.2.5" created="2015-11-03 04:41" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Archi</title>
 	<link>http://demo.vegatheme.com/archi</link>
 	<description>Interior Design WordPress Theme</description>
-	<pubDate>Tue, 20 Oct 2015 09:18:17 +0000</pubDate>
+	<pubDate>Tue, 03 Nov 2015 04:41:27 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://demo.vegatheme.com/archi</wp:base_site_url>
@@ -3800,183 +3800,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>What We Do</title>
-		<link>http://demo.vegatheme.com/archi/what-we-do/</link>
-		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=455</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>455</wp:post_id>
-		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
-		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>what-we-do</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[455]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#services]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Process</title>
-		<link>http://demo.vegatheme.com/archi/process/</link>
-		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=456</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>456</wp:post_id>
-		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
-		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>process</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[456]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#process]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Team</title>
-		<link>http://demo.vegatheme.com/archi/team/</link>
-		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=457</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>457</wp:post_id>
-		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
-		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>team</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[457]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#team]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>12</title>
 		<link>http://demo.vegatheme.com/archi/product/woo-album-4/attachment/12/</link>
 		<pubDate>Thu, 10 Sep 2015 05:00:32 +0000</pubDate>
@@ -4501,6 +4324,276 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:212;s:6:"height";i:48;s:4:"file";s:23:"2015/10/logo-border.png";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"logo-border-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:23:"logo-border-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:25:"logo-border-1024x1024.png";s:5:"width";i:1024;s:6:"height";i:1024;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:23:"logo-border-180x180.png";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:12:"shop_catalog";a:4:{s:4:"file";s:23:"logo-border-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:11:"shop_single";a:4:{s:4:"file";s:23:"logo-border-600x600.png";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>bg-8</title>
+		<link>http://demo.vegatheme.com/archi/landing-video/bg-8/</link>
+		<pubDate>Tue, 20 Oct 2015 14:46:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>843</wp:post_id>
+		<wp:post_date>2015-10-20 14:46:44</wp:post_date>
+		<wp:post_date_gmt>2015-10-20 14:46:44</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>bg-8</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>826</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/10/bg-8.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:16:"2015/10/bg-8.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"bg-8-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"bg-8-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:18:"bg-8-1024x1024.jpg";s:5:"width";i:1024;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:16:"bg-8-180x180.jpg";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:16:"bg-8-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:16:"bg-8-600x600.jpg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>bg-9</title>
+		<link>http://demo.vegatheme.com/archi/landing-video/bg-9/</link>
+		<pubDate>Tue, 20 Oct 2015 14:48:05 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>844</wp:post_id>
+		<wp:post_date>2015-10-20 14:48:05</wp:post_date>
+		<wp:post_date_gmt>2015-10-20 14:48:05</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>bg-9</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>826</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/10/bg-9.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1600;s:6:"height";i:1063;s:4:"file";s:16:"2015/10/bg-9.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"bg-9-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"bg-9-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:18:"bg-9-1024x1024.jpg";s:5:"width";i:1024;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:16:"bg-9-180x180.jpg";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:16:"bg-9-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:16:"bg-9-600x600.jpg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>bg-7</title>
+		<link>http://demo.vegatheme.com/archi/landing-parallax/bg-7/</link>
+		<pubDate>Fri, 23 Oct 2015 02:34:26 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-7.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>849</wp:post_id>
+		<wp:post_date>2015-10-23 02:34:26</wp:post_date>
+		<wp:post_date_gmt>2015-10-23 02:34:26</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>bg-7</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>824</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-7.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2015/10/bg-7.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:16:"2015/10/bg-7.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"bg-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"bg-7-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:18:"bg-7-1024x1024.jpg";s:5:"width";i:1024;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:16:"bg-7-180x180.jpg";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:16:"bg-7-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:16:"bg-7-600x600.jpg";s:5:"width";i:600;s:6:"height";i:600;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:11:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:1;}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>What We Do</title>
+		<link>http://demo.vegatheme.com/archi/what-we-do/</link>
+		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=455</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>455</wp:post_id>
+		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
+		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>what-we-do</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[455]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#services]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Process</title>
+		<link>http://demo.vegatheme.com/archi/process/</link>
+		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=456</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>456</wp:post_id>
+		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
+		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>process</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[456]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#process]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Team</title>
+		<link>http://demo.vegatheme.com/archi/team/</link>
+		<pubDate>Wed, 29 Jul 2015 09:21:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=457</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>457</wp:post_id>
+		<wp:post_date>2015-07-29 09:21:57</wp:post_date>
+		<wp:post_date_gmt>2015-07-29 09:21:57</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>team</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="one-page-menu"><![CDATA[One Page Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[457]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#team]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5110,7 +5203,7 @@
 		<wp:post_name>about-us-2</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>17</wp:menu_order>
+		<wp:menu_order>23</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5169,7 +5262,7 @@
 		<wp:post_name>500</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>23</wp:menu_order>
+		<wp:menu_order>29</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5213,6 +5306,296 @@
 	</item>
 	<item>
 		<title></title>
+		<link>http://demo.vegatheme.com/archi/?p=875</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=875</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>875</wp:post_id>
+		<wp:post_date>2015-11-03 03:32:57</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[866]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_orphaned</wp:meta_key>
+			<wp:meta_value><![CDATA[1446521577]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/?p=876</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=876</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>876</wp:post_id>
+		<wp:post_date>2015-11-03 03:32:57</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[865]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_orphaned</wp:meta_key>
+			<wp:meta_value><![CDATA[1446521577]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/?p=877</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=877</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>877</wp:post_id>
+		<wp:post_date>2015-11-03 03:32:57</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[862]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_orphaned</wp:meta_key>
+			<wp:meta_value><![CDATA[1446521577]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/?p=878</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=878</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>878</wp:post_id>
+		<wp:post_date>2015-11-03 03:32:57</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[858]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_orphaned</wp:meta_key>
+			<wp:meta_value><![CDATA[1446521577]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/?p=879</link>
+		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=879</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>879</wp:post_id>
+		<wp:post_date>2015-11-03 03:32:57</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[855]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_orphaned</wp:meta_key>
+			<wp:meta_value><![CDATA[1446521577]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
 		<link>http://demo.vegatheme.com/archi/501/</link>
 		<pubDate>Thu, 30 Jul 2015 04:21:35 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -5228,7 +5611,7 @@
 		<wp:post_name>501</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>24</wp:menu_order>
+		<wp:menu_order>30</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5405,7 +5788,7 @@
 		<wp:post_name>607</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>15</wp:menu_order>
+		<wp:menu_order>21</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5464,7 +5847,7 @@
 		<wp:post_name>608</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>14</wp:menu_order>
+		<wp:menu_order>20</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5523,7 +5906,7 @@
 		<wp:post_name>609</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>13</wp:menu_order>
+		<wp:menu_order>19</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5582,7 +5965,7 @@
 		<wp:post_name>610</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>12</wp:menu_order>
+		<wp:menu_order>18</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5641,7 +6024,7 @@
 		<wp:post_name>services</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>11</wp:menu_order>
+		<wp:menu_order>17</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5684,228 +6067,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Project</title>
-		<link>http://demo.vegatheme.com/archi/projects/</link>
-		<pubDate>Thu, 23 Jul 2015 07:32:51 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=76</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][foliof all="All" num="12" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>76</wp:post_id>
-		<wp:post_date>2015-07-23 07:32:51</wp:post_date>
-		<wp:post_date_gmt>2015-07-23 07:32:51</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>projects</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[true]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
-			<wp:meta_value><![CDATA[654]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog Left Sidebar</title>
-		<link>http://demo.vegatheme.com/archi/blog-left-sidebar/</link>
-		<pubDate>Fri, 24 Jul 2015 02:03:00 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=102</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>102</wp:post_id>
-		<wp:post_date>2015-07-24 02:03:00</wp:post_date>
-		<wp:post_date_gmt>2015-07-24 02:03:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog-left-sidebar</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page-templates/template-blog-left-sidebar.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog Fullwidth</title>
-		<link>http://demo.vegatheme.com/archi/blog-fullwidth/</link>
-		<pubDate>Fri, 24 Jul 2015 02:11:52 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=105</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>105</wp:post_id>
-		<wp:post_date>2015-07-24 02:11:52</wp:post_date>
-		<wp:post_date_gmt>2015-07-24 02:11:52</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog-fullwidth</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page-templates/template-blog-fullwidth.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog</title>
-		<link>http://demo.vegatheme.com/archi/blog/</link>
-		<pubDate>Fri, 24 Jul 2015 02:16:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=107</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>107</wp:post_id>
-		<wp:post_date>2015-07-24 02:16:17</wp:post_date>
-		<wp:post_date_gmt>2015-07-24 02:16:17</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page-templates/template-blog.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[false]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_cmb_image</wp:meta_key>
-			<wp:meta_value><![CDATA[624]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
-			<wp:meta_value><![CDATA[655]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Homepage Slider</title>
-		<link>http://demo.vegatheme.com/archi/</link>
-		<pubDate>Fri, 24 Jul 2015 03:26:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=141</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row fullwidth="yes"][vc_column][rev_slider_vc][/vc_column][/vc_row][vc_row css=".vc_custom_1438575257462{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="WHAT WE DO" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/3" animate="fadeinleft"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="137" img_size="full"][/vc_column][vc_column width="1/3" animate="fadeinup"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="144" img_size="full"][/vc_column][vc_column width="1/3" animate="fadinright"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="145" img_size="full"][/vc_column][/vc_row][vc_row css=".vc_custom_1438049333883{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-2.jpg?id=149) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column animate="fadeinup"][heading text="OUR PROCESS" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][process number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1438576639940{padding-top: 30px !important;}"][vc_column][foliof all="ALL PROJECT" num="8" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204741977{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="VIEW ALL PROJECT" btnlink="demo.vegatheme.com/archi/projects/" style="style1" type="" size=""][/vc_column][/vc_row][vc_row css=".vc_custom_1437962315096{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;}"][vc_column animate="fadeinup"][heading text="CUSTOMER SAYS" tag="h1" align="center" color="#eceff3"][line_solid icon="circle"][testslide visible="2" number="4"][/vc_column][/vc_row]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>141</wp:post_id>
-		<wp:post_date>2015-07-24 03:26:17</wp:post_date>
-		<wp:post_date_gmt>2015-07-24 03:26:17</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>homepage-slider</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[page-templates/template-canvas.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[true]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1438575257462{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1438049333883{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-2.jpg?id=149) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438576639940{padding-top: 30px !important;}.vc_custom_1442204741977{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1437962315096{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title></title>
 		<link>http://demo.vegatheme.com/archi/764/</link>
 		<pubDate>Thu, 10 Sep 2015 06:15:02 +0000</pubDate>
@@ -5922,7 +6083,7 @@
 		<wp:post_name>764</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>22</wp:menu_order>
+		<wp:menu_order>28</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5981,7 +6142,7 @@
 		<wp:post_name>765</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>21</wp:menu_order>
+		<wp:menu_order>27</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -6040,7 +6201,7 @@
 		<wp:post_name>766</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>19</wp:menu_order>
+		<wp:menu_order>25</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -6099,7 +6260,7 @@
 		<wp:post_name>single-product</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>20</wp:menu_order>
+		<wp:menu_order>26</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -6158,7 +6319,7 @@
 		<wp:post_name>shop</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>18</wp:menu_order>
+		<wp:menu_order>24</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -6217,7 +6378,7 @@
 		<wp:post_name>786</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>16</wp:menu_order>
+		<wp:menu_order>22</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -6311,7 +6472,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#wrapper]]></wp:meta_value>
+			<wp:meta_value><![CDATA[#home]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
@@ -6614,226 +6775,33 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Download</title>
-		<link>http://demo.vegatheme.com/archi/download/</link>
-		<pubDate>Tue, 20 Oct 2015 07:50:33 +0000</pubDate>
+		<title>Project</title>
+		<link>http://demo.vegatheme.com/archi/projects/</link>
+		<pubDate>Thu, 23 Jul 2015 07:32:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=823</guid>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=76</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][foliof all="All" num="12" columns="4" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>823</wp:post_id>
-		<wp:post_date>2015-10-20 07:50:33</wp:post_date>
-		<wp:post_date_gmt>2015-10-20 07:50:33</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>download</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="landing-page"><![CDATA[Landing Page]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[823]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#section-download]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Landing Page Video</title>
-		<link>http://demo.vegatheme.com/archi/landing-page-video/</link>
-		<pubDate>Tue, 20 Oct 2015 09:07:19 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=841</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>841</wp:post_id>
-		<wp:post_date>2015-10-20 09:07:19</wp:post_date>
-		<wp:post_date_gmt>2015-10-20 09:07:19</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>landing-page-video</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[502]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[826]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Landing Page Parallax</title>
-		<link>http://demo.vegatheme.com/archi/landing-page-parallax/</link>
-		<pubDate>Tue, 20 Oct 2015 09:07:19 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=842</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>842</wp:post_id>
-		<wp:post_date>2015-10-20 09:07:19</wp:post_date>
-		<wp:post_date_gmt>2015-10-20 09:07:19</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>landing-page-parallax</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[502]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[824]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Office On Space</title>
-		<link>http://demo.vegatheme.com/archi/portfolio/office-on-space/</link>
-		<pubDate>Sun, 05 Jul 2015 06:57:14 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=64</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row css=".vc_custom_1437644937616{padding-top: 0px !important;padding-bottom: 0px !important;}"][vc_column width="2/3"][videoplayer video="http://www.youtube.com/embed/QgnRut8Qloc"][/vc_column][vc_column width="1/3"][vc_column_text]
-<div class="project-info">
-<h2>Office On Space</h2>
-<div class="details">
-<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
-<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
-<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
-<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
-<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
-</div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<h4>Our Solutions</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>64</wp:post_id>
-		<wp:post_date>2015-07-05 06:57:14</wp:post_date>
-		<wp:post_date_gmt>2015-07-05 06:57:14</wp:post_date_gmt>
+		<wp:post_id>76</wp:post_id>
+		<wp:post_date>2015-07-23 07:32:51</wp:post_date>
+		<wp:post_date_gmt>2015-07-23 07:32:51</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>office-on-space</wp:post_name>
+		<wp:post_name>projects</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="categories" nicename="office"><![CDATA[Office]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[66]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
@@ -6845,69 +6813,125 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1437644937616{padding-top: 0px !important;padding-bottom: 0px !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[258]]></wp:meta_value>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Luxury Living Room</title>
-		<link>http://demo.vegatheme.com/archi/portfolio/luxury-living-room/</link>
-		<pubDate>Sat, 04 Jul 2015 06:57:31 +0000</pubDate>
+		<title>Blog Left Sidebar</title>
+		<link>http://demo.vegatheme.com/archi/blog-left-sidebar/</link>
+		<pubDate>Fri, 24 Jul 2015 02:03:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=67</guid>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=102</guid>
 		<description></description>
-		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][vc_single_image image="99" img_size="full"][vc_single_image image="100" img_size="full"][/vc_column][vc_column width="1/3"][vc_column_text]
-<div class="project-info">
-<h2>Luxury Living Room</h2>
-<div class="details">
-<div class="info-text"><span class="title">Date</span><span class="val">December 2014</span></div>
-<div class="info-text"><span class="title">Location</span><span class="val">Brooklyn, New York</span></div>
-<div class="info-text"><span class="title">Value</span><span class="val">$35,000</span></div>
-<div class="info-text"><span class="title">Client</span><span class="val">Four Seasons</span></div>
-<div class="info-text"><span class="title">Category</span><span class="val">Hospitaly</span></div>
-</div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<h4>Our Solutions</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>67</wp:post_id>
-		<wp:post_date>2015-07-04 06:57:31</wp:post_date>
-		<wp:post_date_gmt>2015-07-04 06:57:31</wp:post_date_gmt>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date>2015-07-24 02:03:00</wp:post_date>
+		<wp:post_date_gmt>2015-07-24 02:03:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>luxury-living-room</wp:post_name>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>blog-left-sidebar</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="categories" nicename="office"><![CDATA[Office]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[68]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[126]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-blog-left-sidebar.php]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+			<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog Fullwidth</title>
+		<link>http://demo.vegatheme.com/archi/blog-fullwidth/</link>
+		<pubDate>Fri, 24 Jul 2015 02:11:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date>2015-07-24 02:11:52</wp:post_date>
+		<wp:post_date_gmt>2015-07-24 02:11:52</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>blog-fullwidth</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-blog-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[false]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>http://demo.vegatheme.com/archi/blog/</link>
+		<pubDate>Fri, 24 Jul 2015 02:16:17 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=107</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date>2015-07-24 02:16:17</wp:post_date>
+		<wp:post_date_gmt>2015-07-24 02:16:17</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>blog</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-blog.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[false]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
@@ -6917,51 +6941,43 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<wp:meta_key>slide_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_image</wp:meta_key>
+			<wp:meta_value><![CDATA[624]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[655]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
-		<title>Cozy Bedroom</title>
-		<link>http://demo.vegatheme.com/archi/portfolio/cozy-bedroom/</link>
-		<pubDate>Fri, 03 Jul 2015 06:57:53 +0000</pubDate>
+		<title>Homepage Slider</title>
+		<link>http://demo.vegatheme.com/archi/</link>
+		<pubDate>Fri, 24 Jul 2015 03:26:17 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=69</guid>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=141</guid>
 		<description></description>
-		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][vc_single_image image="95" img_size="full" css=".vc_custom_1437645450344{margin-bottom: 60px !important;}"][vc_single_image image="94" img_size="full" css=".vc_custom_1437645456858{margin-bottom: 60px !important;}"][vc_single_image image="93" img_size="full"][/vc_column][vc_column width="1/3"][vc_column_text]
-<div class="project-info">
-<h2>Office On Space</h2>
-<div class="details">
-<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
-<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
-<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
-<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
-<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
-</div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<h4>Our Solutions</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<content:encoded><![CDATA[[vc_row fullwidth="yes"][vc_column][rev_slider_vc][/vc_column][/vc_row][vc_row css=".vc_custom_1438575257462{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="WHAT WE DO" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/3" animate="fadeinleft"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="137" img_size="full"][/vc_column][vc_column width="1/3" animate="fadeinup"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="144" img_size="full"][/vc_column][vc_column width="1/3" animate="fadinright"][heading text="<b>Residential</b> Design" tag="h3"][vc_column_text css=".vc_custom_1437708758726{margin-bottom: 30px !important;}"]Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia[/vc_column_text][vc_single_image image="145" img_size="full"][/vc_column][/vc_row][vc_row css=".vc_custom_1438049333883{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-2.jpg?id=149) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column animate="fadeinup"][heading text="OUR PROCESS" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][process number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1438576639940{padding-top: 30px !important;}"][vc_column][foliof all="ALL PROJECT" num="8" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204741977{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="VIEW ALL PROJECT" btnlink="demo.vegatheme.com/archi/projects/" style="style1" type="" size=""][/vc_column][/vc_row][vc_row css=".vc_custom_1437962315096{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;}"][vc_column animate="fadeinup"][heading text="CUSTOMER SAYS" tag="h1" align="center" color="#eceff3"][line_solid icon="circle"][testslide visible="2" number="4"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>69</wp:post_id>
-		<wp:post_date>2015-07-03 06:57:53</wp:post_date>
-		<wp:post_date_gmt>2015-07-03 06:57:53</wp:post_date_gmt>
+		<wp:post_id>141</wp:post_id>
+		<wp:post_date>2015-07-24 03:26:17</wp:post_date>
+		<wp:post_date_gmt>2015-07-24 03:26:17</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>cozy-bedroom</wp:post_name>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>homepage-slider</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_type>page</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="categories" nicename="residential"><![CDATA[Residential]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[70]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-canvas.php]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
@@ -6970,140 +6986,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[171]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1437645450344{margin-bottom: 60px !important;}.vc_custom_1437645456858{margin-bottom: 60px !important;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Classic Furnishing</title>
-		<link>http://demo.vegatheme.com/archi/portfolio/classic-furnishing/</link>
-		<pubDate>Thu, 02 Jul 2015 06:58:13 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=71</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][videoplayer video="https://player.vimeo.com/video/8159394"][/vc_column][vc_column width="1/3"][vc_column_text]
-<div class="project-info">
-<h2>Classic Furnishing</h2>
-<div class="details">
-<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
-<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
-<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
-<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
-<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
-</div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<h4>Our Solutions</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>71</wp:post_id>
-		<wp:post_date>2015-07-02 06:58:13</wp:post_date>
-		<wp:post_date_gmt>2015-07-02 06:58:13</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>classic-furnishing</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>portfolio</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="categories" nicename="hospitaly"><![CDATA[Hospitaly]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[72]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[173]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[true]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>slide_template</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Restaurant In Cannes</title>
-		<link>http://demo.vegatheme.com/archi/portfolio/restaurant-in-cannes/</link>
-		<pubDate>Wed, 01 Jul 2015 06:58:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=73</guid>
-		<description></description>
-		<content:encoded><![CDATA[[vc_row css=".vc_custom_1437702737154{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}"][vc_column width="2/3"][videoplayer video="http://www.youtube.com/embed/QgnRut8Qloc"][/vc_column][vc_column width="1/3"][vc_column_text]
-<div class="project-info">
-<h2>Restaurant In Cannes</h2>
-<div class="details">
-<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
-<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
-<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
-<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
-<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
-</div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<h4>Our Solutions</h4>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>73</wp:post_id>
-		<wp:post_date>2015-07-01 06:58:41</wp:post_date>
-		<wp:post_date_gmt>2015-07-01 06:58:41</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>restaurant-in-cannes</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>portfolio</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="categories" nicename="commercial"><![CDATA[Commercial]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[74]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
-			<wp:meta_value><![CDATA[true]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_vc_post_settings</wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[203]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1437702737154{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1438575257462{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1438049333883{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-2.jpg?id=149) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438576639940{padding-top: 30px !important;}.vc_custom_1442204741977{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1437962315096{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}.vc_custom_1437708758726{margin-bottom: 30px !important;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -7408,6 +7294,857 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[page-templates/template-coming-soon-page.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Download</title>
+		<link>http://demo.vegatheme.com/archi/download/</link>
+		<pubDate>Tue, 20 Oct 2015 07:50:33 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=823</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>823</wp:post_id>
+		<wp:post_date>2015-10-20 07:50:33</wp:post_date>
+		<wp:post_date_gmt>2015-10-20 07:50:33</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>download</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="landing-page"><![CDATA[Landing Page]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[823]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#section-download]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/landing-page-video/</link>
+		<pubDate>Tue, 20 Oct 2015 09:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=841</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>841</wp:post_id>
+		<wp:post_date>2015-10-20 09:07:19</wp:post_date>
+		<wp:post_date_gmt>2015-10-20 09:07:19</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>landing-page-video</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[502]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[826]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/landing-page-parallax/</link>
+		<pubDate>Tue, 20 Oct 2015 09:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=842</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>842</wp:post_id>
+		<wp:post_date>2015-10-20 09:07:19</wp:post_date>
+		<wp:post_date_gmt>2015-10-20 09:07:19</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>landing-page-parallax</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[502]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[824]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/880/</link>
+		<pubDate>Tue, 03 Nov 2015 03:34:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=880</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>880</wp:post_id>
+		<wp:post_date>2015-11-03 03:34:15</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:34:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>880</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>14</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[866]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/881/</link>
+		<pubDate>Tue, 03 Nov 2015 03:34:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=881</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>881</wp:post_id>
+		<wp:post_date>2015-11-03 03:34:15</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:34:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>881</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[865]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/882/</link>
+		<pubDate>Tue, 03 Nov 2015 03:34:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=882</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>882</wp:post_id>
+		<wp:post_date>2015-11-03 03:34:15</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:34:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>882</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[862]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/883/</link>
+		<pubDate>Tue, 03 Nov 2015 03:34:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=883</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>883</wp:post_id>
+		<wp:post_date>2015-11-03 03:34:15</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:34:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>883</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[858]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/884/</link>
+		<pubDate>Tue, 03 Nov 2015 03:34:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=884</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>884</wp:post_id>
+		<wp:post_date>2015-11-03 03:34:15</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:34:15</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>884</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[855]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://demo.vegatheme.com/archi/890/</link>
+		<pubDate>Tue, 03 Nov 2015 03:37:40 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?p=890</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>890</wp:post_id>
+		<wp:post_date>2015-11-03 03:37:40</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:37:40</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>890</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-main"><![CDATA[Menu Main]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[493]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[885]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Office On Space</title>
+		<link>http://demo.vegatheme.com/archi/portfolio/office-on-space/</link>
+		<pubDate>Sun, 05 Jul 2015 06:57:14 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=64</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row css=".vc_custom_1437644937616{padding-top: 0px !important;padding-bottom: 0px !important;}"][vc_column width="2/3"][videoplayer video="http://www.youtube.com/embed/QgnRut8Qloc"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="project-info">
+<h2>Office On Space</h2>
+<div class="details">
+<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
+<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
+<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
+<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
+<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h4>Our Solutions</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64</wp:post_id>
+		<wp:post_date>2015-07-05 06:57:14</wp:post_date>
+		<wp:post_date_gmt>2015-07-05 06:57:14</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>office-on-space</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="categories" nicename="office"><![CDATA[Office]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[66]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1437644937616{padding-top: 0px !important;padding-bottom: 0px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>archi_post_views_count</wp:meta_key>
+			<wp:meta_value><![CDATA[342]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Luxury Living Room</title>
+		<link>http://demo.vegatheme.com/archi/portfolio/luxury-living-room/</link>
+		<pubDate>Sat, 04 Jul 2015 06:57:31 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=67</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][vc_single_image image="99" img_size="full"][vc_single_image image="100" img_size="full"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="project-info">
+<h2>Luxury Living Room</h2>
+<div class="details">
+<div class="info-text"><span class="title">Date</span><span class="val">December 2014</span></div>
+<div class="info-text"><span class="title">Location</span><span class="val">Brooklyn, New York</span></div>
+<div class="info-text"><span class="title">Value</span><span class="val">$35,000</span></div>
+<div class="info-text"><span class="title">Client</span><span class="val">Four Seasons</span></div>
+<div class="info-text"><span class="title">Category</span><span class="val">Hospitaly</span></div>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h4>Our Solutions</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>67</wp:post_id>
+		<wp:post_date>2015-07-04 06:57:31</wp:post_date>
+		<wp:post_date_gmt>2015-07-04 06:57:31</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>luxury-living-room</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="categories" nicename="office"><![CDATA[Office]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[68]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>archi_post_views_count</wp:meta_key>
+			<wp:meta_value><![CDATA[154]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Cozy Bedroom</title>
+		<link>http://demo.vegatheme.com/archi/portfolio/cozy-bedroom/</link>
+		<pubDate>Fri, 03 Jul 2015 06:57:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=69</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][vc_single_image image="95" img_size="full" css=".vc_custom_1437645450344{margin-bottom: 60px !important;}"][vc_single_image image="94" img_size="full" css=".vc_custom_1437645456858{margin-bottom: 60px !important;}"][vc_single_image image="93" img_size="full"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="project-info">
+<h2>Office On Space</h2>
+<div class="details">
+<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
+<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
+<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
+<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
+<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h4>Our Solutions</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>69</wp:post_id>
+		<wp:post_date>2015-07-03 06:57:53</wp:post_date>
+		<wp:post_date_gmt>2015-07-03 06:57:53</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>cozy-bedroom</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="categories" nicename="residential"><![CDATA[Residential]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[70]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>archi_post_views_count</wp:meta_key>
+			<wp:meta_value><![CDATA[218]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1437645450344{margin-bottom: 60px !important;}.vc_custom_1437645456858{margin-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Classic Furnishing</title>
+		<link>http://demo.vegatheme.com/archi/portfolio/classic-furnishing/</link>
+		<pubDate>Thu, 02 Jul 2015 06:58:13 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=71</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row][vc_column width="2/3"][videoplayer video="https://player.vimeo.com/video/8159394"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="project-info">
+<h2>Classic Furnishing</h2>
+<div class="details">
+<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
+<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
+<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
+<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
+<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h4>Our Solutions</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>71</wp:post_id>
+		<wp:post_date>2015-07-02 06:58:13</wp:post_date>
+		<wp:post_date_gmt>2015-07-02 06:58:13</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>classic-furnishing</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="categories" nicename="hospitaly"><![CDATA[Hospitaly]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[72]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>archi_post_views_count</wp:meta_key>
+			<wp:meta_value><![CDATA[217]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Restaurant In Cannes</title>
+		<link>http://demo.vegatheme.com/archi/portfolio/restaurant-in-cannes/</link>
+		<pubDate>Wed, 01 Jul 2015 06:58:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?post_type=portfolio&#038;p=73</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row css=".vc_custom_1437702737154{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}"][vc_column width="2/3"][videoplayer video="http://www.youtube.com/embed/QgnRut8Qloc"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="project-info">
+<h2>Restaurant In Cannes</h2>
+<div class="details">
+<div class="info-text"><span class="title">Date</span><span class="val">March 2014</span></div>
+<div class="info-text"><span class="title">Location</span><span class="val">Paris, France</span></div>
+<div class="info-text"><span class="title">Value</span><span class="val">$10,000</span></div>
+<div class="info-text"><span class="title">Client</span><span class="val">Century 21</span></div>
+<div class="info-text"><span class="title">Category</span><span class="val">Residential</span></div>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h4>Our Solutions</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+[/vc_column_text][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>73</wp:post_id>
+		<wp:post_date>2015-07-01 06:58:41</wp:post_date>
+		<wp:post_date_gmt>2015-07-01 06:58:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>restaurant-in-cannes</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>portfolio</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="categories" nicename="commercial"><![CDATA[Commercial]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[74]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>archi_post_views_count</wp:meta_key>
+			<wp:meta_value><![CDATA[249]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1437702737154{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -7815,15 +8552,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=824</guid>
 		<description></description>
-		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1445246167038{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-7.jpg?id=803) !important;}" el_id="home"][vc_column][home_landing logo="833" title="
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1445567745007{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-7.jpg?id=849) !important;}" el_id="home"][vc_column][home_landing logo="833" title="
 
 Feel<strong>More</strong> on home
 
 " stitle="We love to make you feel more comfortable on your home." linkbox="url:%23section-download|title:Get%20Apps%20Now|"][/vc_column][/vc_row][vc_row css=".vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}" el_id="section-services"][vc_column animate="fadeinup"][heading text="Best Interior Design Apps" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/3" animate="fadeinleft"][info_apps icon="wallet" title="Budget Estimation" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250140949{padding-top: 60px !important;}"][info_apps icon="pencil" title="Easy To Use" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250145721{padding-top: 60px !important;}"][info_apps icon="pictures" title="Interior Gallery" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250150541{padding-top: 60px !important;}"][/vc_column][vc_column width="1/3" animate="fadeinup"][vc_single_image image="830" img_size="full" alignment="center"][/vc_column][vc_column width="1/3" animate="fadinright"][info_apps icon="chat" title="Free Consultation" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250155435{padding-top: 60px !important;}"][info_apps icon="clock" title="Time Saver" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250160158{padding-top: 60px !important;}"][info_apps icon="upload" title="Share Design" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250166753{padding-top: 60px !important;}"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}"][vc_column][quickview2 photo="832" title="Easy Way To Designing Your Interior"]
 <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/quickview2][/vc_column][/vc_row][vc_row css=".vc_custom_1445324891787{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-8.jpg?id=853) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-why-choose-us"][vc_column animate="fadeinup"][heading text="6 Reasons To Use Archi
-" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/3"][reasons title="Interior Expertise" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="1" delay=".5" css=".vc_custom_1445322945755{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Awards Winning" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="2" delay=".75" css=".vc_custom_1445322951580{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Reasonable Price" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="3" delay="1" css=".vc_custom_1445322957342{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Free Consultation" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="4" delay="1.25"][/vc_column][vc_column width="1/3"][reasons title="Guaranteed Works" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="5" delay="1.5"][/vc_column][vc_column width="1/3"][reasons title="24 / 7 Support" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="6" delay="1.75"][/vc_column][/vc_row][vc_row css=".vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="Apps Facts" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="download" title="Download" number="12518"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="profile-male" title="User Register" number="9650"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="ribbon" title="Feedback Received" number="1200"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="puzzle" title="Bugs Fixed" number="85"][/vc_column][/vc_row][vc_row css=".vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-testimonial"][vc_column animate="fadeinup"][heading text="Customer Reviews
-" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][testslide visible="2" number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}" el_id="section-portfolio"][vc_column animate="fadeinup"][heading text="Interior Gallery" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup"][folio_gallery num="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1445328713939{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="bg-color"][vc_column animate="fadein" el_class="center"][button btntext="More Samples" btnlink="demo.vegatheme.com/archi/projects/" style="style1"][/vc_column][/vc_row][vc_row el_id="section-video" css=".vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup" el_class="text-center"][heading text="Video Tour" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup" el_class="text-center"][video_tour photo="831" video_url="https://www.youtube.com/watch?v=efVWyPNd3xw"][/vc_column][/vc_row][vc_row css=".vc_custom_1445315688310{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-9.jpg?id=841) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-download"][vc_column animate="fadeinup"][heading text="Download Application
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/quickview2][/vc_column][/vc_row][vc_row css=".vc_custom_1445352509467{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg?id=843) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-why-choose-us"][vc_column animate="fadeinup"][heading text="6 Reasons To Use Archi
+" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/3"][reasons title="Interior Expertise" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="1" delay=".5"][/vc_column][vc_column width="1/3"][reasons title="Awards Winning" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="2" delay=".75"][/vc_column][vc_column width="1/3"][reasons title="Reasonable Price" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="3" delay="1"][/vc_column][vc_column][vc_empty_space height="30px"][/vc_column][vc_column width="1/3"][reasons title="Free Consultation" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="4" delay="1.25"][/vc_column][vc_column width="1/3"][reasons title="Guaranteed Works" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="5" delay="1.5"][/vc_column][vc_column width="1/3"][reasons title="24 / 7 Support" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="6" delay="1.75"][/vc_column][/vc_row][vc_row css=".vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="Apps Facts" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="download" title="Download" number="12518"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="profile-male" title="User Register" number="9650"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="ribbon" title="Feedback Received" number="1200"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="puzzle" title="Bugs Fixed" number="85"][/vc_column][/vc_row][vc_row css=".vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-testimonial"][vc_column animate="fadeinup"][heading text="Customer Reviews
+" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][testslide visible="2" number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}" el_id="section-portfolio"][vc_column animate="fadeinup"][heading text="Interior Gallery" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup"][folio_gallery num="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1445328713939{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="bg-color"][vc_column animate="fadein" el_class="center"][button btntext="More Samples" btnlink="demo.vegatheme.com/archi/projects/" style="style1"][/vc_column][/vc_row][vc_row el_id="section-video" css=".vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup" el_class="text-center"][heading text="Video Tour" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup" el_class="text-center"][video_tour photo="831" video_url="https://www.youtube.com/watch?v=efVWyPNd3xw"][/vc_column][/vc_row][vc_row css=".vc_custom_1445352531049{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg?id=844) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-download"][vc_column animate="fadeinup"][heading text="Download Application
 " tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/2"][download_btn icon_fontawesome="fa fa-apple" linkbox="url:%23|title:App%20Store|target:%20_blank"][/vc_column][vc_column width="1/2"][download_btn icon_fontawesome="fa fa-android" linkbox="url:%23|title:Play%20Store|target:%20_blank"][/vc_column][/vc_row][vc_row css=".vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}" el_id="contact"][vc_column animate="fadeinup"][heading text="Have Question?" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="2/3" animate="fadeinleft" offset="vc_col-lg-offset-2"][vc_empty_space height="30px"][contact-form-7 id="838"][/vc_column][/vc_row][vc_row fullwidth="yes"][vc_column][ggmap height="500" lat="-6.373091" long="106.835175" zoom="15" icon="281"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>824</wp:post_id>
@@ -7856,7 +8593,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1445246167038{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-7.jpg?id=803) !important;}.vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}.vc_custom_1445324891787{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-8.jpg?id=853) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}.vc_custom_1445328713939{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445315688310{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-9.jpg?id=841) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445250140949{padding-top: 60px !important;}.vc_custom_1445250145721{padding-top: 60px !important;}.vc_custom_1445250150541{padding-top: 60px !important;}.vc_custom_1445250155435{padding-top: 60px !important;}.vc_custom_1445250160158{padding-top: 60px !important;}.vc_custom_1445250166753{padding-top: 60px !important;}.vc_custom_1445322945755{padding-bottom: 30px !important;}.vc_custom_1445322951580{padding-bottom: 30px !important;}.vc_custom_1445322957342{padding-bottom: 30px !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1445567745007{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-7.jpg?id=849) !important;}.vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}.vc_custom_1445352509467{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg?id=843) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}.vc_custom_1445328713939{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445352531049{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg?id=844) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445250140949{padding-top: 60px !important;}.vc_custom_1445250145721{padding-top: 60px !important;}.vc_custom_1445250150541{padding-top: 60px !important;}.vc_custom_1445250155435{padding-top: 60px !important;}.vc_custom_1445250160158{padding-top: 60px !important;}.vc_custom_1445250166753{padding-top: 60px !important;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -7870,15 +8607,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=826</guid>
 		<description></description>
-		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1445324511223{background-image: url(http://localhost/archi/wp-content/uploads/2015/07/video-poster.jpg?id=624) !important;}" el_id="home"][vc_column][video_landing logo="833" title="
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1445567798895{background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/video-poster.jpg?id=624) !important;}" el_id="home"][vc_column][video_landing logo="833" title="
 
 Feel <strong>More</strong> on home
 
 " stitle="We love to make you feel more comfortable on your home." bgvideo="624" mp4="http://www.themenesia.com/video/sample.mp4" webm="http://www.themenesia.com/video/sample.webm" linkbox="url:%23section-download|title:Get%20Apps%20Now|"][/vc_column][/vc_row][vc_row css=".vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}" el_id="section-services"][vc_column animate="fadeinup"][heading text="Best Interior Design Apps" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/3" animate="fadeinleft"][info_apps icon="wallet" title="Budget Estimation" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250140949{padding-top: 60px !important;}"][info_apps icon="pencil" title="Easy To Use" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250145721{padding-top: 60px !important;}"][info_apps icon="pictures" title="Interior Gallery" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " css=".vc_custom_1445250150541{padding-top: 60px !important;}"][/vc_column][vc_column width="1/3" animate="fadeinup"][vc_single_image image="830" img_size="full" alignment="center"][/vc_column][vc_column width="1/3" animate="fadinright"][info_apps icon="chat" title="Free Consultation" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250155435{padding-top: 60px !important;}"][info_apps icon="clock" title="Time Saver" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250160158{padding-top: 60px !important;}"][info_apps icon="upload" title="Share Design" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " style="left" visible="left" css=".vc_custom_1445250166753{padding-top: 60px !important;}"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}"][vc_column][quickview2 photo="832" title="Easy Way To Designing Your Interior"]
 <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/quickview2][/vc_column][/vc_row][vc_row css=".vc_custom_1445324914122{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-8.jpg?id=853) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-why-choose-us"][vc_column animate="fadeinup"][heading text="6 Reasons To Use Archi
-" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/3"][reasons title="Interior Expertise" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="1" delay=".5" css=".vc_custom_1445322945755{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Awards Winning" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="2" delay=".75" css=".vc_custom_1445322951580{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Reasonable Price" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="3" delay="1" css=".vc_custom_1445322957342{padding-bottom: 30px !important;}"][/vc_column][vc_column width="1/3"][reasons title="Free Consultation" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="4" delay="1.25"][/vc_column][vc_column width="1/3"][reasons title="Guaranteed Works" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="5" delay="1.5"][/vc_column][vc_column width="1/3"][reasons title="24 / 7 Support" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="6" delay="1.75"][/vc_column][/vc_row][vc_row css=".vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="Apps Facts" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="download" title="Download" number="12518"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="profile-male" title="User Register" number="9650"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="ribbon" title="Feedback Received" number="1200"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="puzzle" title="Bugs Fixed" number="85"][/vc_column][/vc_row][vc_row css=".vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-testimonial"][vc_column animate="fadeinup"][heading text="Customer Reviews
-" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][testslide visible="2" number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}" el_id="section-portfolio"][vc_column animate="fadeinup"][heading text="Interior Gallery" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup"][folio_gallery num="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1445328605779{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="bg-color"][vc_column animate="fadein" el_class="center"][button btntext="More Samples" btnlink="demo.vegatheme.com/archi/projects/" style="style1"][/vc_column][/vc_row][vc_row el_id="section-video" css=".vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup" el_class="text-center"][heading text="Video Tour" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup" el_class="text-center"][video_tour photo="831" video_url="https://www.youtube.com/watch?v=efVWyPNd3xw"][/vc_column][/vc_row][vc_row css=".vc_custom_1445315688310{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-9.jpg?id=841) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-download"][vc_column animate="fadeinup"][heading text="Download Application
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[/quickview2][/vc_column][/vc_row][vc_row css=".vc_custom_1445352413871{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg?id=843) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-why-choose-us"][vc_column animate="fadeinup"][heading text="6 Reasons To Use Archi
+" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/3"][reasons title="Interior Expertise" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="1" delay=".5"][/vc_column][vc_column width="1/3"][reasons title="Awards Winning" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="2" delay=".75"][/vc_column][vc_column width="1/3"][reasons title="Reasonable Price" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="3" delay="1"][/vc_column][vc_column][vc_empty_space height="30px"][/vc_column][vc_column width="1/3"][reasons title="Free Consultation" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="4" delay="1.25"][/vc_column][vc_column width="1/3"][reasons title="Guaranteed Works" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="5" delay="1.5"][/vc_column][vc_column width="1/3"][reasons title="24 / 7 Support" desc="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae." number="6" delay="1.75"][/vc_column][/vc_row][vc_row css=".vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup"][heading text="Apps Facts" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="download" title="Download" number="12518"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="profile-male" title="User Register" number="9650"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="ribbon" title="Feedback Received" number="1200"][/vc_column][vc_column width="1/4" animate="fadein"][ourfacts icon="puzzle" title="Bugs Fixed" number="85"][/vc_column][/vc_row][vc_row css=".vc_custom_1445352429278{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-testimonial"][vc_column animate="fadeinup"][heading text="Customer Reviews
+" tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column][testslide visible="2" number="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}" el_id="section-portfolio"][vc_column animate="fadeinup"][heading text="Interior Gallery" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup"][folio_gallery num="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1445328605779{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="bg-color"][vc_column animate="fadein" el_class="center"][button btntext="More Samples" btnlink="demo.vegatheme.com/archi/projects/" style="style1"][/vc_column][/vc_row][vc_row el_id="section-video" css=".vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}"][vc_column animate="fadeinup" el_class="text-center"][heading text="Video Tour" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column animate="fadeinup" el_class="text-center"][video_tour photo="831" video_url="https://www.youtube.com/watch?v=efVWyPNd3xw"][/vc_column][/vc_row][vc_row css=".vc_custom_1445352498076{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg?id=844) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_id="section-download"][vc_column animate="fadeinup"][heading text="Download Application
 " tag="h1" align="center" color="#ffffff"][line_solid icon="circle"][/vc_column][vc_column width="1/2"][download_btn icon_fontawesome="fa fa-apple" linkbox="url:%23|title:App%20Store|target:%20_blank"][/vc_column][vc_column width="1/2"][download_btn icon_fontawesome="fa fa-android" linkbox="url:%23|title:Play%20Store|target:%20_blank"][/vc_column][/vc_row][vc_row css=".vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}" el_id="contact"][vc_column animate="fadeinup"][heading text="Have Question?" tag="h1" align="center"][line_solid icon="circle"][/vc_column][vc_column width="2/3" animate="fadeinleft" offset="vc_col-lg-offset-2"][vc_empty_space height="30px"][contact-form-7 id="838"][/vc_column][/vc_row][vc_row fullwidth="yes"][vc_column][ggmap height="500" lat="-6.373091" long="106.835175" zoom="15" icon="281"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>826</wp:post_id>
@@ -7911,7 +8648,307 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1445324511223{background-image: url(http://localhost/archi/wp-content/uploads/2015/07/video-poster.jpg?id=624) !important;}.vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}.vc_custom_1445324914122{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-8.jpg?id=853) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445323318365{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}.vc_custom_1445328605779{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445315688310{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/10/bg-9.jpg?id=841) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445250140949{padding-top: 60px !important;}.vc_custom_1445250145721{padding-top: 60px !important;}.vc_custom_1445250150541{padding-top: 60px !important;}.vc_custom_1445250155435{padding-top: 60px !important;}.vc_custom_1445250160158{padding-top: 60px !important;}.vc_custom_1445250166753{padding-top: 60px !important;}.vc_custom_1445322945755{padding-bottom: 30px !important;}.vc_custom_1445322951580{padding-bottom: 30px !important;}.vc_custom_1445322957342{padding-bottom: 30px !important;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[.vc_custom_1445567798895{background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/07/video-poster.jpg?id=624) !important;}.vc_custom_1445249016906{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445314869134{padding-top: 0px !important;padding-bottom: 0px !important;background-color: #202020 !important;}.vc_custom_1445352413871{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-8.jpg?id=843) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438588031090{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445352429278{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://localhost/archi/wp-content/uploads/2015/07/bg-3.jpg?id=185) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1445323186018{padding-top: 90px !important;background-color: #222222 !important;}.vc_custom_1445328605779{padding-top: 60px !important;padding-bottom: 60px !important;}.vc_custom_1445315383305{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445352498076{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://demo.vegatheme.com/archi/wp-content/uploads/2015/10/bg-9.jpg?id=844) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1438587675950{padding-top: 90px !important;padding-bottom: 90px !important;}.vc_custom_1445250140949{padding-top: 60px !important;}.vc_custom_1445250145721{padding-top: 60px !important;}.vc_custom_1445250150541{padding-top: 60px !important;}.vc_custom_1445250155435{padding-top: 60px !important;}.vc_custom_1445250160158{padding-top: 60px !important;}.vc_custom_1445250166753{padding-top: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Project 3 Cols</title>
+		<link>http://demo.vegatheme.com/archi/project-3-columns/</link>
+		<pubDate>Mon, 02 Nov 2015 08:43:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=855</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][foliof all="All" num="12" columns="3" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>855</wp:post_id>
+		<wp:post_date>2015-11-02 08:43:24</wp:post_date>
+		<wp:post_date_gmt>2015-11-02 08:43:24</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>project-3-columns</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Projects 2 Cols</title>
+		<link>http://demo.vegatheme.com/archi/portfolio-2-columns/</link>
+		<pubDate>Mon, 02 Nov 2015 08:47:58 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=858</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][foliof all="All" num="12" columns="2" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>858</wp:post_id>
+		<wp:post_date>2015-11-02 08:47:58</wp:post_date>
+		<wp:post_date_gmt>2015-11-02 08:47:58</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>portfolio-2-columns</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gallery 3 cols</title>
+		<link>http://demo.vegatheme.com/archi/gallery-3-cols/</link>
+		<pubDate>Mon, 02 Nov 2015 09:21:35 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=862</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row css=".vc_custom_1446456299671{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][folio_gallery2 num="12" columns="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>862</wp:post_id>
+		<wp:post_date>2015-11-02 09:21:35</wp:post_date>
+		<wp:post_date_gmt>2015-11-02 09:21:35</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>gallery-3-cols</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1446456299671{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gallery 2 cols</title>
+		<link>http://demo.vegatheme.com/archi/gallery-2-cols/</link>
+		<pubDate>Mon, 02 Nov 2015 09:23:55 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=865</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row css=".vc_custom_1446456309160{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][folio_gallery2 num="12" columns="2"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>865</wp:post_id>
+		<wp:post_date>2015-11-02 09:23:55</wp:post_date>
+		<wp:post_date_gmt>2015-11-02 09:23:55</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>gallery-2-cols</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1446456309160{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gallery 4 cols</title>
+		<link>http://demo.vegatheme.com/archi/gallery-4-cols/</link>
+		<pubDate>Mon, 02 Nov 2015 09:23:58 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=866</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row css=".vc_custom_1446456316661{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][folio_gallery2 num="12" columns="4"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>866</wp:post_id>
+		<wp:post_date>2015-11-02 09:23:58</wp:post_date>
+		<wp:post_date_gmt>2015-11-02 09:23:58</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>gallery-4-cols</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1446456316661{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>slide_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Project 4 Cols</title>
+		<link>http://demo.vegatheme.com/archi/project-4-cols/</link>
+		<pubDate>Tue, 03 Nov 2015 03:35:39 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://demo.vegatheme.com/archi/?page_id=885</guid>
+		<description></description>
+		<content:encoded><![CDATA[[vc_row fullwidth="yes" css=".vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}"][vc_column][foliof all="All" num="12" columns="4" cols="3"][/vc_column][/vc_row][vc_row fullwidth="yes" css=".vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}" el_class="call-to-action bg-color text-center"][vc_column][button btntext="Get Quotation" btnlink="demo.vegatheme.com/archi/contact/"][/vc_column][/vc_row]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>885</wp:post_id>
+		<wp:post_date>2015-11-03 03:35:39</wp:post_date>
+		<wp:post_date_gmt>2015-11-03 03:35:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>project-4-cols</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1438588676598{padding-top: 30px !important;padding-bottom: 0px !important;}.vc_custom_1442204699720{padding-top: 60px !important;padding-bottom: 60px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cmb_subheader_image</wp:meta_key>
+			<wp:meta_value><![CDATA[654]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[page-templates/template-fullwidth.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
+			<wp:meta_value><![CDATA[true]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_vc_post_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:7:"vc_grid";a:0:{}s:10:"vc_grid_id";a:0:{}}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -8073,7 +9110,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[123]]></wp:meta_value>
+			<wp:meta_value><![CDATA[146]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>10</wp:comment_id>
@@ -8357,7 +9394,7 @@ I'm ordering mine next week]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[169]]></wp:meta_value>
+			<wp:meta_value><![CDATA[196]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>12</wp:comment_id>
@@ -8502,7 +9539,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[77]]></wp:meta_value>
+			<wp:meta_value><![CDATA[96]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
@@ -8560,7 +9597,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[112]]></wp:meta_value>
+			<wp:meta_value><![CDATA[142]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -8618,7 +9655,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[413]]></wp:meta_value>
+			<wp:meta_value><![CDATA[465]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -8700,7 +9737,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[53]]></wp:meta_value>
+			<wp:meta_value><![CDATA[61]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
@@ -8754,7 +9791,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[61]]></wp:meta_value>
+			<wp:meta_value><![CDATA[74]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_vc_post_settings</wp:meta_key>
@@ -8824,7 +9861,7 @@ Nulla id rutrum nibh, vel ornare odio. Quisque ut nisi bibendum dolor aliquam ma
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[79]]></wp:meta_value>
+			<wp:meta_value><![CDATA[94]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -8902,7 +9939,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[742]]></wp:meta_value>
+			<wp:meta_value><![CDATA[929]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -8964,7 +10001,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[928]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1175]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9026,7 +10063,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[667]]></wp:meta_value>
+			<wp:meta_value><![CDATA[848]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9092,7 +10129,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[329]]></wp:meta_value>
+			<wp:meta_value><![CDATA[420]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9154,7 +10191,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[220]]></wp:meta_value>
+			<wp:meta_value><![CDATA[292]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9216,7 +10253,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[594]]></wp:meta_value>
+			<wp:meta_value><![CDATA[726]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9272,7 +10309,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[424]]></wp:meta_value>
+			<wp:meta_value><![CDATA[534]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>slide_template</wp:meta_key>
@@ -9581,7 +10618,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[114]]></wp:meta_value>
+			<wp:meta_value><![CDATA[139]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>15</wp:comment_id>
@@ -9889,7 +10926,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[96]]></wp:meta_value>
+			<wp:meta_value><![CDATA[116]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -10045,7 +11082,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[1279]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1566]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -10099,7 +11136,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[757]]></wp:meta_value>
+			<wp:meta_value><![CDATA[946]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -10157,7 +11194,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[672]]></wp:meta_value>
+			<wp:meta_value><![CDATA[828]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -10207,7 +11244,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[354]]></wp:meta_value>
+			<wp:meta_value><![CDATA[454]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -10368,7 +11405,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[124]]></wp:meta_value>
+			<wp:meta_value><![CDATA[148]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>16</wp:comment_id>
@@ -10593,7 +11630,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[100]]></wp:meta_value>
+			<wp:meta_value><![CDATA[119]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>23</wp:comment_id>
@@ -10856,7 +11893,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[150]]></wp:meta_value>
+			<wp:meta_value><![CDATA[181]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>26</wp:comment_id>
@@ -11081,7 +12118,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[121]]></wp:meta_value>
+			<wp:meta_value><![CDATA[146]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>28</wp:comment_id>
@@ -11438,7 +12475,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[144]]></wp:meta_value>
+			<wp:meta_value><![CDATA[169]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -11908,7 +12945,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[113]]></wp:meta_value>
+			<wp:meta_value><![CDATA[133]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>43</wp:comment_id>
@@ -12118,7 +13155,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[145]]></wp:meta_value>
+			<wp:meta_value><![CDATA[169]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>44</wp:comment_id>
@@ -12328,7 +13365,7 @@ If only it came in red as well!]]></wp:comment_content>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>archi_post_views_count</wp:meta_key>
-			<wp:meta_value><![CDATA[378]]></wp:meta_value>
+			<wp:meta_value><![CDATA[456]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>45</wp:comment_id>

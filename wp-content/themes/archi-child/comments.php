@@ -35,7 +35,7 @@ if ( post_password_required() )
         $aria_req = ( $req ? " aria-required='true'" : '' );
         $comment_args = array(
                 'id_form' => '',                                
-                'title_reply'=> '<h4>'.__('Laisser une réponse','archi').'</h4>',
+                'title_reply'=> '<h4>'.__('Laisser une reponse','archi').'</h4>',
                 'fields' => apply_filters( 'comment_form_default_fields', array(
                     'author' => '<p><input id="author" name="author" id="name" type="text" value="" placeholder="'. __( 'Nom *', 'archi' ) .'" /></p>',
                     'email' => '<p><input value="" id="email" name="email" type="text" placeholder="'. __( 'Email *', 'archi' ) .'" /></p>', 

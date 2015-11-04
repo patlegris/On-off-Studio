@@ -17,20 +17,25 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
+/*Corps des paragraphes body-----------------------------*/
+body {
+ font-size: 15px !important;
+}
+
 /*Menu -------------------------------------------------*/
 header.header-bg {
  background-color: white;
 }
 header {
- height: 120px;
+ height: 130px;
 }
 
 header.header-bg.smaller {
- height: 120px;
+ height: 130px;
 }
 
 header h1#logo a img {
- max-height: 120px;
+ max-height: 130px;
 }
 
 header h1#logo {
@@ -147,6 +152,7 @@ header.smaller #mainmenu li li a {
  /*font-weight: 400;*/
  letter-spacing: 0px;
  text-transform: uppercase;
+ padding-top: 55px;
 }
 
 #mainmenu li {
@@ -156,4 +162,49 @@ header.smaller #mainmenu li li a {
  display: inline;
  list-style: none;
  position: relative;
+}
+
+.pt-cv-wrapper {
+ padding-top: 150px;
+}
+
+/*button grid vert en orange----------------------------*/
+.pt-cv-wrapper .btn-success {
+ color: #ffffff;
+ background-color: orange;
+ border-color: orange;
+}
+
+/*button submit newsletter en orange-----------------------*/
+.widget_wysija_cont .wysija-submit {
+ background-color: orange;
+ color: black;
+}
+
+/*Réduction de l'inter-mot dans les menus items------------*/
+#mainmenu li {
+ padding-right: 10px;
+}
+#mainmenu li a {
+ padding-left: 10px;
+}
+#mainmenu {
+ padding-left: 5px;
+}
+
+/*Fin de blog single suivant/précédent-----------------------*/
+.nav-links {
+ padding-top: 20px;
+}
+
+/*Sous barre de menu, espace--------------------------------*/
+/*.header.smaller {*/
+ /*margin-bottom: 50px !important;*/
+/*}*/
+
+/*Icones réseaux sociaux + gros (à gauche si possible--------*/
+.social-icons i {
+ width: 36px;
+ height: 36px;
+ font-size: 24px;
 }

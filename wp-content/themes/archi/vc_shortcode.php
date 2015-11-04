@@ -624,7 +624,62 @@ if(function_exists('vc_map')){
          "value" => 8,
          "description" => __("Enter Number Portfolio.", 'archi' )
       ), 
-      
+      array(
+         "type" => "dropdown",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Select Columns.", 'archi'),
+         "param_name" => "columns",
+         "value" => array(   
+                     __('Columns 4', 'archi') => 4,
+                     __('Columns 3', 'archi') => 3,
+                     __('Columns 2', 'archi') => 2,
+                    ),
+         "description" => __("Select number columns for show.", 'archi')
+      ),
+    )));
+}
+
+// Portfolio Gallery 2
+if(function_exists('vc_map')){
+   vc_map( array(
+   "name"      => __("OT Portfolio Gallery 2", 'archi'),
+   "base"      => "folio_gallery2",
+   "class"     => "",
+   "icon" => "icon-st",
+   "category"  => 'Content',
+   "params"    => array(
+      array(
+         "type"      => "textfield",
+         "holder"    => "div",
+         "class"     => "",
+         "heading"   => __("Text Show All Portfolio", 'archi'),
+         "param_name"=> "all",
+         "value"     => "",
+         "description" => __("Text Filter Show All Portfolio.", 'archi')
+      ),
+      array(
+         "type" => "textfield",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Number portfolio per page", 'archi' ),
+         "param_name" => "num",
+         "value" => 8,
+         "description" => __("Enter Number Portfolio.", 'archi' )
+      ), 
+      array(
+         "type" => "dropdown",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Select Columns.", 'archi'),
+         "param_name" => "columns",
+         "value" => array(   
+                     __('Columns 4', 'archi') => 4,
+                     __('Columns 3', 'archi') => 3,
+                     __('Columns 2', 'archi') => 2,
+                    ),
+         "description" => __("Select number columns for show.", 'archi')
+      ),
     )));
 }
 
@@ -865,8 +920,6 @@ if(function_exists('vc_map')){
     )));
 }
 
-
-
 //Portfolio Filter
 if(function_exists('vc_map')){
    vc_map( array(
@@ -876,7 +929,6 @@ if(function_exists('vc_map')){
    "icon" => "icon-st",
    "category"  => 'Content',
    "params"    => array(
-
       array(
          "type"      => "textfield",
          "holder"    => "div",
@@ -892,15 +944,111 @@ if(function_exists('vc_map')){
          "class" => "",
          "heading" => __("Number portfolio per page", 'archi' ),
          "param_name" => "num",
-         "value" => "10",
-         "description" => __("Enter Number Portfolio.", 'archi' )
+         "value" => 8,
+         "description" => __("Enter Number Portfolio, Default: 8.", 'archi' )
       ), 
-      
+      array(
+         "type" => "dropdown",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Select Columns.", 'archi'),
+         "param_name" => "columns",
+         "value" => array(   
+                     __('Columns 4', 'archi') => 4,
+                     __('Columns 3', 'archi') => 3,
+                     __('Columns 2', 'archi') => 2,
+                    ),
+         "description" => __("Select number columns for show.", 'archi')
+      ),
     )));
 }
 
-//Clients Logo 
+// Portfolio Category
+if(function_exists('vc_map')){
+   vc_map( array(
+   "name"      => __("OT Portfolio Category", 'archi'),
+   "base"      => "cate_portfolio",
+   'admin_enqueue_js'  => get_template_directory_uri() . '/framework/admin/js/select2.min.js',
+   'admin_enqueue_css' => get_template_directory_uri() . '/framework/admin/css/select2.css',
+   "class"     => "",
+   "icon" => "icon-st",
+   "category"  => 'Content',
+   "params"    => array(            
+      array(
+         "type"      => "textfield",
+         "holder"    => "div",
+         "class"     => "",
+         "heading"   => __("Number Show Portfolio", 'archi'),
+         "param_name"=> "show",
+         "value"     => 8,
+         "description" => __("Number Show Portfolio, Default: 8.", 'archi')
+      ),
+      array(
+         "type"      => "select_categories",
+         "holder"    => "div",
+         "class"     => "",
+         "heading"   => __("Categories", 'archi'),
+         "param_name"=> "idcate",
+         "value"     => "",
+         "description" => __("Enter your category.", 'archi')
+      ),   
+      array(
+         "type" => "dropdown",
+         "holder" => "div",
+         "class" => "",
+         "heading" => __("Select Columns.", 'archi'),
+         "param_name" => "columns",
+         "value" => array(   
+                     __('Columns 4', 'archi') => 4,
+                     __('Columns 3', 'archi') => 3,
+                     __('Columns 2', 'archi') => 2,
+                    ),
+         "description" => __("Select number columns for show.", 'archi')
+      ),  
+    )));
+}
 
+   if ( ! function_exists( 'is_plugin_active' ) ) {
+      require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+   }
+   if ( is_plugin_active( 'js_composer/js_composer.php' ) ) {     
+      if ( function_exists( 'vc_add_shortcode_param' ) ) {
+         vc_add_shortcode_param( 'select_categories', 'select_param', get_template_directory_uri() . '/framework/admin/js/select-field.js' );
+      } elseif ( function_exists( 'add_shortcode_param' ) ) {
+         add_shortcode_param( 'select_categories', 'select_param', get_template_directory_uri() . '/framework/admin/js/select-field.js' );
+      }
+   }   
+   
+   function select_param( $settings, $value ) {
+      // Generate dependencies if there are any
+      $dependency = vc_generate_dependencies_attributes( $settings );
+      $categories = get_terms( 'categories' );
+      $cat = array();
+      foreach( $categories as $category ) {
+         if( $category ) {
+            $cat[] = sprintf('<option value="%s">%s</option>',
+               esc_attr( $category->slug ),
+               $category->name
+            );
+         }
+
+      }
+
+      return sprintf(
+         '<input type="hidden" name="%s" value="%s" class="wpb-input-categories wpb_vc_param_value wpb-textinput %s %s_field" %s>
+         <select class="select-categories-post">
+         %s
+         </select>',
+         esc_attr( $settings['param_name'] ),
+         esc_attr( $value ),
+         esc_attr( $settings['param_name'] ),
+         esc_attr( $settings['type'] ),
+         $dependency,
+         implode( '', $cat )
+      );
+   }
+
+//Clients Logo 
 if(function_exists('vc_map')){
    vc_map( array(
    "name"      => __("OT Clients Logo", 'archi'),
@@ -1274,7 +1422,6 @@ if(function_exists('vc_map')){
 
 
 //Google Map
-
 if(function_exists('vc_map')){
    vc_map( array(
    "name" => __("OT Google Map", 'archi'),

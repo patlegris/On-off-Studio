@@ -135,8 +135,7 @@ function archi_theme_scripts_styles() {
     /** theme option for color **/
     wp_enqueue_style( 'archi-color', get_template_directory_uri() .'/framework/color.php');
 
-    /** revolution slider **/
-    wp_enqueue_style( 'archi-settings', get_template_directory_uri().'/rs-plugin/css/settings.css');
+    /** revolution slider **/    
     wp_enqueue_style( 'archi-rev-settings', get_template_directory_uri().'/css/rev-settings.css');
 
     /** load fonts **/

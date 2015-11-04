@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Archi v1.1\n"
+"Project-Id-Version: Archi v2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-10-20 16:13+0700\n"
+"PO-Revision-Date: 2015-10-30 09:54+0700\n"
 "Last-Translator: admin <vhoanggiavuong@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2053,7 +2053,7 @@ msgstr ""
 
 # @ archi
 #: functions.php:461
-msgid "Votre recherche&hellip;"
+msgid "type to search&hellip;"
 msgstr ""
 
 # @ archi
@@ -2158,6 +2158,30 @@ msgstr ""
 #: page-templates/template-landing.php:24
 #: page-templates/template-onepage.php:24 page.php:61
 msgid "Page Canvas For Page Builder"
+msgstr ""
+
+# @ archi
+#: page-templates/template-coming-soon-page.php:59
+#: page-templates/template-coming-soon-video.php:60
+msgid "days"
+msgstr ""
+
+# @ archi
+#: page-templates/template-coming-soon-page.php:64
+#: page-templates/template-coming-soon-video.php:65
+msgid "hours"
+msgstr ""
+
+# @ archi
+#: page-templates/template-coming-soon-page.php:69
+#: page-templates/template-coming-soon-video.php:70
+msgid "minutes"
+msgstr ""
+
+# @ archi
+#: page-templates/template-coming-soon-page.php:74
+#: page-templates/template-coming-soon-video.php:75
+msgid "seconds"
 msgstr ""
 
 # @ archi

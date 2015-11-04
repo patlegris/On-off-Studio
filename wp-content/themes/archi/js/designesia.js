@@ -16,22 +16,18 @@ jQuery(document).ready(function() {
 		scrollEasing: "easeInOutCubic"
 	});
 
-
-
-	var mobile_menu_show    = 0;
+	var mobile_menu_show = 0;
 	
 	// --------------------------------------------------
 	// paralax background
 	// --------------------------------------------------
 	var $window = jQuery(window);
    	jQuery('section[data-type="background"]').each(function(){
-		var $bgobj = jQuery(this); // assigning the object
-						
+		var $bgobj = jQuery(this); // assigning the object						
 		jQuery(window).scroll(function() {
 			var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
 			var coords = '50% '+ yPos + 'px';
-			$bgobj.css({ backgroundPosition: coords });
-			
+			$bgobj.css({ backgroundPosition: coords });			
 		});
  	});
 	document.createElement("article");
@@ -41,97 +37,96 @@ jQuery(document).ready(function() {
 	// init
 	// --------------------------------------------------
 	function init_de(){
-	jQuery('.de-team-list').each(function(){
+		jQuery('.de-team-list').each(function(){
 
-		 jQuery(this).find("img").on('load', function() {
+			 jQuery(this).find("img").on('load', function() {
+					var w = jQuery(this).css("width");
+			 	   	var h = jQuery(this).css("height");
+				   	//nh = (h.substring(0, h.length - 2)/2)-48;
+			 
+					jQuery(this).parent().parent().find(".team-pic").css("height",h);
+					jQuery(this).parent().parent().find(".team-desc").css("width",w);
+				 	jQuery(this).parent().parent().find(".team-desc").css("height",h);
+					jQuery(this).parent().parent().find(".team-desc").css("top",h);
+
+				}).each(function() {
+				  if(this.complete) jQuery(this).load();
+				});
+		});
+
+		jQuery(".de-team-list").on("mouseenter", function () {
+			 var h;
+			 h = jQuery(this).find("img").css("height");
+			 jQuery(this).find(".team-desc").stop(true).animate({'top': "0px"},350,'easeOutQuad');
+			 jQuery(this).find("img").stop(true).animate({'margin-top': "-100px"},400,'easeOutQuad');
+		}).on("mouseleave", function () {		
+			 var h;
+			 h = jQuery(this).find("img").css("height");
+			 jQuery(this).find(".team-desc").stop(true).animate({'top': h},350,'easeOutQuad');
+			 jQuery(this).find("img").stop(true).animate({'margin-top': "0px"},400,'easeOutQuad');
+	  	})	
+		
+		
+		// portfolio
+		jQuery('.item .picframe').each(function(){		
+		jQuery(this).find("img").css("width","100%");
+		jQuery(this).find("img").css("height","auto");	 
+		jQuery(this).find("img").on('load', function() {
 				var w = jQuery(this).css("width");
 		 	   	var h = jQuery(this).css("height");
-			   	//nh = (h.substring(0, h.length - 2)/2)-48;
-		 
-				jQuery(this).parent().parent().find(".team-pic").css("height",h);
-				jQuery(this).parent().parent().find(".team-desc").css("width",w);
-			 	jQuery(this).parent().parent().find(".team-desc").css("height",h);
-				jQuery(this).parent().parent().find(".team-desc").css("top",h);
-
+				jQuery(this).parent().css("height",h);
 			}).each(function() {
 			  if(this.complete) jQuery(this).load();
 			});
-	});
-
-	jQuery(".de-team-list").on("mouseenter", function () {
-		 var h;
-		 h = jQuery(this).find("img").css("height");
-		 jQuery(this).find(".team-desc").stop(true).animate({'top': "0px"},350,'easeOutQuad');
-		 jQuery(this).find("img").stop(true).animate({'margin-top': "-100px"},400,'easeOutQuad');
-	}).on("mouseleave", function () {		
-		 var h;
-		 h = jQuery(this).find("img").css("height");
-		 jQuery(this).find(".team-desc").stop(true).animate({'top': h},350,'easeOutQuad');
-		 jQuery(this).find("img").stop(true).animate({'margin-top': "0px"},400,'easeOutQuad');
-  	})	
-	
-	
-	// portfolio
-	jQuery('.item .picframe').each(function(){		
-	jQuery(this).find("img").css("width","100%");
-	jQuery(this).find("img").css("height","auto");	 
-	jQuery(this).find("img").on('load', function() {
-			var w = jQuery(this).css("width");
-	 	   	var h = jQuery(this).css("height");
-			jQuery(this).parent().css("height",h);
-		}).each(function() {
-		  if(this.complete) jQuery(this).load();
 		});
-	});
+			
+		// --------------------------------------------------
+		// portfolio hover
+		// --------------------------------------------------
+		jQuery('.overlay').fadeTo(1, 0);
 		
-	// --------------------------------------------------
-	// portfolio hover
-	// --------------------------------------------------
-	jQuery('.overlay').fadeTo(1, 0);
-	
-	// gallery hover
-	jQuery(".item .picframe").on("mouseenter", function () {
-	 jQuery(this).parent().find(".overlay").width(jQuery(this).find("img").css("width"));
-	 jQuery(this).parent().find(".overlay").height(jQuery(this).find("img").css("height"));
-	 jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, .9);
-	 var picheight = jQuery(this).find("img").css("height");
-	 var newheight;
-	 newheight = (picheight.substring(0, picheight.length - 2)/2)-10;
-	 //alert(newheight);
-	 jQuery(this).parent().find(".pf_text").stop(true).animate({'margin-top': newheight},300,'easeOutCubic');
-	 
-	 var w = jQuery(this).find("img").css("width");
-	 var h = jQuery(this).find("img").css("height");
-	 var w = parseInt(w, 10);
-	 var h = parseInt(h, 10);
-	 var $scale = 1.2;
-	 //alert(w);
-	 
-	jQuery(this).find("img").stop(true).animate({
-            width:  w*$scale,
-            height: h*$scale,
-            'margin-left': -w*($scale - 1)/2,
-            'margin-top':  -h*($scale - 1)/2
-    }, 700,'easeOutQuad');
+		// gallery hover
+		jQuery(".item .picframe").on("mouseenter", function () {
+		 jQuery(this).parent().find(".overlay").width(jQuery(this).find("img").css("width"));
+		 jQuery(this).parent().find(".overlay").height(jQuery(this).find("img").css("height"));
+		 jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, .9);
+		 var picheight = jQuery(this).find("img").css("height");
+		 var newheight;
+		 newheight = (picheight.substring(0, picheight.length - 2)/2)-10;
+		 //alert(newheight);
+		 jQuery(this).parent().find(".pf_text").stop(true).animate({'margin-top': newheight},300,'easeOutCubic');
+		 
+		 var w = jQuery(this).find("img").css("width");
+		 var h = jQuery(this).find("img").css("height");
+		 var w = parseInt(w, 10);
+		 var h = parseInt(h, 10);
+		 var $scale = 1.2;
+		 //alert(w);
+		 
+		jQuery(this).find("img").stop(true).animate({
+	            width:  w*$scale,
+	            height: h*$scale,
+	            'margin-left': -w*($scale - 1)/2,
+	            'margin-top':  -h*($scale - 1)/2
+	    }, 700,'easeOutQuad');
 
-  	}).on("mouseleave", function () {
-	 var newheight;
-	 var picheight = jQuery(this).find("img").css("height");	 
-	 newheight = (picheight.substring(0, picheight.length - 2)/2)-10;
-	 jQuery(this).parent().find(".pf_text").stop(true).animate({'margin-top': newheight - 30},300,'easeOutCubic');
-	 jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, 0);
-	 jQuery(this).find("img").stop(true).animate({
-            width:  '100%',
-            height: '100%',
-            'margin-left': 0,
-            'margin-top': 0
-     }, 700,'easeOutQuad');
-	})
+	  	}).on("mouseleave", function () {
+		 var newheight;
+		 var picheight = jQuery(this).find("img").css("height");	 
+		 newheight = (picheight.substring(0, picheight.length - 2)/2)-10;
+		 jQuery(this).parent().find(".pf_text").stop(true).animate({'margin-top': newheight - 30},300,'easeOutCubic');
+		 jQuery(this).parent().find(".overlay").stop(true).fadeTo(300, 0);
+		 jQuery(this).find("img").stop(true).animate({
+	            width:  '100%',
+	            height: '100%',
+	            'margin-left': 0,
+	            'margin-top': 0
+	     }, 700,'easeOutQuad');
+		})
 
-	jQuery('.overlay').fadeTo(1, 0);
+		jQuery('.overlay').fadeTo(1, 0);
 	// team hover
 	}
-	
 	
 	init_de();
 
@@ -148,8 +143,7 @@ jQuery(document).ready(function() {
 			jQuery(this).find(".de-video-content").animate({'margin-top': newheight},'fast');
 		});
 	}
-	
-	
+		
 	// --------------------------------------------------
 	// sticky header
 	// --------------------------------------------------
@@ -197,84 +191,77 @@ jQuery(document).ready(function() {
 
 	function init() {
         window.addEventListener('scroll', function(e){
-			
 			var mq = window.matchMedia( "(min-width: 993px)" );
 			
 			if (mq.matches) {
 				var distanceY = window.pageYOffset || document.documentElement.scrollTop,
                 shrinkOn = 100,
                 header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-				jQuery('header').addClass("logo-smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-					jQuery('header').removeClass("logo-smaller");
-                }
+	            if (distanceY > shrinkOn) {
+	                classie.add(header,"smaller");
+					jQuery('header').addClass("logo-smaller");
+	            } else {
+	                if (classie.has(header,"smaller")) {
+	                    classie.remove(header,"smaller");
+						jQuery('header').removeClass("logo-smaller");
+	                }
 
-            }
+	            }
 			}
-
-            
         });
     }
-    window.onload = init();
-	
-
-
+    window.onload = init();	
 
 	// --------------------------------------------------
 	// owlCarousel
 	// --------------------------------------------------
 
 	jQuery("#gallery-carousel").owlCarousel({
-    items : 4,
-    navigation : false,
-	pagination : false
+	    items : 4,
+	    navigation : false,
+		pagination : false
     });
 	
 	jQuery(".carousel-gallery").owlCarousel({
-    items : 4,
-    navigation : false,
-	pagination : false
+	    items : 4,
+	    navigation : false,
+		pagination : false
     });
 	
 	jQuery("#blog-carousel").owlCarousel({
-    items : 2,
-    navigation : false,
-	pagination : true,
-	itemsDesktop : [1199,2],
-	itemsDesktopSmall : [979,1]
-
+	    items : 2,
+	    navigation : false,
+		pagination : true,
+		itemsDesktop : [1199,2],
+		itemsDesktopSmall : [979,1]
     });
 	
 	jQuery("#contact-carousel").owlCarousel({
-    items : 1,
-	singleItem:true,	
-    navigation : false,
-	pagination : false,
-	autoPlay : true
+	    items : 1,
+		singleItem:true,	
+	    navigation : false,
+		pagination : false,
+		autoPlay : true
     });
 	
 	
 	jQuery(".text-slider").owlCarousel({
-    items : 1,
-	singleItem:true,	
-    navigation : false,
-	pagination : false,
-	mouseDrag : false,
-	touchDrag : false,
-	autoPlay : 4000,
-	transitionStyle : "fade"
+	    items : 1,
+		singleItem:true,	
+	    navigation : false,
+		pagination : false,
+		mouseDrag : false,
+		touchDrag : false,
+		autoPlay : 4000,
+		transitionStyle : "fade"
     });
 	
 	jQuery(".blog-slide").owlCarousel({
-    items : 1,
-	singleItem:true,	
-    navigation : false,
-	pagination : false,
-	autoPlay : false
+	    items : 1,
+		singleItem:true,	
+	    navigation : false,
+		pagination : false,
+		autoPlay : false
     });
 	
 	// Custom Navigation owlCarousel
@@ -284,7 +271,6 @@ jQuery(document).ready(function() {
 	jQuery(".prev").on("click", function() {
 		$(this).parent().parent().find('.blog-slide').trigger('owl.prev');
 	});
-
 	
 	
 	// --------------------------------------------------
@@ -297,22 +283,20 @@ jQuery(document).ready(function() {
 	picheight = parseInt(picheight, 10);
 	jQuery('.center-y').css('margin-top', (($doc_height - picheight)/2)-90);
 	jQuery('.full-height .de-video-container').css("height",$doc_height);
-	
 
 	
 	// --------------------------------------------------	
 	//  logo carousel hover
 	jQuery("#logo-carousel img").on("mouseenter", function () {
-	 jQuery(this).fadeTo(150,.5);
+	 	jQuery(this).fadeTo(150,.5);
 	}).on("mouseleave", function () {
-	 jQuery(this).fadeTo(150,1);	 
+	 	jQuery(this).fadeTo(150,1);	 
   	})
 	
 	
-	jQuery(window).load(function() {
-			
-		video_autosize();	
-			
+	jQuery(window).load(function() {			
+		video_autosize();		
+
 		// --------------------------------------------------
 		// filtering gallery
 		// --------------------------------------------------
@@ -335,9 +319,7 @@ jQuery(document).ready(function() {
 			filter: selector
 		});
 		return false;
-		});
-			
-		
+		});					
 
 		// --------------------------------------------------
 		// tabs
@@ -625,7 +607,8 @@ jQuery(document).ready(function() {
 		
 	});
 	
-	// popup youtube, video, gmaps	
+	// popup youtube, video, gmaps
+	
 	jQuery('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
@@ -636,14 +619,16 @@ jQuery(document).ready(function() {
 		fixedContentPos: false
 	});
 	
-	// image popup	
+	// image popup
+	
 	jQuery('.image-popup-vertical-fit').magnificPopup({
 		type: 'image',
 		closeOnContentClick: true,
 		mainClass: 'mfp-img-mobile',
 		image: {
 			verticalFit: true
-		}		
+		}
+		
 	});
 
 	jQuery('.image-popup-fit-width').magnificPopup({
@@ -667,6 +652,24 @@ jQuery(document).ready(function() {
 			enabled: true,
 			duration: 300 // don't foget to change the duration also in CSS
 		}
+	});
+	
+	jQuery('.image-popup-gallery').magnificPopup({
+		type: 'image',
+		closeOnContentClick: false,
+		closeBtnInside: false,
+		mainClass: 'mfp-with-zoom mfp-img-mobile',
+		image: {
+			verticalFit: true,
+			titleSrc: function(item) {
+				return item.el.attr('title');
+				//return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
+			}
+		},
+		gallery: {
+			enabled: true
+		}
+		
 	});
 });
 

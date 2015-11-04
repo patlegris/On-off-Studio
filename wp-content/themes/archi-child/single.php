@@ -97,36 +97,36 @@ get_header(); ?>
                       </div>
                   </div>
                     
-                  <div class="post-info">
-                    <span>
-                      <i class="fa fa-user"></i><?php _e('By : ','archi') ?><?php the_author_posts_link(); ?>
-                    </span> 
-                    <?php if(has_tag()) { ?>
-                    <span>
-                      <i class="fa fa-tag"></i><?php the_tags('', ', ' ); ?>
-                    </span> 
-                    <?php } ?>
-                    <?php if ( comments_open()) : ?>
-                      <span>
-                        <i class="fa fa-comment"></i><span class="comments_number"><?php comments_number( __('0 commentaires', 'archi'), __('1 commentaire', 'archi'), __('% commentaires', 'archi') ); ?></span>
-                      </span> 
-                    <?php  endif; ?>               
-                  </div>
-              </li>
-              </ul>
-              <?php if ( comments_open()) : ?>
-                <div class='comments-box'>
-                  <h4><?php comments_number( __('0 commentaires', 'archi'), __('1 commentaire', 'archi'), __('% commentaires', 'archi') ); ?><h4>
-                </div>
-                <?php comments_template(); ?> 
-              <?php  endif; ?>
+<!--                  <div class="post-info">-->
+<!--                    <span>-->
+<!--                      <i class="fa fa-user"></i>--><?php //_e('By : ','archi') ?><!----><?php //the_author_posts_link(); ?>
+<!--                    </span> -->
+<!--                    --><?php //if(has_tag()) { ?>
+<!--                    <span>-->
+<!--                      <i class="fa fa-tag"></i>--><?php //the_tags('', ', ' ); ?>
+<!--                    </span> -->
+<!--                    --><?php //} ?>
+<!--                    --><?php //if ( comments_open()) : ?>
+<!--                      <span>-->
+<!--                        <i class="fa fa-comment"></i><span class="comments_number">--><?php //comments_number( __('0 commentaires', 'archi'), __('1 commentaire', 'archi'), __('% commentaires', 'archi') ); ?><!--</span>-->
+<!--                      </span> -->
+<!--                    --><?php // endif; ?><!--               -->
+<!--                  </div>-->
+<!--              </li>-->
+<!--              </ul>-->
+<!--              --><?php //if ( comments_open()) : ?>
+<!--                <div class='comments-box'>-->
+<!--                  <h4>--><?php //comments_number( __('0 commentaires', 'archi'), __('1 commentaire', 'archi'), __('% commentaires', 'archi') ); ?><!--<h4>-->
+<!--                </div>-->
+<!--                --><?php //comments_template(); ?><!-- -->
+<!--              --><?php // endif; ?>
               <?php 
                 // Previous/next post navigation.
-                the_post_navigation( array(
-                  'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Suivant', 'archi' ) . '</span> ' .
+              the_post_navigation( array(
+                  'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Suivant</h4>', 'archi' ) . '</span> ' .
                     '<span class="screen-reader-text">' . __( 'Article suivant:', 'archi' ) . '</span> ' .
                     '<span class="post-title">%title</span>',
-                  'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Precedent', 'archi' ) . '</span> ' .
+                  'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Precedent</h4>', 'archi' ) . '</span> ' .
                     '<span class="screen-reader-text">' . __( 'Article precedent :', 'archi' ) . '</span> ' .
                     '<span class="post-title">%title</span>',
                 ) ); 

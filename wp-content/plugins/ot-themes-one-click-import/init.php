@@ -62,7 +62,7 @@ class Radium_Theme_Demo_Data_Importer extends Radium_Theme_Importer {
 	 */
 	public function set_demo_menus() {
 		// Menus to Import and assign - you can remove or add as many as you want
-		//$top_menu = get_term_by('name', 'Top Menu', 'nav_menu');
+		$landing_menu = get_term_by('name', 'Landing Page', 'nav_menu');
 		$main_menu = get_term_by('name', 'Menu Main', 'nav_menu'); // - Davis change
 		$onepage_menu = get_term_by('name', 'One Page Menu', 'nav_menu'); // - Davis change
 		//$footer_menu = get_term_by('name', 'Main Menu', 'nav_menu');
@@ -70,6 +70,7 @@ class Radium_Theme_Demo_Data_Importer extends Radium_Theme_Importer {
                 //'top-menu' => $top_menu->term_id,
                 'primary' => $main_menu->term_id, // - Davis change
 				'onepage' => $onepage_menu->term_id, // - Davis change
+				'landing' => $landing_menu->term_id, // - Davis change
                 //'footer-menu' => $footer_menu->term_id
             )
         );
