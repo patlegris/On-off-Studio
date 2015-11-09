@@ -156,7 +156,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 							'std'			 => '5',
 							'placeholder'	 => 'e.g. 5',
 							'append_text'	 => '1 &rarr; 100',
-							'desc'			 => __( 'The number of items per page.<br>If value of "Limit" option is not blank (empty), this value should be smaller than "Limit" value', PT_CV_TEXTDOMAIN ),
+							'desc'			 => __( 'The number of items per page.<br>If value of <code>Limit</code> option is not blank (empty), this value should be smaller than <code>Limit</code> value', PT_CV_TEXTDOMAIN ),
 						),
 					),
 					'dependence' => array( 'enable-pagination', 'yes' ),

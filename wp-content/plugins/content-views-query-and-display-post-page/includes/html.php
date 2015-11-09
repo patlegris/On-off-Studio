@@ -583,7 +583,8 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			// Get thumbnail settings
 			$fargs = $fargs[ 'thumbnail' ];
 
-			$html = '';
+			$html			 = '';
+			$wrapper_class	 = '';
 
 			// Get post ID
 			$post_id = $post->ID;
@@ -593,7 +594,9 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			$thumbnail_class[]	 = PT_CV_PREFIX . 'thumbnail';
 			$thumbnail_class[]	 = isset( $fargs[ 'style' ] ) ? $fargs[ 'style' ] : '';
 			if ( $layout_format === '2-col' ) {
-				$thumbnail_class[] = isset( $fargs[ 'position' ] ) ? 'pull-' . $fargs[ 'position' ] : 'pull-left';
+				$wrapper_class		 = isset( $fargs[ 'position' ] ) ? 'pull-' . $fargs[ 'position' ] : 'pull-left';
+				$thumbnail_class[]	 = $wrapper_class;
+				$wrapper_class		 = str_replace( 'pull', '', $wrapper_class );
 			}
 			$gargs = array(
 				'class' => apply_filters( PT_CV_PREFIX_ . 'field_thumbnail_class', implode( ' ', array_filter( $thumbnail_class ) ) ),
@@ -617,7 +620,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 			// Add link to thumbnail
 			$oargs	 = isset( $dargs[ 'other-settings' ] ) ? $dargs[ 'other-settings' ] : array();
-			$html	 = self::_field_href( $oargs, $post, $html, PT_CV_PREFIX . 'href-thumbnail' );
+			$html	 = self::_field_href( $oargs, $post, $html, implode( ' ', array( PT_CV_PREFIX . 'href-thumbnail', $wrapper_class ? PT_CV_PREFIX . 'col' . $wrapper_class : '' ) ) );
 
 			return $html;
 		}
@@ -791,40 +794,6 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			}
 			// Mark as processed
 			$pt_cv_glb[ $pt_cv_id ][ 'applied_assets' ] = 1;
-
-			// Print inline view styles & scripts
-			if ( apply_filters( PT_CV_PREFIX_ . 'assets_verbose_loading', 1 ) ) {
-				$assets			 = array( 'css', 'js' );
-				$assets_output	 = $assets_files	 = array();
-
-				// Get content of asset files in directory of view type
-				foreach ( self::$view_type_dir as $idx => $view_type_dir ) {
-					// Get selected style of current view type
-					$style = self::$style[ $idx ];
-
-					// With each type of asset (css, js), looking for suit file of selected style
-					foreach ( $assets as $type ) {
-						$file_path	 = $view_type_dir . '/' . $type . '/' . $style . '.' . $type;
-						$content	 = PT_CV_Functions::file_include_content( $file_path );
-						if ( $content ) {
-							$assets_output[ $type ][] = $content;
-						}
-					}
-				}
-
-				// Echo script, style inline
-				if ( $assets_output ) {
-					foreach ( $assets_output as $type => $contents ) {
-						$content = implode( "\n", $contents );
-
-						if ( $type == 'js' ) {
-							echo '' . self::inline_script( $content, false );
-						} else {
-							echo '' . self::inline_style( $content );
-						}
-					}
-				}
-			}
 
 			// Link to external files
 			$assets_files = apply_filters( PT_CV_PREFIX_ . 'assets_files', array() );

@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: post, display, recent, posts, recent post, page, pages, query, queries, search, display, show, grid, column, layout, author, blog, categories, category, comment, content, custom, editor, filter, Formatting, image, list, meta, plugin, responsive, shortcode, excerpt, title, tag, term, Taxonomy, thumbnail, pagination, date, scrollable, slider, collapsible
 Requires at least: 3.3
 Tested up to: 4.3.1
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,6 +161,12 @@ function my_session_start() {
 
 
 == Changelog ==
+
+= 1.7.1 =
+* Bug fixed: Fix error in some one-page themes
+* Update: Add woff2 file of Bootstrap font
+* Improvement: Code cleanup & remove no more used filters
+* Tweak: Add some filter actions
 
 = 1.7.0 =
 * Improvement: Completely avoid layout issues or style conflict with theme

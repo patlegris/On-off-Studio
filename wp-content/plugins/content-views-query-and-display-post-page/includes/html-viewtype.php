@@ -88,7 +88,7 @@ if ( !class_exists( 'PT_CV_Html_ViewType' ) ) {
 				$list_item = implode( "\n", $row_html );
 
 				// Only wrap in row if shuffle filter is not enable
-				if ( PT_CV_Functions::get_global_variable( 'enable_shuffle_filter' ) != 'yes' ) {
+				if ( apply_filters( PT_CV_PREFIX_ . 'wrap_in_row', PT_CV_Functions::get_global_variable( 'enable_shuffle_filter' ) != 'yes' ) ) {
 					$list_item = sprintf( '<div class="%s">%s</div>', esc_attr( $row_class ), $list_item );
 				}
 

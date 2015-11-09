@@ -84,7 +84,7 @@ global $archi_option;
                         <?php } ?>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-right">
                     <?php echo htmlspecialchars_decode($archi_option['footer_text']); ?>
                 </div>
             </div>

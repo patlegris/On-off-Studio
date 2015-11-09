@@ -764,8 +764,9 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 				// Hide empty result
 				$html = '';
 			} else {
-				$current_page	 = self::get_current_page( $pargs );
-				$html			 = PT_CV_Html::content_items_wrap( $content_items, $current_page, $args[ 'posts_per_page' ], $view_id );
+				$current_page								 = self::get_current_page( $pargs );
+				$pt_cv_glb[ $pt_cv_id ][ 'current_page' ]	 = $current_page;
+				$html										 = PT_CV_Html::content_items_wrap( $content_items, $current_page, $args[ 'posts_per_page' ], $view_id );
 
 				// Append Pagination HTML if this is first page, or not Ajax calling
 				if ( $pt_query && $args[ 'posts_per_page' ] > 0 && PT_CV_Functions::nonpaging_or_firstpage( $dargs, $current_page ) ) {
@@ -1368,7 +1369,6 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 		 * Callback function for ajax Pagination action 'pagination_request'
 		 */
 		static function ajax_callback_pagination_request() {
-
 			// Validate request
 			check_ajax_referer( PT_CV_PREFIX_ . 'ajax_nonce', 'ajax_nonce' );
 
@@ -1574,7 +1574,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 		// Reset WP query
 		static function reset_query() {
 			if ( apply_filters( PT_CV_PREFIX_ . 'reset_query', true ) ) {
-				wp_reset_query();
+				wp_reset_postdata();
 			}
 		}
 

@@ -457,7 +457,7 @@ function archi_pagination($prev = '<i class="fa fa-angle-double-left"></i>', $ne
 /* Custom form search */
 function archi_search_form( $form ) {
     $form = '<form role="search" method="get" action="' . esc_url(home_url( '/' )) . '" >  
-    	<input type="search" id="search" class="search-field form-control" value="' . get_search_query() . '" name="s" placeholder="'.__('type to search&hellip;', 'archi').'" />
+    	<input type="search" id="search" class="search-field form-control" value="' . get_search_query() . '" name="s" placeholder="'.__('Recherche&hellip;', 'archi').'" />
     	<button id="btn-search" type="submit"></button>
         <div class="clearfix"></div>
     </form>';

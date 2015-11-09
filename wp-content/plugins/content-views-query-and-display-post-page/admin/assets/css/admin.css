@@ -39,7 +39,7 @@ html {
 
 .pt-wrap .text-muted {
 	clear:  both;
-	margin: 2px 0;
+	margin: 0px 0 2px;
 	float:  left;
 }
 
@@ -128,7 +128,7 @@ html {
 }
 
 .pt-cv-group .panel-body {
-	padding: 10px 15px;
+	padding: 5px 15px;
 }
 
 .pt-cv-group .control-label, .pt-form-group .pt-form-group .control-label {

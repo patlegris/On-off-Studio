@@ -101,7 +101,15 @@
 
 			// For Timeline
 			if ( pages_holder.hasClass( _prefix + 'timeline' ) ) {
-				pages_holder = pages_holder.children( '.tl-items' );
+				pages_holder = pages_holder.children( '.tl-items' ).first();
+			}
+
+			// For Load More + Infinite loading
+			if ( pagination_wrapper.find( '.' + _prefix + 'more' ).length > 0 ) {
+				var inner_page = pages_holder.children( '.' + _prefix + 'page' ).first();
+				if ( inner_page.length > 0 ) {
+					pages_holder = inner_page;
+				}
 			}
 
 			$self._get_page( session_id, selected_page, spinner, pages_holder, callback );

@@ -59,7 +59,7 @@
 
 /* Add default margin-bottom */
 .pt-cv-view .pt-cv-content-item > * {
-	margin-bottom: 10px !important;
+	margin-bottom: 10px;
 }
 
 .pt-cv-border .pt-cv-content-item > *,

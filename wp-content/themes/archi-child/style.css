@@ -208,3 +208,48 @@ header.smaller #mainmenu li li a {
  height: 36px;
  font-size: 24px;
 }
+
+/*Couleur pages footer (widget)------------------------------*/
+.widget_nav_menu ul li a, .widget_pages ul li a {
+ color: black;
+ font-size: 17px;
+ font-family: lato, sans-serif;
+}
+
+/*Interlignage 3 colonnes home et texte blanc sur image--------*/
+.wpb_wrapper {
+ font-family: Lato, sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 16px;
+ line-height: 22px;
+}
+
+.de_tab.tab_steps .de_tab_content {
+ font-size: 17px;
+ line-height: 23px;
+}
+
+/*Footer---------------------------------------------------------*/
+footer {
+ padding: 80px 80px 0 0;
+ /*margin-top: 30px;*/
+}
+
+footer .widget {
+ border: none !important;
+ margin-bottom: 60px !important;
+}
+
+.subfooter {
+ width: 1903px;
+}
+
+.wysija-input {
+ margin-top: 15px;
+ width: 196px;
+}
+
+.wysija-submit {
+ margin-top: -20px !important;
+}
