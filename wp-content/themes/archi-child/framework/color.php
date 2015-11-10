@@ -20,8 +20,9 @@ header{
   background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?> !important;
 }
 header.smaller{
-  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?>
-  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?>
+border-bottom: 10px solid hsla(0,0%,100%,.7) !important;
+background: white !important;
+background-clip: padding-box !important;
 }
 #mainmenu a{
   color: <?php echo esc_attr( $archi_option['header-text-color'] ); ?>;
