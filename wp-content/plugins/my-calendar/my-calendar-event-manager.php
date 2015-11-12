@@ -219,7 +219,7 @@ function manage_my_calendar() {
 				$instance_date = '';
 			} ?>
 			<div class="error">
-			<form action="<?php echo admin_url( 'admin.php?page=my-calendar' ); ?>" method="post">
+			<form action="<?php echo admin_url( 'admin.php?page=my-calendar-manage' ); ?>" method="post">
 				<p><strong><?php _e( 'Delete Event', 'my-calendar' ); ?>
 						:</strong> <?php _e( 'Are you sure you want to delete this event?', 'my-calendar' ); ?>
 					<input type="hidden" name="_wpnonce" value="<?php echo wp_create_nonce( 'my-calendar-nonce' ); ?>"/>
@@ -403,8 +403,7 @@ function manage_my_calendar() {
 	}	
 	?>
 	<div class='wrap jd-my-calendar'>
-		<div id="icon-edit" class="icon32"></div>
-		<h2 class='mc-clear' id='mc-manage'><?php _e( 'Manage Events', 'my-calendar' ); ?></h2>
+		<h2 id='mc-manage'><?php _e( 'Manage Events', 'my-calendar' ); ?></h2>
 
 		<div class="postbox-container jcd-wide">
 			<div class="metabox-holder">
@@ -512,7 +511,6 @@ function edit_my_calendar() {
 	}
 	if ( $action == 'edit' ) {
 		?>
-		<div id="icon-edit" class="icon32"></div>
 		<h2><?php _e( 'Edit Event', 'my-calendar' ); ?></h2>
 		<?php
 		if ( empty( $event_id ) ) {
@@ -522,7 +520,6 @@ function edit_my_calendar() {
 		}
 	} else if ( $action == 'copy' ) {
 		?>
-		<div id="icon-edit" class="icon32"></div>
 		<h2><?php _e( 'Copy Event', 'my-calendar' ); ?></h2>
 		<?php
 		if ( empty( $event_id ) ) {
@@ -532,7 +529,6 @@ function edit_my_calendar() {
 		}
 	} else {
 		?>
-		<div id="icon-edit" class="icon32"></div>
 		<h2><?php _e( 'Add Event', 'my-calendar' ); ?></h2><?php
 		mc_edit_event_form();
 	}
@@ -710,35 +706,41 @@ function my_calendar_save( $action, $output, $event_id = false ) {
 	}
 
 	if ( $action == 'delete' ) {
-		// Deal with deleting an event from the database
-		if ( empty( $event_id ) ) {
-			$message = "<div class='error'><p><strong>" . __( 'Error', 'my-calendar' ) . ":</strong>" . __( "You can't delete an event if you haven't submitted an event id", 'my-calendar' ) . "</p></div>";
-		} else {
-			$post_id = mc_get_data( 'event_post', $event_id );
-			if ( empty( $_POST['event_instance'] ) ) {
-				$sql                = "DELETE FROM " . my_calendar_table() . " WHERE event_id='" . (int) $event_id . "'";
-				$delete_occurrences = "DELETE FROM " . my_calendar_event_table() . " WHERE occur_event_id = " . (int) $event_id;
-				$mcdb->query( $delete_occurrences );
-				$mcdb->query( $sql );
-				$sql    = "SELECT event_id FROM " . my_calendar_table() . " WHERE event_id='" . (int) $event_id . "'";
-				$result = $mcdb->get_results( $sql );
-			} else {
-				$delete = "DELETE FROM " . my_calendar_event_table() . " WHERE occur_id = " . (int) $_POST['event_instance'];
-				$result = $mcdb->get_results( $delete );
-			}
-			if ( empty( $result ) || empty( $result[0]->event_id ) ) {
-				mc_delete_cache();
-				// do an action using the event_id
-				do_action( 'mc_delete_event', $event_id, $post_id );
-				$message = "<div class='updated'><p>" . __( 'Event deleted successfully', 'my-calendar' ) . "</p></div>";
-			} else {
-				$message = "<div class='error'><p><strong>" . __( 'Error', 'my-calendar' ) . ":</strong>" . __( 'Despite issuing a request to delete, the event still remains in the database. Please investigate.', 'my-calendar' ) . "</p></div>";
-			}
-		}
+		mc_delete_event( $event_id );
 	}
 	$message = $message . "\n" . $output[3];
 
 	return array( 'event_id' => $event_id, 'message' => $message );
+}
+
+function mc_delete_event( $event_id ) {
+	global $wpdb;
+	$mcdb = $wpdb;	
+	// Deal with deleting an event from the database
+	if ( empty( $event_id ) ) {
+		$message = "<div class='error'><p><strong>" . __( 'Error', 'my-calendar' ) . ":</strong>" . __( "You can't delete an event if you haven't submitted an event id", 'my-calendar' ) . "</p></div>";
+	} else {
+		$post_id = mc_get_data( 'event_post', $event_id );
+		if ( empty( $_POST['event_instance'] ) ) {
+			$sql                = "DELETE FROM " . my_calendar_table() . " WHERE event_id='" . (int) $event_id . "'";
+			$delete_occurrences = "DELETE FROM " . my_calendar_event_table() . " WHERE occur_event_id = " . (int) $event_id;
+			$mcdb->query( $delete_occurrences );
+			$mcdb->query( $sql );
+			$sql    = "SELECT event_id FROM " . my_calendar_table() . " WHERE event_id='" . (int) $event_id . "'";
+			$result = $mcdb->get_results( $sql );
+		} else {
+			$delete = "DELETE FROM " . my_calendar_event_table() . " WHERE occur_id = " . (int) $_POST['event_instance'];
+			$result = $mcdb->get_results( $delete );
+		}
+		if ( empty( $result ) || empty( $result[0]->event_id ) ) {
+			mc_delete_cache();
+			// do an action using the event_id
+			do_action( 'mc_delete_event', $event_id, $post_id );
+			$message = "<div class='updated'><p>" . __( 'Event deleted successfully', 'my-calendar' ) . "</p></div>";
+		} else {
+			$message = "<div class='error'><p><strong>" . __( 'Error', 'my-calendar' ) . ":</strong>" . __( 'Despite issuing a request to delete, the event still remains in the database. Please investigate.', 'my-calendar' ) . "</p></div>";
+		}
+	}	
 }
 
 function mc_form_data( $event_id = false ) {
@@ -1447,6 +1449,26 @@ if ( mc_show_edit_block( 'event_specials' ) ) {
 	</div><?php
 }
 
+function mc_event_access() {
+	$event_access = apply_filters( 'mc_event_access_choices', array(
+			'1'  => __( 'Audio Description', 'my-calendar' ),
+			'2'  => __( 'ASL Interpretation', 'my-calendar' ),
+			'3'  => __( 'ASL Interpretation with voicing', 'my-calendar' ),
+			'4'  => __( 'Deaf-Blind ASL', 'my-calendar' ),
+			'5'  => __( 'Real-time Captioning', 'my-calendar' ),
+			'6'  => __( 'Scripted Captioning', 'my-calendar' ),
+			'7'  => __( 'Assisted Listening Devices', 'my-calendar' ),
+			'8'  => __( 'Tactile/Touch Tour', 'my-calendar' ),
+			'9'  => __( 'Braille Playbill', 'my-calendar' ),
+			'10' => __( 'Large Print Playbill', 'my-calendar' ),
+			'11' => __( 'Sensory Friendly', 'my-calendar' ),
+			'12' => __( 'Other', 'my-calendar' )
+		) 
+	);
+				
+	return $event_access;
+}
+
 function mc_event_accessibility( $form, $data, $label ) {
 	$note_value    = '';
 	$events_access = array();
@@ -1454,7 +1476,7 @@ function mc_event_accessibility( $form, $data, $label ) {
 		<fieldset>
 			<legend>$label</legend>
 			<ul class='accessibility-features checkboxes'>";
-	$access = apply_filters( 'mc_event_accessibility', get_option( 'mc_event_access' ) );
+	$access = apply_filters( 'mc_event_accessibility', mc_event_access() );
 	if ( ! empty( $data ) ) {
 		$events_access = get_post_meta( $data->event_post, '_mc_event_access', true );
 	}

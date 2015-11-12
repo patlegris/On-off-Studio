@@ -88,11 +88,25 @@ get_header(); ?>
 
                       </div>
                       <div class="date-box">
+<!--                          <div class="month">--><?php //the_time('M'); ?><!--</div>-->
                           <div class="day"><?php the_time('d'); ?></div>
                           <div class="month"><?php the_time('M'); ?></div>
                       </div>
                       <div class="post-text page-content">
                         <h3 class="single-title"><?php the_title(); ?></h3>
+                          <?php
+                          $mem_start_date = get_post_meta($post->ID, '_mem_start_date', true);
+                          $mem_end_date = get_post_meta($post->ID, '_mem_end_date', true);
+                          ?>
+                          <?php
+                          if ($mem_start_date !== "" ) {
+                              echo '<div class="periode">Du '.$mem_start_date.'';
+                          }
+                          if ($mem_end_date !== "" ) {
+                              echo ' au '.$mem_end_date.'</div>';
+                          }
+                          ?>
+<!--                          <div class="day">--><?php //the_time('d'); ?><!--</div>-->
                          <?php the_content(); ?>
                       </div>
                   </div>

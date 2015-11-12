@@ -26,6 +26,9 @@ body {
 header.header-bg {
  background-color: white;
 }
+
+
+
 header {
  height: 150px;
 }
@@ -220,11 +223,17 @@ header.smaller {
  font-size: 24px;
 }
 
-/*Couleur pages footer (widget)------------------------------*/
+/*Couleur autres pages footer (widget)-------------------------*/
 .widget_nav_menu ul li a, .widget_pages ul li a {
- color: black;
- font-size: 17px;
+ color: white;
+ font-size: 18px;
+ line-height: 25px;
  font-family: lato, sans-serif;
+}
+
+.widget_nav_menu ul li a, .widget_pages ul li a :hover {
+ text-decoration: none;
+ color: black;
 }
 
 /*Interlignage 3 colonnes home et texte blanc sur image--------*/
@@ -243,8 +252,9 @@ header.smaller {
 
 /*Footer---------------------------------------------------------*/
 footer {
- padding: 80px 80px 0 0;
- /*margin-top: 30px;*/
+  background: #ccc;
+  color: #111;
+ /*padding: 80px 0 0 0;*/
 }
 
 footer .widget {
@@ -258,9 +268,26 @@ footer .widget {
 
 .wysija-input {
  margin-top: 15px;
+ padding-left : 10px;
  width: 196px;
+ color: #888;
+ width: 70%;
 }
 
 .wysija-submit {
  margin-top: -20px !important;
+}
+
+/*Formatage des dates de début et fin------------------------*/
+.periode {
+ font-family: lato, sans-serif;
+ font-weight: 300;
+ /*font-size: large;*/
+ Width: 400px;
+ background-color: #888;
+ color: white;
+ padding: 7px;
+ text-align: center;
+ margin-bottom: 15px;
+ letter-spacing: 2px;
 }

@@ -7,13 +7,13 @@ Author: Joseph C Dolson
 Author URI: http://www.joedolson.com
 Text Domain: my-calendar
 Domain Path: lang
-Version: 2.4.10
+Version: 2.4.11
 */
 /*  Copyright 2009-2015  Joe Dolson (email : joe@joedolson.com)
 
-    This program is free software; you can redistribute it and/or modify
+    This program is  software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
+    the  Software Foundation; either version 2 of the License, or
     (at your option) any later version.
 
     This program is distributed in the hope that it will be useful,
@@ -22,7 +22,7 @@ Version: 2.4.10
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
+    along with this program; if not, write to the  Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 global $mc_version, $wpdb;
-$mc_version = '2.4.10';
+$mc_version = '2.4.11';
 
 // Define the tables used in My Calendar
 if ( is_multisite() && get_site_option( 'mc_multisite_show' ) == 1 ) {

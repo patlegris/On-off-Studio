@@ -2,9 +2,9 @@
 Contributors: joedolson
 Donate link: http://www.joedolson.com/donate.php
 Tags: calendar, dates, times, event, events, scheduling, schedule, event manager, event calendar, class, concert, conference, meeting, venue, location, box office, tickets, registration
-Requires at least: 3.9.8
+Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 2.4.9
+Stable tag: 2.4.10
 License: GPLv2 or later
 
 Accessible WordPress event calendar plugin. Show events from multiple calendars on pages, in posts, or in widgets.
@@ -43,7 +43,7 @@ Easy to use for anybody, My Calendar provides enormous flexibility for designers
 
 = What's in My Calendar Pro? =
 
-* Let your site visitors submit events to your site (pay to post or free!).
+* Let your site visitors submit events to your site (pay to post or !).
 * Let logged-in users edit their events from the front-end.
 * Create events when you publish a blog post
 * Publish a blog post when you create an event
@@ -95,6 +95,19 @@ Translating my plug-ins is always appreciated. Visit <a href="https://translate.
 * Update pickadate to version 3.6, when it's out. 3.5.6 has a regression that makes it useless for me.
 * Send admin notice when recurring event is about to end
 * Change all shortcode 'template' attributes to reference stored templates in settings by name or ID.
+* Feature Request: make unqualified event permalinks display next occurrence rather than first (last?) (show list of occurrences?)
+* Create mechanism to get & display all events in a group (see group-manager.php line 253)
+* Bug fix: if event deleted from manage, redirect to manage.
+
+= 2.4.11 =
+
+* Bug fix: remove category parameter from 'All Categories'
+* Bug fix: Invalid closing </th> 
+* Bug fix: Update gmap3 to version 6.0
+* Bug fix: CSS conflict with max-width can cause Google Maps image to fail to render correctly.
+* Bug fix: duplicate ID in list view breaking layout.
+* I18n fix: Make accessibility strings translatable without requiring filters
+* Update: Rewrote mc-list.js
 
 = 2.4.10 =
 
@@ -616,4 +629,4 @@ The search feature in My Calendar is pretty basic; but buying My Calendar Pro gi
 
 == Upgrade Notice ==
 
-* 2.4.0 is a major new release; lots of bug fixes and feature enhancements. 2.4.4: event manager default sort direction fixed, print view date selection, option to hide 'more' link in event view.
+* 2.4.0 is a major new release; lots of bug fixes and feature enhancements. 2.4.11: Various bug fixes. Event & Location access strings moved out of database so they will be translatable.

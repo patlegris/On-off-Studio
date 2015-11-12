@@ -22,7 +22,20 @@
             <div class="month"><?php the_time('M'); ?></div>
         </div>
         <div class="post-text">
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <?php
+            $mem_start_date = esc_url('_mem_start_date');
+            $mem_end_date = esc_url('_mem_end_date');
+            ?>
+
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?>
+                    <?php
+                    if ($mem_start_date !== "" ) {
+                        echo '<div class="periode"> - Du '.$mem_start_date.'';
+                    }
+                    if ($mem_end_date !== "" ) {
+                        echo ' au '.$mem_end_date.'</div>';
+                    }
+                    ?></a></h3>
             <p><?php echo archi_excerpt(); ?></p>
         </div>
         <a href="<?php the_permalink(); ?>" class="btn-more"><?php _e('Voir +', 'archi'); ?></a>

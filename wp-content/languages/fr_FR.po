@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.3.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-05 14:57:14+0000\n"
+"PO-Revision-Date: 2015-11-09 14:35:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -548,10 +548,6 @@ msgstr "Votre mot de passe a été réinitialisé."
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
 
-#: wp-login.php:649
-msgid "Enter your new password below."
-msgstr "Veuillez saisir une deuxième fois votre nouveau mot de passe ci-dessous."
-
 #: wp-login.php:656
 msgid "New password"
 msgstr "Nouveau mot de passe"
@@ -991,6 +987,10 @@ msgstr ""
 "Cordialement,\n"
 "L'équipe du site ###SITENAME###\n"
 "###SITEURL###"
+
+#: wp-login.php:649
+msgid "Enter your new password below."
+msgstr "Veuillez saisir votre nouveau mot de passe ci-dessous."
 
 #: wp-includes/post.php:1655
 msgid "No posts found."

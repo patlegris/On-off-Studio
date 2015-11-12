@@ -74,11 +74,28 @@ button.mc-toggle {
   background-color: transparent;
 }
 
+button.mc-text-button {
+  border: 0;
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+button.mc-text-button:hover, button .mc-text-button:focus {
+	text-decoration: underline;
+	background-color: transparent;
+}
+
 /**
  * This is focus passed to a div for the purpose of navigation; visible focus not required.
  */
 .mc-main:focus {
 	outline: none;
+}
+
+/* Prevent missing background image */
+.mc-gmap-fupup {
+	max-width: none ! important; 
 }
 
 .mcjs .mc-main .details, .mcjs .mc-main .calendar-events { display: none; }
