@@ -1,22 +1,41 @@
-<li class= "wow fadeInUp">
+<li class="wow fadeInUp">
     <div class="post-content">
-        
+
         <div class="post-image">
-            <?php if(get_the_post_thumbnail()){ ?>              
+            <?php if (get_the_post_thumbnail()) { ?>
                 <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" alt="">
-            <?php } ?> 
-        </div>
-        
-        <div class="date-box">
-            <div class="day"><?php the_time('d'); ?></div>
-            <div class="month"><?php the_time('M'); ?></div>
+            <?php } ?>
         </div>
 
-        <div class="post-text">
+    </div>
+    <?php
+    $start_date = get_post_meta($post->ID, '_mem_start_date', true);
+    $mem_start_date = date("d/m/Y", strtotime($start_date));
+    $day_date = date("d", strtotime($start_date));
+    $month_date = date("M", strtotime($start_date));
 
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <p><?php echo archi_excerpt(); ?></p>
-        </div>
+    $end_date = get_post_meta($post->ID, '_mem_end_date', true);
+    $mem_end_date = date("d/m/Y", strtotime($end_date))
+    ?>
+
+    <div class="date-box">
+        <div class="day"><?php echo $day_date; ?></div>
+        <div class="month"><?php echo $month_date; ?></div>
+    </div>
+
+    <div class="post-text">
+        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
+        <?php
+        if ($mem_start_date !== "") {
+            echo '<div class="periode">Du ' . $mem_start_date . '';
+        }
+        if ($mem_end_date !== "") {
+            echo ' au ' . $mem_end_date . '</div>';
+        }
+        ?>
+
+        <p><?php echo archi_excerpt(); ?></p>
 
         <a href="<?php the_permalink(); ?>" class="btn-more"><?php _e('Voir +', 'archi'); ?></a>
     </div>

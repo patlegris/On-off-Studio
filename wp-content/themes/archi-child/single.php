@@ -87,17 +87,24 @@ get_header(); ?>
                           <?php } ?>
 
                       </div>
+                          <?php
+                          $start_date = get_post_meta($post->ID, '_mem_start_date', true);
+                          $mem_start_date = date("d/m/Y", strtotime($start_date));
+                          $day_date = date("d", strtotime($start_date));
+                          $month_date = date("M", strtotime($start_date));
+
+                          $end_date = get_post_meta($post->ID, '_mem_end_date', true);
+                          $mem_end_date = date("d/m/Y", strtotime($end_date))
+                          ?>
+
                       <div class="date-box">
-<!--                          <div class="month">--><?php //the_time('M'); ?><!--</div>-->
-                          <div class="day"><?php the_time('d'); ?></div>
-                          <div class="month"><?php the_time('M'); ?></div>
+                          <div class="day"><?php echo $day_date; ?></div>
+                          <div class="month"><?php echo $month_date; ?></div>
                       </div>
+
                       <div class="post-text page-content">
                         <h3 class="single-title"><?php the_title(); ?></h3>
-                          <?php
-                          $mem_start_date = get_post_meta($post->ID, '_mem_start_date', true);
-                          $mem_end_date = get_post_meta($post->ID, '_mem_end_date', true);
-                          ?>
+
                           <?php
                           if ($mem_start_date !== "" ) {
                               echo '<div class="periode">Du '.$mem_start_date.'';

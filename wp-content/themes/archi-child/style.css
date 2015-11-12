@@ -282,8 +282,9 @@ footer .widget {
 .periode {
  font-family: lato, sans-serif;
  font-weight: 300;
+ font-size: 18px;
  /*font-size: large;*/
- Width: 400px;
+ Width: 370px;
  background-color: #888;
  color: white;
  padding: 7px;
