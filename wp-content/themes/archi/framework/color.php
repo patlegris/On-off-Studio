@@ -20,8 +20,8 @@ header{
   background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?> !important;
 }
 header.smaller{
-  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?>
-  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?>
+  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?> !important;
+  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?> !important; 
 }
 #mainmenu a{
   color: <?php echo esc_attr( $archi_option['header-text-color'] ); ?>;
@@ -133,7 +133,8 @@ address span strong,
 h3 b,nav ul#mainmenu > li.current-menu-ancestor > a, .woocommerce .star-rating span,
 .woocommerce .star-rating:before, .woocommerce div.product p.price, .woocommerce div.product span.price,
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .de_light.woocommerce p.stars a,
-.de_light.woocommerce p.stars a, .pricing-box h1, .de_light .pricing-box h1, h1.title strong
+.de_light.woocommerce p.stars a, .pricing-box h1, .de_light .pricing-box h1, h1.title strong, header .info ul.social-list li a:hover i,
+header .info ul.info-list li span, header .info ul.info-list li strong, header .info ul.info-list li i
 {
   color:<?php echo esc_attr( $archi_option['main-color'] ); ?>;
 }

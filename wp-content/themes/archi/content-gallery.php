@@ -4,15 +4,13 @@
           <div id="owl-demo-<?php the_ID(); ?>" class="owl-carousel">
               <?php if( function_exists( 'rwmb_meta' ) ) { ?>
                 <?php $images = rwmb_meta( '_cmb_images', "type=image" ); ?>
-                <?php if($images){ ?>
-                  
+                <?php if($images){ ?>                  
                     <?php                                                        
                       foreach ( $images as $image ) {                              
                     ?>
                     <?php $img = $image['full_url']; ?>
                       <div class="item"><img src="<?php echo esc_url($img); ?>" alt=""></div> 
-                    <?php } ?>                   
-                  
+                    <?php } ?>                                     
                 <?php } ?>
               <?php } ?>
           </div>

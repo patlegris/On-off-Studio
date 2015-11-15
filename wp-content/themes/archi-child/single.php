@@ -141,17 +141,17 @@ get_header(); ?>
 <!--                </div>-->
 <!--                --><?php //comments_template(); ?><!-- -->
 <!--              --><?php // endif; ?>
-              <?php 
-                // Previous/next post navigation.
-              the_post_navigation( array(
-                  'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Suivant</h4>', 'archi' ) . '</span> ' .
-                    '<span class="screen-reader-text">' . __( 'Article suivant:', 'archi' ) . '</span> ' .
-                    '<span class="post-title">%title</span>',
-                  'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Precedent</h4>', 'archi' ) . '</span> ' .
-                    '<span class="screen-reader-text">' . __( 'Article precedent :', 'archi' ) . '</span> ' .
-                    '<span class="post-title">%title</span>',
-                ) ); 
-              ?>
+<!--              --><?php //
+//                // Previous/next post navigation.
+//              the_post_navigation( array(
+//                  'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Suivant</h4>', 'archi' ) . '</span> ' .
+//                    '<span class="screen-reader-text">' . __( 'Article suivant:', 'archi' ) . '</span> ' .
+//                    '<span class="post-title">%title</span>',
+//                  'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<h4>Precedent</h4>', 'archi' ) . '</span> ' .
+//                    '<span class="screen-reader-text">' . __( 'Article precedent :', 'archi' ) . '</span> ' .
+//                    '<span class="post-title">%title</span>',
+//                ) );
+//              ?>
             </div>
 
 <!--            <div class="col-md-4">-->

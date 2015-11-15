@@ -27,21 +27,9 @@
                             <?php } ?>                                
                             <?php if($archi_option['twitter']!=''){ ?>                                    
                                 <a target="_blank" href="<?php echo esc_url($archi_option['twitter']); ?>"><i class="fa fa-twitter"></i></a>                                    
-                            <?php } ?>
-                            <?php if($archi_option['rss']!=''){ ?>                                    
-                                <a target="_blank" href="<?php echo esc_url($archi_option['rss']); ?>"><i class="fa fa-rss"></i></a>                                    
-                            <?php } ?>
+                            <?php } ?>                                
                             <?php if($archi_option['google']!=''){ ?>                                    
                                 <a target="_blank" href="<?php echo esc_url($archi_option['google']); ?>"><i class="fa fa-google-plus"></i></a>                                    
-                            <?php } ?>
-                            <?php if($archi_option['youtube']!=''){ ?>                                    
-                                <a target="_blank" href="<?php echo esc_url($archi_option['youtube']); ?>"><i class="fa fa-youtube"></i></a>                                    
-                            <?php } ?>
-                            <?php if($archi_option['linkedin']!=''){ ?>
-                                <a target="_blank" href="<?php echo esc_url($archi_option['linkedin']); ?>"><i class="fa fa-linkedin"></i></a>
-                            <?php } ?>
-                            <?php if($archi_option['skype']!=''){ ?>
-                                <a target="_blank" href="<?php echo esc_url($archi_option['skype']); ?>"><i class="fa fa-skype"></i></a>
                             <?php } ?>
                             <?php if($archi_option['dribbble']!=''){ ?>
                                 <a target="_blank" href="<?php echo esc_url($archi_option['dribbble']); ?>"><i class="fa fa-dribbble"></i></a>
@@ -49,14 +37,26 @@
                             <?php if($archi_option['pinterest']!=''){ ?>
                                 <a target="_blank" href="<?php echo esc_url($archi_option['pinterest']); ?>"><i class="fa fa-pinterest"></i></a>
                             <?php } ?>
+                            <?php if($archi_option['linkedin']!=''){ ?>
+                                <a target="_blank" href="<?php echo esc_url($archi_option['linkedin']); ?>"><i class="fa fa-linkedin"></i></a>
+                            <?php } ?>                                
+                            <?php if($archi_option['youtube']!=''){ ?>                                    
+                                <a target="_blank" href="<?php echo esc_url($archi_option['youtube']); ?>"><i class="fa fa-youtube"></i></a>                                    
+                            <?php } ?>  
+                            <?php if($archi_option['vimeo']!=''){ ?>
+                                <a target="_blank" href="<?php echo esc_url($archi_option['vimeo']); ?>"><i class="fa fa-vimeo-square"></i></a>
+                            <?php } ?>
+                            <?php if($archi_option['rss']!=''){ ?>                                    
+                                <a target="_blank" href="<?php echo esc_url($archi_option['rss']); ?>"><i class="fa fa-rss"></i></a>                                    
+                            <?php } ?>                                                            
+                            <?php if($archi_option['skype']!=''){ ?>
+                                <a target="_blank" href="<?php echo esc_url($archi_option['skype']); ?>"><i class="fa fa-skype"></i></a>
+                            <?php } ?>                               
                             <?php if($archi_option['instagram']!=''){ ?>
                                 <a target="_blank" href="<?php echo esc_url($archi_option['instagram']); ?>"><i class="fa fa-instagram"></i></a>
                             <?php } ?>  
                             <?php if($archi_option['github']!=''){ ?>
                                 <a target="_blank" href="<?php echo esc_url($archi_option['github']); ?>"><i class="fa fa-github"></i></a>
-                            <?php } ?>
-                            <?php if($archi_option['vimeo']!=''){ ?>
-                                <a target="_blank" href="<?php echo esc_url($archi_option['vimeo']); ?>"><i class="fa fa-vimeo-square"></i></a>
                             <?php } ?>
                             <?php if($archi_option['tumblr']!=''){ ?>
                                 <a target="_blank" href="<?php echo esc_url($archi_option['tumblr']); ?>"><i class="fa fa-tumblr-square"></i></a>

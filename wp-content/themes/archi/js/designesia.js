@@ -415,9 +415,7 @@ jQuery(document).ready(function() {
 				jQuery('html, body').animate({
 					scrollTop: jQuery('#loader-area').offset().top - 70
 				}, 500, 'easeOutCirc');
-				
-			
-				
+											
 				jQuery(".image-slider").owlCarousel({
 					items : 1,
 					singleItem:true,	
@@ -426,19 +424,15 @@ jQuery(document).ready(function() {
 					autoPlay : false
 				});
 				
-				jQuery(".container").fitVids();
-				
+				jQuery(".container").fitVids();				
 					jQuery('#btn-close-x').on("click", function() {
 						jQuery("#loader-area").slideUp(500,function(){
 							jQuery('html, body').animate({				
 								scrollTop: jQuery('#section-portfolio').offset().top - 70
 							}, 500, 'easeOutCirc');
 						});
-
-						return false;			
-					
-					});  
-				
+						return false;								
+					});  				
 				});			
 			}); 
 		});   
@@ -447,7 +441,6 @@ jQuery(document).ready(function() {
 			$('#navigation').show();
 		});
 			
-
 		// --------------------------------------------------
 		// custom page with background on side
 		// --------------------------------------------------
@@ -456,16 +449,13 @@ jQuery(document).ready(function() {
 		});
 			
 		var target = jQuery('.center-y');
-		var targetHeight = target.outerHeight();
-		
+		var targetHeight = target.outerHeight();		
 		jQuery(document).scroll(function(e){
 			var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
 			if(scrollPercent >= 0){
 				target.css('opacity', scrollPercent);
 			}
-		});
-	
-	
+		});		
 	});
 
 	
@@ -507,7 +497,6 @@ jQuery(document).ready(function() {
 		
 		// isotope
 		jQuery('#gallery').isotope();
-
 	});
 		
 	jQuery(window).scroll(function() {		
@@ -544,7 +533,6 @@ jQuery(document).ready(function() {
 				jQuery(this).find(".progress-bar").animate({'width': value },"slow");
 			}
 		});
-
 
 		jQuery('.animated').each(function(){
 		var imagePos = jQuery(this).offset().top;
@@ -607,8 +595,7 @@ jQuery(document).ready(function() {
 		
 	});
 	
-	// popup youtube, video, gmaps
-	
+	// popup youtube, video, gmaps	
 	jQuery('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
@@ -619,8 +606,7 @@ jQuery(document).ready(function() {
 		fixedContentPos: false
 	});
 	
-	// image popup
-	
+	// image popup	
 	jQuery('.image-popup-vertical-fit').magnificPopup({
 		type: 'image',
 		closeOnContentClick: true,

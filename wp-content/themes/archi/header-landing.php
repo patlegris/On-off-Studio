@@ -27,7 +27,7 @@
 <body <?php if($archi_option['version_type']=='light'){body_class('de_light');}else{body_class();} ?> >
 <div id="wrapper">
     <!-- header begin -->
-    <header class="autoshow">
+    <header class="autoshow">    
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

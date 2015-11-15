@@ -34,61 +34,18 @@ if (!class_exists("Redux_Framework_sample_config")) {
             if (!isset($this->args['opt_name'])) { // No errors please
                 return;
             }
-
-            // If Redux is running as a plugin, this will remove the demo notice and links
-            //add_action( 'redux/plugin/hooks', array( $this, 'remove_demo' ) );
-            // Function to test the compiler hook and demo CSS output.
-            //add_filter('redux/options/'.$this->args['opt_name'].'/compiler', array( $this, 'compiler_action' ), 10, 2); 
-            // Above 10 is a priority, but 2 in necessary to include the dynamically generated CSS to be sent to the function.
-            // Change the arguments after they've been declared, but before the panel is created
-            //add_filter('redux/options/'.$this->args['opt_name'].'/args', array( $this, 'change_arguments' ) );
-            // Change the default value of a field after it's been set, but before it's been useds
-            //add_filter('redux/options/'.$this->args['opt_name'].'/defaults', array( $this,'change_defaults' ) );
-            // Dynamically add a section. Can be also used to modify sections/fields
+           
             add_filter('redux/options/' . $this->args['opt_name'] . '/sections', array($this, 'dynamic_section'));
 
             $this->ReduxFramework = new ReduxFramework($this->sections, $this->args);
         }
 
-        /*
-
-          This is a test function that will let you see when the compiler hook occurs.
-          It only runs if a field	set with compiler=>true is changed.
-
-         * */
+        
         function compiler_action($options, $css) {
-            //echo "<h1>The compiler hook has run!";
-            //print_r($options); //Option values
-            //print_r($css); // Compiler selector CSS values  compiler => array( CSS SELECTORS )
-
-            /*
-              // Demo of how to use the dynamic CSS and write your own static CSS file
-              $filename = dirname(__FILE__) . '/style' . '.css';
-              global $wp_filesystem;
-              if( empty( $wp_filesystem ) ) {
-              require_once( ABSPATH .'/wp-admin/includes/file.php' );
-              WP_Filesystem();
-              }
-
-              if( $wp_filesystem ) {
-              $wp_filesystem->put_contents(
-              $filename,
-              $css,
-              FS_CHMOD_FILE // predefined mode settings for WP files
-              );
-              }
-             */
+            
         }
 
-        /*
-
-          Custom function for filtering the sections array. Good for child themes to override or add to the sections.
-          Simply include this function in the child themes functions.php file.
-
-          NOTE: the defined constants for URLs, and directories will NOT be available at this point in a child theme,
-          so you must use get_template_directory_uri() if you want to use any of the built in icons
-
-         * */
+       
         function dynamic_section($sections) {        
 
             return $sections;
@@ -267,6 +224,33 @@ if (!class_exists("Redux_Framework_sample_config")) {
                         'subtitle' => __('Logo', 'archi'),
                        'default' => array('url' => get_template_directory_uri().'/images/logo.png'),                     
                     ),                    				
+                )
+            );
+            $this->sections[] = array(
+                'icon' => ' el-icon-credit-card',
+                'title' => __('Top Header Settings', 'archi'),
+                'fields' => array(
+                    array(
+                        'id'       => 'topbar-onepage',
+                        'type'     => 'switch', 
+                        'title'    => __('Topbar One-Page Off?', 'archi'),
+                        'subtitle' => __('Look, it\'s on!', 'archi'),
+                        'default'  => true,
+                    ), 
+                    array(
+                        'id'       => 'topbar-allpage',
+                        'type'     => 'switch', 
+                        'title'    => __('Topbar All Page Off?', 'archi'),
+                        'subtitle' => __('Look, it\'s on!', 'archi'),
+                        'default'  => true,
+                    ),    
+                    array(
+                        'id' => 'info_list_text',
+                        'type' => 'editor',
+                        'title' => __('Topbar info text.', 'archi'),
+                        'subtitle' => __('Add topbar info html text.', 'archi'),
+                        'default' => '',
+                    ),                              
                 )
             );
 			$this->sections[] = array(
@@ -631,16 +615,14 @@ if (!class_exists("Redux_Framework_sample_config")) {
 			$this->sections[] = array(
                 'icon' => ' el-icon-credit-card',
                 'title' => __('Footer Settings', 'archi'),
-                'fields' => array(	
-					
+                'fields' => array(						
 					array(
                         'id' => 'footer_text',
                         'type' => 'editor',
                         'title' => __('Footer Text', 'archi'),
                         'subtitle' => __('Copyright Text', 'archi'),
                         'default' => '© Copyright 2015 - Archi by OceanThemes',
-                    ),
-                    
+                    ),                    
 				)
 			);
             $this->sections[] = array(

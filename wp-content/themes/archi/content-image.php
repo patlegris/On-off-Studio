@@ -3,17 +3,11 @@
         <div class="post-image">
             <?php if( function_exists( 'rwmb_meta' ) ) { ?>
               <?php $images = rwmb_meta( '_cmb_image', "type=image" ); ?>
-
               <?php if($images){ ?>              
-
               <?php  foreach ( $images as $image ) {  ?>
-
                 <?php $img = $image['full_url']; ?>
-
                 <img src="<?php echo esc_url($img); ?>" alt="">
-
                 <?php } ?>                
-
               <?php } ?>
             <?php } ?>
         </div>

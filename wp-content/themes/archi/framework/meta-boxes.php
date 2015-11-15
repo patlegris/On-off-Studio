@@ -12,12 +12,7 @@
 
 function archi_register_meta_boxes( $meta_boxes ) {
 
-
-
 	$prefix = '_cmb_';
-
-	// Post format
-
 	$meta_boxes[] = array(
 
 		'id'       => 'format_detail',
@@ -128,7 +123,25 @@ function archi_register_meta_boxes( $meta_boxes ) {
 
 	);
 
-
+	$meta_boxes[] = array(
+		'id'       => 'portfolio_detail',
+		'title'    => __( 'Portfolio Format Details', 'archi' ),
+		'pages'    => array( 'portfolio' ),
+		'context'  => 'normal',
+		'priority' => 'high',
+		'autosave' => true,
+		'fields'   => array(
+			array(
+				'name'  => __( 'Video', 'archi' ),
+				'id'    => $prefix . 'link_video',
+				'type'  => 'text',
+				'cols'  => 20,
+				'rows'  => 2,
+				'class' => 'video',
+				'desc' => 'Example: <b>http://www.youtube.com/watch?v=QgnRut8Qloc</b> or <b>https://player.vimeo.com/video/8159394</b>',
+			),			
+		),
+	);
 
 	$meta_boxes[] = array(
 

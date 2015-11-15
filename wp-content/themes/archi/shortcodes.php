@@ -480,11 +480,13 @@ function folio_gallery_func($atts, $content = null){
 	                $cate_slug .= $cate->slug .' ';     
 	              } 
 	          }
+	          $format = get_post_format($post->ID);	
+	          $link_video = get_post_meta(get_the_ID(),'_cmb_link_video', true);		  
 	        ?>             
             <!-- gallery item -->
             <div class="item <?php echo esc_attr($cate_slug); ?>">
                 <div class="picframe">
-                    <a class="image-popup-gallery" title="<?php the_title(); ?>" href="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id()));?>">
+                    <a class="<?php if($format=='video'){echo 'popup-youtube';}else{echo 'image-popup-gallery';} ?>" title="<?php the_title(); ?>" href="<?php if($format=='video'){echo esc_url($link_video);}else{ echo esc_url(wp_get_attachment_url(get_post_thumbnail_id())); } ?>">
                         <span class="overlay">
                             <span class="pf_text">
                                 <span class="project-name"><?php the_title(); ?></span>
@@ -551,11 +553,13 @@ function folio_gallery2_func($atts, $content = null){
 	                $cate_slug .= $cate->slug .' ';     
 	              } 
 	          }
+	          $format = get_post_format($post->ID);	
+	          $link_video = get_post_meta(get_the_ID(),'_cmb_link_video', true);
 	        ?>             
             <!-- gallery item -->
             <div class="<?php if ($columns == 2) {echo 'col-md-6'; }elseif ($columns == 3) { echo 'col-md-4'; }else{echo 'col-md-3';} ?> item <?php echo esc_attr($cate_slug); ?>">
                 <div class="picframe">
-                    <a class="image-popup-gallery" title="<?php the_title(); ?>" href="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id()));?>">
+                    <a class="<?php if($format=='video'){echo 'popup-youtube';}else{echo 'image-popup-gallery';} ?>" title="<?php the_title(); ?>" href="<?php if($format=='video'){echo esc_url($link_video);}else{ echo esc_url(wp_get_attachment_url(get_post_thumbnail_id())); } ?>">
                         <span class="overlay">
                             <span class="pf_text">
                                 <span class="project-name"><?php the_title(); ?></span>
