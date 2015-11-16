@@ -215,6 +215,11 @@ header.smaller {
  background: white !important;
  background-clip: padding-box !important;
 }
+header {
+ border-bottom: 15px solid hsla(0,0%,100%,.7) !important;
+ background: white !important;
+ background-clip: padding-box !important;
+}
 
 /*Icones réseaux sociaux + gros (à gauche si possible--------*/
 .social-icons i {

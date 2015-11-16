@@ -80,7 +80,7 @@ get_header(); ?>
                             <?php } ?>
                           <?php } ?>
 
-                          <?php }else{ $format=='stadard' ?>
+                          <?php }else{ $format=='standard' ?>
                               <?php if(get_the_post_thumbnail()){ ?>              
                                   <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" alt="">
                               <?php } ?>

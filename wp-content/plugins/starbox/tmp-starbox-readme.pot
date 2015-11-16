@@ -1,0 +1,415 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Starbox - the Author Box for Humans"
+msgstr ""
+
+#. Short description.
+msgid "Starbox is the Author Box for Humans. Professional Themes to choose from, HTML5, Social Media Profiles, Google Authorship"
+msgstr ""
+
+#. Found in description list item.
+msgid "HTML 5"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Microformats (vCard), to display Rich Snippets in google search results"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy to customize for each Author"
+msgstr ""
+
+#. Found in description list item.
+msgid "You'll get Google Authorship on your hands :-) For all your authors."
+msgstr ""
+
+#. Found in description list item.
+msgid "Have it work only on blog posts, only on pages, or both!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Links to the social media profiles of your authors: Facebook, Twitter, Klout, Google+, LinkedIN, Instagram, Flickr, Pinterest, Tumblr, Youtube, Vimeo"
+msgstr ""
+
+#. Found in description list item.
+msgid "Each of your Authors can have a different set of social media profiles added"
+msgstr ""
+
+#. Found in description list item.
+msgid "Links to all the articles written by that author"
+msgstr ""
+
+#. Found in description list item.
+msgid "A section that displays the latest posts of a certain author"
+msgstr ""
+
+#. Found in description list item.
+msgid "Themes to choose from"
+msgstr ""
+
+#. Found in description list item.
+msgid "Themes setup for each individual Author, to really make them shine"
+msgstr ""
+
+#. Found in description list item.
+msgid "You Can set the Name of the Author"
+msgstr ""
+
+#. Found in description list item.
+msgid "You Can set the Job Title of each Author"
+msgstr ""
+
+#. Found in description list item.
+msgid "Can set Company (with a link to the company's site)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Each Author can make the Author Box look like it's her own"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can choose not to display it for certain authors"
+msgstr ""
+
+#. Found in description list item.
+msgid "Removes any other author box from the page, so that there aren't duplicates"
+msgstr ""
+
+#. Found in description list item.
+msgid "Enables you to upload your own image (so that you won't need a Gravatar)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Paragraphs in the Author Bio to have a better looking text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Displays the Author Box in the special pages built for each author."
+msgstr ""
+
+#. Found in description list item.
+msgid "Special Pages for your authors"
+msgstr ""
+
+#. Found in description list item.
+msgid "Works even with sites that have woocommerce or other ecommerce plugins"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Starbox in your post's content or wordpress widgets using the shortcode [starbox] or [starbox id=USER_ID]"
+msgstr ""
+
+#. Found in description list item.
+msgid "Your Authors will become real Stars"
+msgstr ""
+
+#. Found in description list item.
+msgid "Your readers will notice the persons behind the articles better"
+msgstr ""
+
+#. Found in description list item.
+msgid "It increases your social proof and credibility as an Author"
+msgstr ""
+
+#. Found in description list item.
+msgid "It will increase the subscriber numbers across social media channels"
+msgstr ""
+
+#. Found in description list item.
+msgid "Your readers will feel like they know you better and feel a connection, so they'll return more often"
+msgstr ""
+
+#. Found in description list item.
+msgid "You know that right now for Google it matters a lot that you have returning visitors (because it means your site is: quality)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>How Do I Get Support For This Plugin?</strong>\n"
+"If you want more Social Icons and Premium Support, that also comes with High Priority, go to:\n"
+"http://starbox.squirrly.co/product/starbox-the-author-box-for-humans/\n"
+"We added new features in the PRO version like: keep the user custom image in all the site"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Starbox is the Author Box for Humans</strong>\n"
+"While search engines and other software that read your site care about files like robots.txt, you need Human readers to actually engage with your content and fall in love with it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Humans look at beauty more than anything else (as you most probably already know, men and women alike). That's why you'll get an <strong>Author Box that's gorgeous to look at and it makes your readers click all the way through</strong> to see more about the Authors."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Now, if you have just yourself as an Author on your site, or a super-star team of Authors, you'll love Starbox. You can <strong>choose from the professionaly built themes and landscaping</strong>. If you are the super-star type, or want to boost social proof, place your Author Box on top of the page, so that your Human readers will know that they're reading stuff that a real awesome person has written."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You want the classy, bottom-of-the-page Author Box? You can choose that one as well."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "And if your star Authors want different things, satisfy their needs by allowing them to place their Author Box at the top or bottom, with the default theme, or a better looking one. You can make each of them shine in their own way."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <strong>Social Profiles</strong> of your writers will be obvious and clickable, getting you Humans that will engage with content on your blog and also on your social media streams."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Because your authors are stars or will be very soon, <strong>Google Authorship and Facebook Authorship</strong> are here for them with Starbox, and it's just type-&gt;click-&gt;boom! to set up. Amazingly easy."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Are you afraid of having to spend too much time setting Starbox up? Don't worry. You're covered by our \"For Humans\" guarantee. With NO coding or complicated menus whatsoever, you'll set your Author Box in a matter of minutes. And since we took a lot of care regarding all the coding, it will work well and you won't have to worry about that."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You'll build up some good social proof, you'll give your Human readers a sense of quality and they'll be happy to return for more (which will help you with the search engines who track your site)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're doing the tech stuff on your site or want to know what Starbox's inner workings are all about, here's a list:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "So get your very own Starbox now:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Download it from the Wordpress directory and try it out. Having an author box after posts will certainly increase engagement and help your authors grow their authority on the web."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 4.3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the Brazilian Portuguese Language by Anderson Blaine"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added styles for more themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 4.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 4.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix link tag close duplicates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added some theme compatibilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 4.0.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made changed according to GPL 2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 4.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed various bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 3.9.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed css and js loading issues for many different themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed repeated header section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 3.9.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Author Box from products that you may have in Woocommerce when only posts are set to have the author box displayed (you can do this in settings)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WP 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Klout score issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed hook bugs for preview and frontend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update css on the author box plugin for some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed small bugs for Font size option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Works with W3 Total Cache and Super Cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Font Size option for the name and description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed show latest posts for shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added show latest posts from specific category in shortcode [starbox lpc=\"category id\"] or [starbox lpc=\"category name\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed css for more themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed hide from all posts in WP 3.8.1 issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French Translation by D SIGNED"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed loading issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with Wordpress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed css for different themes and for Wordpress 3.8"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why is there no meta for google and facebook authorship?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How Do I Get Support For This Plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How Do I Make Sure I Get Priority Support From Buying The Recommended Version?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I call (display) the author box in a post or widget?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can i add multiple author boxes to a post?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is your team dedicated to this plugin?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You have to fill the google and facebook social accounts in your profile and it will show up."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"We're following the threads and based on them we always try to build up new and better implementations for the Author Box for Humans. If you want Premium Support, that also comes with High Priority, then go to:\n"
+"http://starbox.squirrly.co/product/starbox-the-author-box-for-humans/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"It will help you have a premium email from us, on which you can get super-fast support.\n"
+"http://starbox.squirrly.co/product/starbox-the-author-box-for-humans/\n"
+"After you buy it, it will show you the email on which you can write to us for Premium and Fast Support"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Just add <strong>[starbox]</strong> or <strong>[starbox id=\"login_name\"]</strong> in your post or widget..\n"
+"You can also add different description for the author box, by adding <strong>[starbox id=\"login_name\" desc=\"custom description\" ]</strong>\n"
+"And more than that, you can add a default theme for author box <strong>[starbox id=\"login_name\" desc=\"custom description\"  theme=\"business\"]</strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"You can use startbox shortcode at the bottom of the content like this:\n"
+"[starbox id=\"john,david\"] where john and david are the username of the authors"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "or"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "[starbox id=\"1,2,3..n\"] where 1,2,3 .. n are the ID of the authors"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can count on it :-) Our team of 8 people over at Squirrly (registered in the UK) are focused on making both our wordpress seo plugin and our author box plugin the best there are. So far we succeeded in making them one of the most popular, because we listen to your feedback and you're the reason for their success."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "= Installation"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "= Screenshots"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid ""
+"=\n"
+"1. Log In as an Admin on your Wordpress blog.\n"
+"2. In the menu displayed on the left, there is a \"Plugins\" tab. Click it.\n"
+"3. Now click \"Add New\".\n"
+"4. There, you have the buttons: \"Search | Upload | Featured | Popular | Newest\". Click \"Upload\".\n"
+"5. Upload the starbox.zip file.\n"
+"6. After the upload is finished, click Activate Plugin.\n"
+"7. Done :-) You'll see that this is as advertized."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid ""
+"=\n"
+"1. Author Box with Business Theme\n"
+"2. Author Bio Box with Business Theme\n"
+"3. Author Box Settings\n"
+"4. Author Box Settings for each Author\n"
+"5. Author Box Social Settings\n"
+"6. Author Box with Drop-Down Theme\n"
+"7. Author Box with Drop-Down Theme\n"
+"8. Author Box with Drop-Down Theme\n"
+"9. Google Rich Snippets with the author's image\n"
+"10. Google Rich Snippets with the author's image\n"
+"11. Author Box with TopStar Theme\n"
+"12. Author Box with TopStar Theme\n"
+"13. Author Box with Drop-Down Theme\n"
+"14. Author Box with Drop-Down Theme\n"
+"15. Author Box with Fancy Theme\n"
+"16. Author Box with Drop-Down Theme"
+msgstr ""

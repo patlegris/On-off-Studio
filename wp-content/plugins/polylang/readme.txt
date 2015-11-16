@@ -3,8 +3,8 @@ Contributors: Chouby
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CCWWYUUQV8F4E
 Tags: multilingual, bilingual, translate, translation, language, multilanguage, international, localization
 Requires at least: 3.9
-Tested up to: 4.3
-Stable tag: 1.7.11
+Tested up to: 4.4
+Stable tag: 1.7.12
 License: GPLv2 or later
 
 Making WordPress multilingual
@@ -114,10 +114,13 @@ See http://polylang.wordpress.com/documentation/contribute/
 
 == Changelog ==
 
-= 1.7.12
+= 1.7.12 (2015-11-13) =
 
 * The language taxonomy is now public for compatibility with WP 4.4
+* fix: nav menus locations are not correctly populated in customizer in WP 4.4
+* fix: the termmeta table was still deleted at upgrade
 * fix: fatal error when using the argument 'post_id' in 'pll_the_languages()' (introduced in 1.7.11) [props EKesty](https://wordpress.org/support/topic/bug-on)
+* fix: potential notice in 'pll_the_languages()' [props mattkeys](https://wordpress.org/support/topic/bug-on)
 
 = 1.7.11 (2015-10-15) =
 

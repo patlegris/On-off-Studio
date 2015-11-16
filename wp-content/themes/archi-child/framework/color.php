@@ -19,8 +19,8 @@ global $archi_option;
 header{
   background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?> !important;
 }
-header.smaller{
-border-bottom: 10px solid hsla(0,0%,100%,.7) !important;
+header.smaller {
+border-bottom: 15px solid hsla(0,0%,100%,.7) !important;
 background: white !important;
 background-clip: padding-box !important;
 }

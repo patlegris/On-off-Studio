@@ -19,10 +19,10 @@ global $archi_option;
 header{
   background-color:<?php echo esc_attr( $archi_option['header-background-color'] ); ?> !important;
 }
-header.smaller{
-  background-color:<?php echo esc_attr( $archi_option['header-small-background-color'] ); ?> !important;
-  border-bottom: solid 1px <?php echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?> !important; 
-}
+<!--header.smaller{-->
+<!--  background-color:--><?php //echo esc_attr( $archi_option['header-small-background-color'] ); ?><!-- !important;-->
+<!--  border-bottom: solid 1px --><?php //echo esc_attr( $archi_option['header-small-border-bottom-color'] ); ?><!-- !important; -->
+<!--}-->
 #mainmenu a{
   color: <?php echo esc_attr( $archi_option['header-text-color'] ); ?>;
 }
