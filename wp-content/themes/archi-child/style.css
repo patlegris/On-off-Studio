@@ -11,7 +11,6 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  archi-child
 */
-
 @import url("../archi/style.css");
 
 /* =Theme customization starts here
@@ -19,281 +18,334 @@
 
 /*Corps des paragraphes body-----------------------------*/
 body {
- font-size: 15px !important;
+    /*font-size: 15px !important;*/
+    font-family: lato, sans-serif;
 }
 
 /*Menu -------------------------------------------------*/
 header.header-bg {
- background-color: white;
+    background-color: white;
 }
 
-
-
 header {
- height: 150px;
+    height: 150px;
 }
 
 header.header-bg.smaller {
- height: 150px;
+    height: 150px;
 }
 
 header h1#logo a img {
- height: 100px !important;
- max-width: 340px;
-  max-height: 100px;
+    height: 100px !important;
+    max-width: 340px;
+    max-height: 100px;
 }
 
 header h1#logo {
- padding-top: 8px;
+    padding-top: 8px;
 }
 
 .logo-smaller h1#logo {
- width: 0px;
- height: 0px;
- line-height: 65px;
- font-size: 30px;
+    width: 0px;
+    height: 0px;
+    line-height: 65px;
+    font-size: 30px;
 }
 
 /* subheader and title--------------------------------*/
 #subheader {
- padding-bottom: 0px;
- background: white;
+    padding-bottom: 0px;
+    background: white;
 }
 
 #subheader h1 {
- color:darkgrey;
- margin-top:130px;
- font-size: 32px;
- letter-spacing: 5px;
- text-align: left;
- padding-right: 40px;
- margin-right: 40px;
- max-width: 85%;
- text-transform:uppercase;
+    color: darkgrey;
+    margin-top: 130px;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: left;
+    padding-right: 40px;
+    margin-right: 40px;
+    max-width: 85%;
+    text-transform: uppercase;
 }
+
 #subheader span {
- letter-spacing:2px;
- display: inline-block;
- font-size: 15px;
- margin-top:88px;
- color:#fff;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 88px;
+    color: #fff;
 }
+
 /*#subheader .crumb------------------------------------*/
-#subheader .crumb{
- display: none;
+#subheader .crumb {
+    display: none;
 }
 
 /*Cercle homepage -------------------------------------*/
 .de_tab.tab_steps .de_nav li span:active {
- background-color: orange;
- color: black;
+    background-color: orange;
+    color: black;
 }
 
 .de_tab.tab_steps .de_nav li span {
- background-color: orange;
- color: white;
+    background-color: orange;
+    color: white;
 }
 
 .de_tab.tab_steps .de_nav li span:hover {
- background-color: orange;
- color: black;
+    background-color: orange;
+    color: black;
 }
 
 .de_tab.tab_steps .de_tab_content {
- font-size: 16px;
+    font-size: 16px;
 }
 
- /*Blog excerpt----------------------------------------*/
+/*Blog excerpt----------------------------------------*/
 .de_light .blog-list .btn-more {
- background: black;
- color: white;
+    background: black;
+    color: white;
 }
 
 .de_light .blog-list .btn-more:hover {
- background: black;
- color: orange !important;
+    background: black;
+    color: orange !important;
 }
 
 .blog-list .date-box .month {
- letter-spacing: 8px;
+    letter-spacing: 8px;
 }
 
 /*Media queries menu---------------------------------------*/
 @media only screen and (max-width: 992px) {
- #mainmenu li a {
-  color: black;
- }
+    #mainmenu li a {
+        color: black;
+    }
 }
 
- /*Video homepage fonds------------------------------------*/
- .de-video-overlay {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  /* background: url(images/dot-70.png); */
-  display: none;
- }
+/*Video homepage fonds------------------------------------*/
+.de-video-overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    /* background: url(images/dot-70.png); */
+    display: none;
+}
 
 .video {
- display: inline-block;
- vertical-align: baseline;
- max-width: 100% !important;
- max-height: 100% !important;
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 /*Sous-menus-----------------------------------------------*/
 #mainmenu li li a {
- padding: 10px 15px 10px 15px;
-  background: white;
- text-align: left;
+    padding: 10px 15px 10px 15px;
+    background: white;
+    text-align: left;
 }
 
 #mainmenu li li a:hover {
- color: orange;
+    color: orange;
 }
 
 header.smaller #mainmenu li li a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #mainmenu {
- font-family: lato, sans-serif !important;
- align-content: right;
- /*font-size: 11px;*/
- /*font-weight: 400;*/
- letter-spacing: 0px;
- text-transform: uppercase;
- padding-top: 70px;
+    font-family: lato, sans-serif !important;
+    align-content: right;
+    /*font-size: 11px;*/
+    /*font-weight: 400;*/
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding-top: 70px;
 }
 
 #mainmenu li {
- margin: 0px 0px;
- padding: 0px 20px 0px 0px;
- align-content: right;
- display: inline;
- list-style: none;
- position: relative;
+    margin: 0px 0px;
+    padding: 0px 20px 0px 0px;
+    align-content: right;
+    display: inline;
+    list-style: none;
+    position: relative;
 }
 
 .pt-cv-wrapper {
- padding-top: 150px;
+    padding-top: 150px;
 }
 
 /*button grid vert en orange----------------------------*/
 .pt-cv-wrapper .btn-success {
- color: #ffffff;
- background-color: orange;
- border-color: orange;
+    font-family: lato, sans-serif;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 0;
+}
+
+.pt-cv-wrapper .btn-success:hover {
+    color: white;
+    background-color: black;
 }
 
 /*button submit newsletter en orange-----------------------*/
 .widget_wysija_cont .wysija-submit {
- background-color: orange;
- color: black;
+    background-color: orange;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    color: black;
 }
 
 /*Réduction de l'inter-mot dans les menus items------------*/
 #mainmenu li {
- padding-right: 10px;
+    padding-right: 10px;
 }
+
 #mainmenu li a {
- padding-left: 10px;
+    padding-left: 10px;
 }
+
 #mainmenu {
- padding-left: 5px;
+    padding-left: 5px;
 }
 
 /*Fin de blog single suivant/précédent-----------------------*/
 .nav-links {
- padding-top: 20px;
+    padding-top: 20px;
 }
 
 /*Sous barre de menu, espace--------------------------------*/
 header.smaller {
- border-bottom: 15px solid hsla(0,0%,100%,.7) !important;
- background: white !important;
- background-clip: padding-box !important;
+    border-bottom: 15px solid hsla(0, 0%, 100%, .7) !important;
+    background: white !important;
+    background-clip: padding-box !important;
 }
+
 header {
- border-bottom: 15px solid hsla(0,0%,100%,.7) !important;
- background: white !important;
- background-clip: padding-box !important;
+    border-bottom: 15px solid hsla(0, 0%, 100%, .7) !important;
+    background: white !important;
+    background-clip: padding-box !important;
 }
 
 /*Icones réseaux sociaux + gros (à gauche si possible--------*/
 .social-icons i {
- width: 36px;
- height: 36px;
- font-size: 24px;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
 }
 
 /*Couleur autres pages footer (widget)-------------------------*/
 .widget_nav_menu ul li a, .widget_pages ul li a {
- color: white;
- font-size: 18px;
- line-height: 25px;
- font-family: lato, sans-serif;
+    /*color: white;*/
+    font-size: 18px;
+    line-height: 25px;
+    font-family: lato, sans-serif;
 }
 
 .widget_nav_menu ul li a, .widget_pages ul li a :hover {
- text-decoration: none;
- color: black;
+    text-decoration: none;
+    color: black;
 }
 
 /*Interlignage 3 colonnes home et texte blanc sur image--------*/
 .wpb_wrapper {
- font-family: Lato, sans-serif;
- font-weight: 400;
- font-style: normal;
- font-size: 16px;
- line-height: 22px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 .de_tab.tab_steps .de_tab_content {
- font-size: 17px;
- line-height: 23px;
+    font-size: 17px;
+    line-height: 25px;
 }
 
 /*Footer---------------------------------------------------------*/
 footer {
-  background: #ccc;
-  color: #111;
- /*padding: 80px 0 0 0;*/
+    background: #aaaaaa;
+    color: #ccc;
+    padding: 70px 0 0 0 !important;
+    width: 100%;
+    height: 240px;
+    clear: both;
 }
 
 footer .widget {
- border: none !important;
- margin-bottom: 60px !important;
+    border: none !important;
+}
+
+.widget {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    border-bottom: solid 1px #333;
 }
 
 .subfooter {
- width: 1903px;
+    width: 100%;
+    height: 140px !important;
+    padding: 30px 0 80px 0 !important;
+    background: #0b0b0b;
 }
 
+/*Modification de contact form 7 "wysija"--------------------*/
+
 .wysija-input {
- margin-top: 15px;
- padding-left : 10px;
- width: 196px;
- color: #888;
- width: 70%;
+    margin-top: 15px;
+    padding-left: 10px;
+    width: 196px;
+    color: #888;
+    /*width: 70%;*/
 }
 
 .wysija-submit {
- margin-top: -20px !important;
+    margin-top: -20px !important;
 }
 
 /*Formatage des dates de début et fin------------------------*/
 .periode {
- font-family: lato, sans-serif;
- font-weight: 300;
- font-size: 18px;
- /*font-size: large;*/
- Width: 370px;
- background-color: #888;
- color: white;
- padding: 7px;
- text-align: center;
- margin-bottom: 15px;
- letter-spacing: 2px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    Width: 370px;
+    background-color: #aaaaaa;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/*Modifications du calendar---------------------------------*/
+.mc-main.mini .day-with-date a {
+    display: block;
+    margin: -2px;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: orange;
+}
+
+/*Titre de la homepage-------------------------------------*/
+.title-homepage {
+    color: white;
+    font-family: lato, sans-serif !important;
+    font-weight: 700;
+    font-size: 45px;
+    /*ombrage*/
+    text-shadow: 2px 2px 6px black;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=135, Strength=8);
+    zoom: 1;
+}
+
+/*texte des encadrés homepage d'accès aux posts-----------'*/
+.de_light h4 a {
+    color: #333333 !important;
+    font-family: lato, sans-serif;
+    text-align: left;
 }
