@@ -58,7 +58,7 @@ header h1#logo {
 }
 
 #subheader h1 {
-    color: darkgrey;
+    color: black;
     margin-top: 130px;
     font-size: 32px;
     letter-spacing: 5px;
@@ -269,7 +269,6 @@ header {
 
 /*Footer---------------------------------------------------------*/
 footer {
-    background: #aaaaaa;
     color: #ccc;
     padding: 70px 0 0 0 !important;
     width: 100%;
@@ -312,13 +311,25 @@ footer .widget {
 .periode {
     font-family: lato, sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    Width: 370px;
-    background-color: #aaaaaa;
+    font-size: 20px;
+    Width: 450px;
+    background-color: #8e8f90;
     color: white;
-    padding: 7px;
+    padding: 8px;
     text-align: center;
     letter-spacing: 2px;
+}
+
+.date-box {
+    display: none;
+}
+
+.blog-list .post-text {
+     padding-left: 0;
+}
+
+.box-fx .inner, .dark .box-fx .inner, .post-image, .arrow-up {
+    border-bottom-color: #8e8f90;
 }
 
 /*Modifications du calendar---------------------------------*/

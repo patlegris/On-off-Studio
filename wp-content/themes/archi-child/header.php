@@ -10,7 +10,7 @@
 <!--<![endif]-->
 <?php global $archi_option; ?>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="UTF_8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />	
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -19,9 +19,9 @@
 	================================================== -->
 	<?php if($archi_option['favicon']['url'] !=''){ ?>
 		<link rel="icon" href="<?php echo esc_url($archi_option['favicon']['url']); ?>" type="image/x-icon">    
-    <?php } ?>	
-	
-<?php wp_head(); ?>
+    <?php } ?>
+    <?php setlocale(LC_TIME, 'fra_fra');?>
+    <?php wp_head(); ?>
 
 </head>
 <body <?php if($archi_option['version_type']=='light'){body_class('de_light');}else{body_class();} ?> >

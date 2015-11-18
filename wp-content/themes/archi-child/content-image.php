@@ -18,20 +18,25 @@
             <?php } ?>
         </div>
         <?php
-        if (is_category('40') OR is_category('41') OR is_category('1')) {
-            $start_date = get_post_meta($post->ID, '_mem_start_date', true);
-            $mem_start_date = date("d/m/Y", strtotime($start_date));
-            $day_date = date("d", strtotime($start_date));
-            $month_date = date("M", strtotime($start_date));
+        if (has_category()) {
+            $the_cat = get_the_category([0]);
 
-            $end_date = get_post_meta($post->ID, '_mem_end_date', true);
-            $mem_end_date = date("d/m/Y", strtotime($end_date));
-        }
-        if ($mem_start_date !== "") {
-            echo '<div class="periode">Du ' . $mem_start_date . '';
-        }
-        if ($mem_end_date !== "") {
-            echo ' au ' . $mem_end_date . '</div>';
+            if ($the_cat <> 'Artistes') {
+                $start_date = get_post_meta($post->ID, '_mem_start_date', true);
+                $mem_start_date = strftime('%d %B %Y', strtotime($start_date));
+                $day_date = date("d", strtotime($start_date));
+                $month_date = date("M", strtotime($start_date));
+
+                $end_date = get_post_meta($post->ID, '_mem_end_date', true);
+                $mem_end_date = strftime('%d %B %Y', strtotime($end_date));
+
+                if ($mem_start_date !== "") {
+                    echo '<div class="periode">' . $mem_start_date . ' / ';
+                }
+                if ($mem_end_date !== "") {
+                    echo $mem_end_date . '</div>';
+                }
+            }
         }
         ?>
 
@@ -42,7 +47,7 @@
 
 
         <div class="post-text">
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
 
 
