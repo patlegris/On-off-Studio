@@ -92,7 +92,7 @@ if ( !class_exists( 'PT_CV_Html_ViewType' ) ) {
 					$list_item = sprintf( '<div class="%s">%s</div>', esc_attr( $row_class ), $list_item );
 				}
 
-				$content[] = balanceTags( $list_item );
+				$content[] = $list_item;
 			}
 		}
 
@@ -124,7 +124,7 @@ if ( !class_exists( 'PT_CV_Html_ViewType' ) ) {
 			// Collapsible wrapper class
 			$wrapper_class = apply_filters( PT_CV_PREFIX_ . 'wrapper_collapsible_class', 'panel-group' );
 
-			$output = sprintf( '<div class="%s" id="%s" %s>%s</div>', esc_attr( $wrapper_class ), esc_attr( $random_id ), $data_attr, balanceTags( implode( "\n", $collapsible_list ) ) );
+			$output = sprintf( '<div class="%s" id="%s" %s>%s</div>', esc_attr( $wrapper_class ), esc_attr( $random_id ), $data_attr, implode( "\n", $collapsible_list ) );
 
 			$content[] = $output;
 		}
@@ -220,7 +220,7 @@ if ( !class_exists( 'PT_CV_Html_ViewType' ) ) {
 						$row_html[]		 = PT_CV_Html::content_item_wrap( $content_item, $item_class );
 					}
 
-					$slide_html[] = sprintf( '<div class="%1$s">%2$s</div>', esc_attr( $row_class ), implode( "\n", $row_html ) );
+					$slide_html[] = sprintf( '<div class="%s">%s</div>', esc_attr( $row_class ), implode( "\n", $row_html ) );
 				}
 
 				// Show first slide

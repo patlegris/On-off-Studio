@@ -1,51 +1,42 @@
 <style>
-	#pt-cv-features {padding-right: 0; margin-bottom: 30px;}
+	#pt-cv-features {padding-right: 0; padding-left: 0; margin-bottom: 10px;}
 	#pt-cv-features * {font-size: 14px;}
-	#pt-cv-features h3 {font-size: 18px;}
+	h2 {margin-bottom: 10px !important; padding-top: 0 !important;}
+	h3 {font-size: 20px; margin: 0 0 10px !important;}
 	#pt-cv-features .col-md-6 {padding: 0;}
 </style>
 
-<h3>&DoubleRightArrow; <a style="font-size: 18px;" href="http://www.contentviewspro.com/docs/?utm_source=settings_page" target="_blank">Content Views Documentation</a></h3>
+<h3>&raquo; <a style="font-size: 18px;" href="http://www.contentviewspro.com/docs/?utm_source=settings_page" target="_blank">See Documentation</a></h3>
 
 <hr>
 
-<h2>Want more powerful features?</h2>
+<h2>You need more powerful features?</h2>
 
 <div class="col-md-12" id="pt-cv-features">
 	<div class="col-md-6">
-		<h3>
-			More beautiful & awesome layouts
-		</h3>
+		<h3>More beautiful & awesome layouts</h3>
 		<div>
 			<ul style="list-style: circle; margin-left: 20px;">
-				<li>Grid </li>
-				<li>Pinterest </li>
-				<li>Timeline </li>
-				<li>Scrollable/Slider list </li>
-				<li>Collapsible list</li>
+				<li>Masonry</li>
+				<li>Pinterest</li>
+				<li>Facebook Timeline</li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="col-md-6">
-		<h3>
-			Query custom post types
-		</h3>
+		<h3>Custom post types & Custom fields</h3>
 		<div>
-			<p>Content Views Pro allows you to query any custom post types.</p>
-			<p>And of course, It supports below well-known plugins:</p>
-			<ul style="list-style: circle; margin-left: 20px;">
-				<li>WooCommerce</li>
-				<li>Easy Digital Downloads</li>
-				<li>Advanced Custom Fields</li>
-			</ul>
+			<p>Content Views Pro allows you to filter & display:<br>
+				+ any custom post types (WooCommerce, Easy Digital Downloads...)<br>
+				+ any custom fields (Advanced Custom Fields...)
+			</p>
 		</div>
 	</div>
-
-	<h3>&raquo; <a style="font-size: 18px;" href="http://www.contentviewspro.com/features/?utm_source=settings_page" target="_blank">See all features</a></h3>
-	<br>
 </div>
 
+<div style="clear:both"></div>
+<h3>&raquo; <a style="font-size: 18px;" href="http://www.contentviewspro.com/features/?utm_source=settings_page" target="_blank">See all features</a></h3>
 <p style="margin-top: 20px;">
 	<a href="http://www.contentviewspro.com/pricing/?utm_source=settings_page" target="_blank" class="btn btn-success">Upgrade now</a>
 	or

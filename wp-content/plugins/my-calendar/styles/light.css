@@ -387,7 +387,7 @@
 }
 
 .mc-main .nextmonth {
-    background: #f6f6f6;
+    background: #F8F8F8;
     color: #888;
 }
 
@@ -412,11 +412,11 @@
 }
 
 .mc-main .nextmonth .mc-date {
-    background: #eee;
+    background: #F8F8F8;
 }
 
 .mc-main .nextmonth .weekend {
-    color: #888;
+    color: #F8F8F8;
 }
 
 .mc-main .vcard, #mc_event .vcard {

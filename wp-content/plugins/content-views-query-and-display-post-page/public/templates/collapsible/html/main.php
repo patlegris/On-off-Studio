@@ -47,18 +47,18 @@ $random_id	 = PT_CV_Functions::string_random();
 <div class="panel panel-default pt-cv-content-item">
 	<div class="panel-heading">
 		<a class="panel-title" data-toggle="collapse" data-parent="#<?php echo esc_attr( PT_CV_PREFIX_UPPER . 'ID' ); ?>" href="#<?php echo esc_attr( $random_id ); ?>">
-			<?php echo balanceTags( strip_tags( $heading ) ); ?>
+			<?php echo strip_tags( $heading ); ?>
 		</a>
 		<?php
 		// Custom toggle icon
 		$toggle_icon = apply_filters( PT_CV_PREFIX_ . 'scrollable_toggle_icon', '' );
-		echo balanceTags( $toggle_icon );
+		echo $toggle_icon;
 		?>
 	</div>
 	<div id="<?php echo esc_attr( $random_id ); ?>" class="panel-collapse collapse <?php echo esc_attr( PT_CV_PREFIX_UPPER . 'CLASS' ); ?>">
 		<div class="panel-body">
 			<?php
-			echo balanceTags( implode( "\n", $html ) );
+			echo implode( "\n", $html );
 			?>
 		</div>
 	</div>

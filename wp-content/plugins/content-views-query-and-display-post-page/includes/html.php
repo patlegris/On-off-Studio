@@ -78,14 +78,14 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 				<div class="panel-heading">
 					<h4 class="panel-title" title="<?php _e( 'Click to toggle', PT_CV_TEXTDOMAIN ); ?>">
 						<a class="pt-accordion-a" data-parent="#<?php echo esc_attr( $parent_id ); ?>" href="#<?php echo esc_attr( $id ); ?>">
-							<?php echo balanceTags( $heading ); ?>
+							<?php echo $heading; ?>
 						</a>
 					</h4>
 					<span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
 				</div>
 				<div id="<?php echo esc_attr( $id ); ?>" class="panel-body <?php echo esc_attr( $class ); ?>">
 					<div class="panel-body">
-						<?php echo balanceTags( $content ); ?>
+						<?php echo $content; ?>
 					</div>
 				</div>
 			</div>
@@ -101,7 +101,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			?>
 			<div class="panel panel-default collapse" id="<?php echo esc_attr( PT_CV_PREFIX ); ?>preview-box"></div>
 			<div class="text-center hidden" style="position: absolute; left: 50%; top: 160px;">
-				<?php echo balanceTags( self::html_loading_img() ); ?>
+				<?php echo self::html_loading_img(); ?>
 			</div>
 			<?php
 			return ob_get_clean();
@@ -231,7 +231,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 			if ( is_array( $dargs ) ) {
 				// If only show Title
-				if ( isset( $dargs[ 'fields' ] ) && count( (array) $dargs[ 'fields' ] ) == 1 && $dargs[ 'fields' ][ 0 ] === 'title' ) {
+				if ( isset( $dargs[ 'fields' ] ) && count( (array) $dargs[ 'fields' ] ) == 1 && $dargs[ 'fields' ][ 0 ] == 'title' ) {
 					$class .= ' ' . PT_CV_PREFIX . 'only-title';
 				}
 			}
@@ -314,7 +314,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			}
 
 			// Join content
-			$content_list = balanceTags( implode( "\n", $content ) );
+			$content_list = implode( "\n", $content );
 
 			// Custom attribute of a page
 			$col_count	 = sprintf( 'data-cvc="%s"', (int) $dargs[ 'number-columns' ] );
@@ -344,7 +344,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 				$output = $html;
 			}
 
-			return force_balance_tags( $before_output ) . balanceTags( $output );
+			return $before_output . $output;
 		}
 
 		/**
@@ -485,7 +485,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 					// Read more button
 					if ( apply_filters( PT_CV_PREFIX_ . 'field_content_readmore_enable', 1, $fargs[ 'content' ] ) ) {
-						$text		 = apply_filters( PT_CV_PREFIX_ . 'field_content_readmore_text', __( 'En savoir +', PT_CV_TEXTDOMAIN ), $fargs[ 'content' ] );
+						$text		 = apply_filters( PT_CV_PREFIX_ . 'field_content_readmore_text', __( 'Read More', PT_CV_TEXTDOMAIN ), $fargs[ 'content' ] );
 						$btn_class	 = apply_filters( PT_CV_PREFIX_ . 'field_content_readmore_class', 'btn btn-success', $fargs );
 						$readmore_btn .= self::_field_href( $oargs, $post, $text, PT_CV_PREFIX . 'readmore ' . $btn_class );
 						$readmore_html .= apply_filters( PT_CV_PREFIX_ . 'field_content_readmore_seperated', '<br/>', $fargs ) . $readmore_btn;
@@ -559,7 +559,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 			// Generate a tag
 			$html = sprintf(
-			'<a href="%s" class="%s" target="%s" %s>%s</a>', $href, implode( ' ', array_filter( $href_class ) ), $open_in, implode( ' ', array_filter( $custom_attr ) ), force_balance_tags( $content )
+			'<a href="%s" class="%s" target="%s" %s>%s</a>', $href, implode( ' ', array_filter( $href_class ) ), $open_in, implode( ' ', array_filter( $custom_attr ) ), $content
 			);
 
 			return $html;
@@ -593,7 +593,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			$thumbnail_class	 = array();
 			$thumbnail_class[]	 = PT_CV_PREFIX . 'thumbnail';
 			$thumbnail_class[]	 = isset( $fargs[ 'style' ] ) ? $fargs[ 'style' ] : '';
-			if ( $layout_format === '2-col' ) {
+			if ( $layout_format == '2-col' ) {
 				$wrapper_class		 = isset( $fargs[ 'position' ] ) ? 'pull-' . $fargs[ 'position' ] : 'pull-left';
 				$thumbnail_class[]	 = $wrapper_class;
 				$wrapper_class		 = str_replace( 'pull', '', $wrapper_class );
@@ -653,7 +653,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 						$date_format = apply_filters( PT_CV_PREFIX_ . 'field_meta_date_format', '' ); // set empty to get default option of WP
 						$date		 = apply_filters( PT_CV_PREFIX_ . 'field_meta_date_final', get_the_date( $date_format, $post ), get_the_time( 'U' ) );
 
-						$html[ 'date' ] = sprintf( '<span class="%s">%s <time datetime="%s">%s</time></span>', esc_html( $date_class ), balanceTags( $prefix_text ), esc_attr( get_the_date( 'c' ) ), esc_html( $date ) );
+						$html[ 'date' ] = sprintf( '<span class="%s">%s <time datetime="%s">%s</time></span>', esc_html( $date_class ), $prefix_text, esc_attr( get_the_date( 'c' ) ), esc_html( $date ) );
 						break;
 
 					case 'taxonomy':
@@ -664,7 +664,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 						$terms = PT_CV_Functions::post_terms( $post );
 						if ( !empty( $terms ) ) {
-							$term_html			 = sprintf( '<span class="%s">%s %s</span>', esc_attr( $term_class ), balanceTags( $prefix_text ), balanceTags( $terms ) );
+							$term_html			 = sprintf( '<span class="%s">%s %s</span>', esc_attr( $term_class ), $prefix_text, $terms );
 							$html[ 'taxonomy' ]	 = apply_filters( PT_CV_PREFIX_ . 'field_term_html', $term_html, $terms );
 						}
 						break;
@@ -678,7 +678,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 							ob_start();
 							comments_popup_link( __( 'Leave a comment', PT_CV_TEXTDOMAIN ), __( '1 Comment', PT_CV_TEXTDOMAIN ), __( '% Comments', PT_CV_TEXTDOMAIN ) );
 							$comment_content	 = ob_get_clean();
-							$html[ 'comment' ]	 = sprintf( '<span class="%s">%s %s</span>', esc_attr( $comment_class ), balanceTags( $prefix_text ), $comment_content );
+							$html[ 'comment' ]	 = sprintf( '<span class="%s">%s %s</span>', esc_attr( $comment_class ), $prefix_text, $comment_content );
 						endif;
 						break;
 
@@ -688,7 +688,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 						$author_class	 = apply_filters( PT_CV_PREFIX_ . 'field_meta_class', 'author', 'author' );
 						$prefix_text	 = apply_filters( PT_CV_PREFIX_ . 'field_meta_prefix_text', __( 'by', PT_CV_TEXTDOMAIN ), 'author' );
 
-						$author_html		 = sprintf( '<span class="%s">%s <a href="%s" rel="author">%s</a></span>', esc_attr( $author_class ), balanceTags( $prefix_text ), esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ), get_the_author() );
+						$author_html		 = sprintf( '<span class="%s">%s <a href="%s" rel="author">%s</a></span>', esc_attr( $author_class ), $prefix_text, esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ), get_the_author() );
 						$html[ 'author' ]	 = apply_filters( PT_CV_PREFIX_ . 'field_meta_author_html', $author_html, $post );
 						break;
 
@@ -740,7 +740,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			$meta_html = implode( $seperator, (array) $meta_html );
 
 			// Wrap
-			$html = sprintf( $wrapper, force_balance_tags( $meta_html ) );
+			$html = sprintf( $wrapper, $meta_html );
 
 			return $html;
 		}
@@ -768,7 +768,8 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			$style	 = isset( $dargs[ 'pagination-settings' ][ 'style' ] ) ? $dargs[ 'pagination-settings' ][ 'style' ] : 'regular';
 
 			if ( $type == 'normal' || $style == 'regular' ) {
-				$pagination_btn = sprintf( '<ul class="%s" data-totalpages="%s" data-sid="%s">%s</ul>', PT_CV_PREFIX . 'pagination' . ' ' . PT_CV_PREFIX . $type . ' pagination', esc_attr( $max_num_pages ), esc_attr( $session_id ), PT_CV_Functions::pagination( $max_num_pages, $current_page ) );
+				$ul_class		 = implode( ' ', array( PT_CV_PREFIX . 'pagination', PT_CV_PREFIX . $type, 'pagination' ) );
+				$pagination_btn	 = sprintf( '<ul class="%s" data-totalpages="%s" data-sid="%s">%s</ul>', $ul_class, esc_attr( $max_num_pages ), esc_attr( $session_id ), PT_CV_Functions::pagination( $max_num_pages, $current_page ) );
 			} else {
 				$pagination_btn = apply_filters( PT_CV_PREFIX_ . 'btn_more_html', $pagination_btn, $max_num_pages, $session_id );
 			}

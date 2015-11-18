@@ -53,8 +53,6 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 							),
 						),
 					),
-					// Quick filter
-					apply_filters( PT_CV_PREFIX_ . 'term_quick_filter', array() ),
 					//Operator
 					array(
 						'label'	 => array(
@@ -156,7 +154,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 							'std'			 => '5',
 							'placeholder'	 => 'e.g. 5',
 							'append_text'	 => '1 &rarr; 100',
-							'desc'			 => __( 'The number of items per page.<br>If value of <code>Limit</code> option is not blank (empty), this value should be smaller than <code>Limit</code> value', PT_CV_TEXTDOMAIN ),
+							'desc'			 => __( 'The number of items per page.<br>If value of <code>Limit</code> setting is not blank (empty), this value should be smaller than <code>Limit</code> value', PT_CV_TEXTDOMAIN ),
 						),
 					),
 					'dependence' => array( 'enable-pagination', 'yes' ),
@@ -273,23 +271,8 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 						),
 					),
 				),
-				// Upgrade to Pro
-				!get_option( 'pt_cv_version_pro' ) ? array(
-					'label'			 => array(
-						'text' => '',
-					),
-					'extra_setting'	 => array(
-						'params' => array(
-							'width' => 12,
-						),
-					),
-					'params'		 => array(
-						array(
-							'type'		 => 'html',
-							'content'	 => sprintf( '<p class="text-muted" style="margin-top: -15px; margin-bottom: 5px;">&rarr; %s</p>', __( 'Customize display order of above fields by a simple drag-and-drop ?', PT_CV_TEXTDOMAIN ) . sprintf( ' <a href="%s" target="_blank">%s</a>', esc_url( 'http://www.contentviewspro.com/pricing/?utm_source=client&utm_medium=view' ), __( 'Please upgrade to Pro', PT_CV_TEXTDOMAIN ) ) ),
-						),
-					),
-				) : '',
+				// Upgrade to Pro: Drag & Drop
+				!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Display Title above Thumbnail?', PT_CV_TEXTDOMAIN ), 12, 'margin-top: -15px; margin-bottom: 5px;' ) : '',
 				// Title settings
 				apply_filters( PT_CV_PREFIX_ . 'settings_title_display', array(), $prefix, $prefix2 ),
 				// Thumbnail settings
@@ -371,6 +354,8 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 										),
 									),
 								),
+								// Upgrade to Pro: Manual excerpt
+								!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Use manual excerpt?', PT_CV_TEXTDOMAIN ), 9 ) : '',
 								// Allow HTML tags
 								array(
 									'label'			 => array(
@@ -721,7 +706,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 							'name'			 => $prefix . 'number-columns',
 							'std'			 => '2',
 							'append_text'	 => '1 &rarr; 4',
-							'desc'			 => __( 'The number of items per row of grid', PT_CV_TEXTDOMAIN ),
+							'desc'			 => __( 'The number of columns in layout', PT_CV_TEXTDOMAIN ),
 						),
 					),
 					'dependence' => array( 'view-type', 'grid' ),
@@ -789,6 +774,33 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 					array(
 						'type'		 => 'html',
 						'content'	 => "<div class='" . PT_CV_PREFIX . "text'>" . __( 'There is no option', PT_CV_TEXTDOMAIN ) . '</div>',
+					),
+				),
+			);
+		}
+
+		/**
+		 * Show Get CVPro suggestioin
+		 * @param string $text
+		 * @param int $width
+		 * @return type
+		 */
+		static function get_cvpro( $text, $width, $style = '' ) {
+			$url = sprintf( ' <a href="%s" target="_blank">%s</a>', esc_url( 'http://www.contentviewspro.com/pricing/?utm_source=client&utm_medium=view' ), __( 'Get CVPro now!', PT_CV_TEXTDOMAIN ) );
+
+			return array(
+				'label'			 => array(
+					'text' => '',
+				),
+				'extra_setting'	 => array(
+					'params' => array(
+						'width' => $width,
+					),
+				),
+				'params'		 => array(
+					array(
+						'type'		 => 'html',
+						'content'	 => sprintf( '<p class="text-muted" style="%s">&rarr; %s</p>', $style, $text . $url ),
 					),
 				),
 			);

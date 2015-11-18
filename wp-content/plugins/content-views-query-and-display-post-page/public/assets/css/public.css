@@ -182,6 +182,11 @@
 
 .pt-cv-pagination li {
     display: inline !important;
+	background-image: none !important;
+}
+
+.pt-cv-pagination li:before {
+	content: '' !important;
 }
 
 .pt-cv-pagination a {

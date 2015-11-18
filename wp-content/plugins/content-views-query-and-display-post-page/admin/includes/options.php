@@ -189,7 +189,7 @@ if ( !class_exists( 'PT_Options_Framework' ) ) {
 			$name		 = !empty( $param[ 'name' ] ) ? PT_CV_PREFIX . esc_attr( $param[ 'name' ] ) : '';
 			$id			 = !empty( $param[ 'id' ] ) ? "id='" . PT_CV_PREFIX . esc_attr( $param[ 'id' ] ) . "'" : '';
 			$value		 = isset( $value_ ) ? $value_ : self::field_value( $data, $param, $name );
-			$description = isset( $param[ 'desc' ] ) ? balanceTags( $param[ 'desc' ] ) : '';
+			$description = isset( $param[ 'desc' ] ) ? $param[ 'desc' ] : '';
 
 			// Add extra information of option type
 			switch ( $type ) {
@@ -367,7 +367,7 @@ if ( !class_exists( 'PT_Options_Framework' ) ) {
 						var group_prefix = '<?php echo esc_js( PT_CV_Html::html_group_class() ); ?>' + '-';
 
 						// Preview actions
-						$pt_cv_admin_js.preview( '<?php echo balanceTags( wp_create_nonce( PT_CV_PREFIX_ . 'ajax_nonce' ) ); ?>' );
+						$pt_cv_admin_js.preview( '<?php echo wp_create_nonce( PT_CV_PREFIX_ . 'ajax_nonce' ); ?>' );
 
 						// Custom js
 						$pt_cv_admin_js.custom();
@@ -382,7 +382,7 @@ if ( !class_exists( 'PT_Options_Framework' ) ) {
 						$pt_cv_admin_js.toggle_group( '[name="' + _prefix + 'view-type' + '"]', group_prefix, false );
 
 						// Toggle dependence
-						$pt_cv_admin_js.dependence_do_all( '<?php echo balanceTags( $toggle_data_js ); ?>' );
+						$pt_cv_admin_js.dependence_do_all( '<?php echo $toggle_data_js; ?>' );
 
 						$pt_cv_admin_js.multi_level_toggle();
 					} );

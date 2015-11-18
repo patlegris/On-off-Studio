@@ -37,4 +37,4 @@ switch ( $layout ) {
 		break;
 }
 
-echo balanceTags( implode( "\n", $html ) );
+echo implode( "\n", $html );

@@ -40,7 +40,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 
 			$text = apply_filters( PT_CV_PREFIX_ . 'settings_page_section_one', $text );
 
-			echo balanceTags( $text );
+			echo $text;
 		}
 
 		/**
@@ -54,7 +54,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 
 			$text = apply_filters( PT_CV_PREFIX_ . 'settings_page_section_two', $text );
 
-			echo balanceTags( $text );
+			echo $text;
 		}
 
 		/**
@@ -76,7 +76,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 			<?php
 			$text			 = ob_get_clean();
 
-			echo balanceTags( $text );
+			echo $text;
 		}
 
 		/**
@@ -132,7 +132,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 
 			foreach ( $input as $key => $value ) {
 				$type				 = apply_filters( PT_CV_PREFIX_ . 'settings_page_field_sanitize', 'input', $key );
-				$new_input[ $key ]	 = ($type === 'input') ? sanitize_text_field( $value ) : $value;
+				$new_input[ $key ]	 = ($type == 'input') ? sanitize_text_field( $value ) : $value;
 			}
 
 			return $new_input;
@@ -145,8 +145,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 		 * @param string $section    Id of setting section
 		 * @param string $class      Class name to find the callback function
 		 */
-		public static function field_register( $field_info, $section,
-										 $class = __CLASS__ ) {
+		public static function field_register( $field_info, $section, $class = __CLASS__ ) {
 			if ( !$field_info ) {
 				return false;
 			}
@@ -179,8 +178,7 @@ if ( !class_exists( 'PT_CV_Plugin' ) ) {
 		 * @param string $text       The label of field
 		 * @param string $desc       Description text
 		 */
-		static function _field_print( $field_name, $field_type = 'text', $text = '',
-								$desc = '' ) {
+		static function _field_print( $field_name, $field_type = 'text', $text = '', $desc = '' ) {
 
 			// Get Saved value
 			$field_value = isset( self::$options[ $field_name ] ) ? esc_attr( self::$options[ $field_name ] ) : '';

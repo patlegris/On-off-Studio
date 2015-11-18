@@ -4,22 +4,22 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: post, display, recent, posts, recent post, page, pages, query, queries, search, display, show, grid, column, layout, author, blog, categories, category, comment, content, custom, editor, filter, Formatting, image, list, meta, plugin, responsive, shortcode, excerpt, title, tag, term, Taxonomy, thumbnail, pagination, date, scrollable, slider, collapsible
 Requires at least: 3.3
 Tested up to: 4.3.1
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-It is easy as ABC to query posts by category, tag, author... and display posts anywhere (page, widget) in responsive Grid layout without coding!
+It is super easy to query & display latest posts or any posts (by category, tag, author...) anywhere in responsive Grid layout without coding!
 
 == Description ==
 
-Do you want to display most recent posts on any WordPress page in responsive, customizable Grid layout?
+Do you want to display latest posts on any WordPress page in responsive, versatile Grid layout?
 
 Or:
 
 * display posts by any category, tag, author, keyword
-* display posts in order of title, date, ID
-* display posts with nice pagination
-* display thumbnail in different size than 150x150 or 300x300
+* order posts by title, date, ID
+* display posts with beautiful pagination
+* display featured image with various size (thumbnail, medium, large, full)
 
 With **Content Views**, you can do above things in minutes, without any line of code!
 
@@ -28,8 +28,8 @@ With [Content Views Pro](http://www.contentviewspro.com/?utm_source=wordpress&ut
 **Content Views** provides an intuitive form to query posts and display posts in responsive layouts (grid layout, slider/scrollable list, accordion/collapsible list) quickly & easily, in 3 simple steps:
 
 * Step 1 : Query your posts by category, tag, author...
-* Step 2 : Select a layout to display your posts. You can select what fields (title, content/excerpt, thumbnail, meta fields) to display, too.
-* Step 3 : Paste shortcode **[pt_view id="VIEW_ID"]** to content of page, widget where you want to display your posts. Or you can paste `<?php echo do_shortcode('[pt_view id="VIEW_ID"]'); ?>` to WordPress theme file.
+* Step 2 : Select a layout to display your posts. You can select what fields (title, content/excerpt, thumbnail, meta fields) to display.
+* Step 3 : Paste shortcode **[pt_view id="VIEW_ID"]** to anywhere (page, widget...) you want to display your posts. Or you can paste `<?php echo do_shortcode('[pt_view id="VIEW_ID"]'); ?>` to WordPress theme file.
 
 
 [youtube https://www.youtube.com/watch?v=drxqtCiaw4I]
@@ -39,8 +39,9 @@ With [Content Views Pro](http://www.contentviewspro.com/?utm_source=wordpress&ut
 
 **in Step 1:**
 
-* query any posts by IDs, category, tag, author, keyword, status
-* query child pages of a parent page
+* display latest posts without doing anything (by default, latest posts will be selected)
+* display any posts by ID, category, tag, author, keyword, status
+* display child pages of a parent page
 * include/exclude posts to display
 * sort posts by Id, Title, Date in ascending, descending order
 * limit number of posts to display
@@ -50,8 +51,8 @@ With [Content Views Pro](http://www.contentviewspro.com/?utm_source=wordpress&ut
 * select a responsive layout to display posts: Grid, Scrollable list, Collapsible list
 * select number of columns in Grid layout
 * display fields (thumbnail, title, content, meta fields) in vertical direction. Or display thumbnail in left/right side of other fields
-* select what above fields to display
-* select thumbnail sizes
+* select what fields to show
+* select thumbnail size
 * display full content, or display excerpt with specific number of words
 * select what meta-fields (date, author, categories/tags, comment count) to display
 * enable/disable pagination
@@ -61,7 +62,7 @@ With [Content Views Pro](http://www.contentviewspro.com/?utm_source=wordpress&ut
 = With Content Views Pro, you have: =
 
 * More amazing layouts: **Pinterest, Facebook Timeline, Masonry**...
-* **Replace WordPress layout** in Category page, Search result page, Archive page... by amazing & customizable layout
+* **Replace WordPress layout** in Category page, Search result page, Archive page... by amazing & versatile layout
 * **Drag & drop** to change display order of thumbnail, title, content, meta fields
 * Display any custom posts (**WooCommerce product, EDD** ...) in beautiful output
 * Customize **font, color, style** of title, content, read-more button...
@@ -161,6 +162,12 @@ function my_session_start() {
 
 
 == Changelog ==
+
+= 1.7.2 =
+* Improvement: Reduce processing time by optimizing conditional statements & functions
+* Bug fixed: "No post found" when one of selected terms is hierarchical and operator is AND
+* Bug fixed: Some style issues of pagination (caused by impact of style from active theme)
+* Tweak: Add more helpful descriptions about advanced features in Pro plugin
 
 = 1.7.1 =
 * Bug fixed: Fix error in some one-page themes

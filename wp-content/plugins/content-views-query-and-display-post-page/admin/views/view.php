@@ -40,7 +40,13 @@ PT_CV_Functions::view_submit();
 
 	<?php
 	if ( $id ) {
-		echo balanceTags( sprintf( '<div><input id="view-shortcode" type="text" value="[pt_view id=&quot;%s&quot;]" onclick="this.select()" readonly="" class="form-control">%s</div><div class="clear"></div>', $id, apply_filters( PT_CV_PREFIX_ . 'view_actions', '', $id ) ) );
+		?>
+		<div>
+			<input id="view-shortcode" type="text" value="[pt_view id=&quot;<?php echo $id ?>&quot;]" onclick="this.select()" readonly="" class="form-control">
+			<?php echo apply_filters( PT_CV_PREFIX_ . 'view_actions', '', $id ) ?>
+		</div>
+		<div class="clear"></div>
+		<?php
 	}
 	?>
 
@@ -64,7 +70,7 @@ PT_CV_Functions::view_submit();
 				),
 			),
 		);
-		echo balanceTags( PT_Options_Framework::do_settings( $options, $settings ) );
+		echo PT_Options_Framework::do_settings( $options, $settings );
 		?>
 	</div>
 
@@ -105,7 +111,7 @@ PT_CV_Functions::view_submit();
 				),
 			),
 		);
-		echo balanceTags( PT_Options_Framework::do_settings( $options, $settings ) );
+		echo PT_Options_Framework::do_settings( $options, $settings );
 		?>
 		<br>
 
@@ -146,23 +152,8 @@ PT_CV_Functions::view_submit();
 							),
 						),
 					),
-					// Upgrade to Pro
-					!get_option( 'pt_cv_version_pro' ) ? array(
-						'label'			 => array(
-							'text' => '',
-						),
-						'extra_setting'	 => array(
-							'params' => array(
-								'width' => 10,
-							),
-						),
-						'params'		 => array(
-							array(
-								'type'		 => 'html',
-								'content'	 => sprintf( '<p class="text-muted">&rarr; %s</p>', __( 'Filter custom content type (or post type) ?', PT_CV_TEXTDOMAIN ) . sprintf( ' <a href="%s" target="_blank">%s</a>', esc_url( 'http://www.contentviewspro.com/pricing/?utm_source=client&utm_medium=view' ), __( 'Please upgrade to Pro', PT_CV_TEXTDOMAIN ) ) ),
-							),
-						),
-					) : '',
+					// Upgrade to Pro: Custom post type
+					!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Filter custom post type (product, event...) ?', PT_CV_TEXTDOMAIN ), 10 ) : '',
 					apply_filters( PT_CV_PREFIX_ . 'custom_filters', array() ),
 					// Common Filters
 					array(
@@ -241,7 +232,8 @@ PT_CV_Functions::view_submit();
 											),
 										),
 									),
-									apply_filters( PT_CV_PREFIX_ . 'after_limit_option', array() ),
+									// Upgrade to Pro: Offset
+									apply_filters( PT_CV_PREFIX_ . 'after_limit_option', PT_CV_Settings::get_cvpro( __( 'Skip initial post(s)?', PT_CV_TEXTDOMAIN ), 12 ) ),
 								),
 							),
 						),
@@ -458,7 +450,7 @@ PT_CV_Functions::view_submit();
 						),
 					),
 				);
-				echo balanceTags( PT_Options_Framework::do_settings( $options, $settings ) );
+				echo PT_Options_Framework::do_settings( $options, $settings );
 				?>
 			</div>
 			<!-- end Filter Settings -->
@@ -568,7 +560,7 @@ PT_CV_Functions::view_submit();
 				);
 
 				$options = apply_filters( PT_CV_PREFIX_ . 'display_settings', $options );
-				echo balanceTags( PT_Options_Framework::do_settings( $options, $settings ) );
+				echo PT_Options_Framework::do_settings( $options, $settings );
 				?>
 			</div>
 			<!-- end Display Settings -->

@@ -356,7 +356,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 				if ( isset( $option[ 'params' ] ) ) {
 					foreach ( $option[ 'params' ] as $params ) {
 						// If name of setting match with prefix string, got it name
-						if ( isset( $params[ 'name' ] ) && substr( $params[ 'name' ], 0, strlen( $prefix ) ) === $prefix ) {
+						if ( isset( $params[ 'name' ] ) && substr( $params[ 'name' ], 0, strlen( $prefix ) ) == $prefix ) {
 							$result[] = substr( $params[ 'name' ], strlen( $prefix ) );
 						}
 					}
@@ -385,7 +385,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 
 			foreach ( (array) $view_settings as $name => $value ) {
 				// If name of setting match with prefix string, got it name
-				if ( substr( $name, 0, strlen( $prefix ) ) === $prefix ) {
+				if ( substr( $name, 0, strlen( $prefix ) ) == $prefix ) {
 					$result[ substr( $name, strlen( $prefix ) ) ] = $value;
 				}
 			}
@@ -424,9 +424,11 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 			foreach ( $terms as $term ) {
 				$include_this = apply_filters( PT_CV_PREFIX_ . 'terms_include_this', true, $term );
 				if ( $include_this ) {
-					$links[] = sprintf(
-					'<a href="%1$s" title="%2$s %3$s" class="%4$s">%3$s</a>', esc_url( get_term_link( $term, $term->taxonomy ) ), __( 'View all posts in', PT_CV_TEXTDOMAIN ), $term->name, PT_CV_PREFIX . 'tax-' . PT_CV_Functions::term_slug_sanitize( $term->slug )
-					);
+					$href		 = esc_url( get_term_link( $term, $term->taxonomy ) );
+					$text		 = __( 'View all posts in', PT_CV_TEXTDOMAIN );
+					$term_name	 = esc_attr( $term->name );
+					$class		 = esc_attr( PT_CV_PREFIX . 'tax-' . PT_CV_Functions::term_slug_sanitize( $term->slug ) );
+					$links[]	 = "<a href='$href' title='$text $term_name' class='$class'>{$term->name}</a>";
 				}
 
 				// Add this term to terms list of an item
@@ -746,7 +748,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 			// What kind of content to display
 			$pt_cv_glb[ $view_id ][ 'display_what' ] = apply_filters( PT_CV_PREFIX_ . 'display_what', 'post' );
 
-			if ( $pt_cv_glb[ $view_id ][ 'display_what' ] === 'post' ) {
+			if ( $pt_cv_glb[ $view_id ][ 'display_what' ] == 'post' ) {
 				// Display posts
 				extract( self::get_posts_list( $args, $view_type ) );
 			} else {
@@ -833,7 +835,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 				$_text = apply_filters( PT_CV_PREFIX_ . 'content_no_post_found_text', __( 'No post found', PT_CV_TEXTDOMAIN ) );
 
 				// Output HTML
-				$content_items[] = sprintf( '<div class="%1$s">%2$s</div>', esc_attr( $_class ), balanceTags( $_text ) );
+				$content_items[] = sprintf( '<div class="%s">%s</div>', esc_attr( $_class ), $_text );
 
 				$empty_result = true;
 			}
@@ -1025,7 +1027,12 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 										'field'				 => 'slug',
 										'terms'				 => (array) PT_CV_Functions::setting_value( PT_CV_PREFIX . $taxonomy . '-terms', $view_settings ),
 										'operator'			 => $operator,
-										'include_children'	 => apply_filters( PT_CV_PREFIX_ . 'include_children', true )
+										/*
+										 * @since 1.7.2
+										 * Bug: "No post found" when one of selected terms is hierarchical and operator is AND
+										 * Solution: Set include_children = false
+										 */
+										'include_children'	 => apply_filters( PT_CV_PREFIX_ . 'include_children', $operator == 'AND' ? false : true  )
 									);
 								}
 							}
@@ -1263,7 +1270,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 		 * @param array  $atts    Array of setting parameters for shortcode
 		 * @param string $content Content of shortcode
 		 */
-		static function view_output( $atts, $content = '' ) {
+		static function view_output( $atts ) {
 			$atts = shortcode_atts(
 			apply_filters(
 			PT_CV_PREFIX_ . 'shortcode_params', array(
@@ -1297,7 +1304,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 			$settings = PT_CV_Functions::view_get_settings( $id );
 
 			// Show View output
-			$view_html = balanceTags( PT_CV_Functions::view_process_settings( $id, $settings ) );
+			$view_html = PT_CV_Functions::view_process_settings( $id, $settings );
 
 			return PT_CV_Functions::view_final_output( $view_html );
 		}
@@ -1357,7 +1364,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 			$view_id = self::url_extract_param( 'id' );
 
 			// Show View output
-			echo balanceTags( PT_CV_Functions::view_process_settings( $view_id, $settings ) );
+			echo PT_CV_Functions::view_process_settings( $view_id, $settings );
 
 			do_action( PT_CV_PREFIX_ . 'preview_footer' );
 
@@ -1391,7 +1398,7 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 			self::switch_language( $language );
 
 			// Show View output
-			echo balanceTags( PT_CV_Functions::view_process_settings( $session_id, $settings, $pargs ) );
+			echo PT_CV_Functions::view_process_settings( $session_id, $settings, $pargs );
 
 			// Must exit
 			die;
@@ -1421,16 +1428,15 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 		 */
 		static function pagination_generate_link( $class, $this_page, $label = '' ) {
 			$data_page = '';
-
 			if ( !$label ) {
 				$label		 = $this_page;
-				$data_page	 = sprintf( ' data-page="%s"', $this_page );
+				$data_page	 = sprintf( 'data-page="%s"', $this_page );
 			}
 
-			$html	 = sprintf( '<a%s href="%s">%s</a>', $data_page, esc_url( add_query_arg( 'vpage', $this_page ) ), $label );
-			$class	 = $class ? sprintf( ' class="%s"', esc_attr( $class ) ) : '';
+			$html	 = sprintf( '<a %s href="%s">%s</a>', $data_page, esc_url( add_query_arg( 'vpage', $this_page ) ), $label );
+			$class	 = $class ? sprintf( 'class="%s"', esc_attr( $class ) ) : '';
 
-			return sprintf( '<li%s>%s</li>', $class, $html );
+			return sprintf( '<li %s>%s</li>', $class, $html );
 		}
 
 		/**
