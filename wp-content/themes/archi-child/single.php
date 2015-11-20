@@ -96,7 +96,7 @@ get_header(); ?>
     if (has_category()) {
         $the_cat = get_the_category([0]);
 
-        if ($the_cat <> 'Artistes') {
+        if ($the_cat <> 'artistes') {
             $start_date = get_post_meta($post->ID, '_mem_start_date', true);
             $mem_start_date = strftime('%d %B %Y', strtotime($start_date));
             $day_date = date("d", strtotime($start_date));

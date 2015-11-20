@@ -18,7 +18,7 @@
 
 /*Corps des paragraphes body-----------------------------*/
 body {
-    font-family: lato, sans-serif;
+    font-family: lato, sans-serif !important;
 }
 
 /*Menu -------------------------------------------------*/
@@ -202,7 +202,7 @@ header.smaller #mainmenu li li a {
     color: black;
 }
 
-/*Réduction de l'inter-mot dans les menus items------------*/
+/*RÃ©duction de l'inter-mot dans les menus items------------*/
 #mainmenu li {
     padding-right: 10px;
 }
@@ -215,7 +215,7 @@ header.smaller #mainmenu li li a {
     padding-left: 5px;
 }
 
-/*Fin de blog single suivant/précédent-----------------------*/
+/*Fin de blog single suivant/prÃ©cÃ©dent-----------------------*/
 .nav-links {
     padding-top: 20px;
 }
@@ -233,7 +233,7 @@ header {
     background-clip: padding-box !important;
 }
 
-/*Icones réseaux sociaux + gros (à gauche si possible--------*/
+/*Icones rÃ©seaux sociaux + gros (Ã  gauche si possible--------*/
 .social-icons i {
     width: 36px;
     height: 36px;
@@ -307,7 +307,7 @@ footer .widget {
     margin-top: -20px !important;
 }
 
-/*Formatage des dates de début et fin------------------------*/
+/*Formatage des dates de dÃ©but et fin et des articles--------*/
 .periode {
     font-family: lato, sans-serif;
     font-weight: 400;
@@ -332,6 +332,10 @@ footer .widget {
     border-bottom-color: #8e8f90;
 }
 
+.post-image {
+    border-bottom-color: #8e8f90 !important;
+}
+
 /*Modifications du calendar---------------------------------*/
 .mc-main.mini .day-with-date a {
     display: block;
@@ -353,7 +357,7 @@ footer .widget {
     zoom: 1;
 }
 
-/*texte des encadrés homepage d'accès aux posts-----------'*/
+/*texte des encadrÃ©s homepage d'accÃ¨s aux posts-----------'*/
 .de_light h4 a {
     color: #333333 !important;
     font-family: lato, sans-serif;
@@ -399,4 +403,9 @@ footer .widget {
 
 .mc-list {
     color: #ccc;
+}
+
+/*Modifications espaces dans le titre haut--------------------*/
+#content {
+    padding: 70px 0 90px 0;
 }
