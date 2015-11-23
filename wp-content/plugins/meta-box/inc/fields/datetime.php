@@ -143,7 +143,8 @@ if ( ! class_exists( 'RWMB_Datetime_Field' ) )
 		static function normalize_field( $field )
 		{
 			$field = wp_parse_args( $field, array(
-				'timestamp' => false,
+				'timestamp'  => false,
+				'js_options' => array()
 			) );
 
 			// Deprecate 'format', but keep it for backward compatible
@@ -154,8 +155,6 @@ if ( ! class_exists( 'RWMB_Datetime_Field' ) )
 			) );
 
 			$field = RWMB_Date_Field::normalize_field( $field );
-
-			$field['attributes']['class'] = 'rwmb-datetime';
 
 			return $field;
 		}

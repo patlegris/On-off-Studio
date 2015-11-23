@@ -31,7 +31,7 @@ if ( post_password_required() )
 
 <div class="leave-reply grey-section form">
 <?php
-    if ( is_singular() ) wp_enqueue_script( "réponse au commentaire" );
+    if ( is_singular() ) wp_enqueue_script( "rï¿½ponse au commentaire" );
         $aria_req = ( $req ? " aria-required='true'" : '' );
         $comment_args = array(
                 'id_form' => '',                                

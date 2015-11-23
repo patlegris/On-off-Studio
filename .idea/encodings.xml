@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/category-61.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/category.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/comments.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-audio.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-gallery.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-video.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/content.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/footer.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/header-onepage.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/header.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/single.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/index.php" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

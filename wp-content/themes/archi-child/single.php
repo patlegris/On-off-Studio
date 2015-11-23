@@ -97,13 +97,10 @@ get_header(); ?>
         $the_cat = get_the_category([0]);
 
         if ($the_cat <> 'artistes') {
-            $start_date = get_post_meta($post->ID, '_mem_start_date', true);
-            $mem_start_date = strftime('%d %B %Y', strtotime($start_date));
-            $day_date = date("d", strtotime($start_date));
-            $month_date = date("M", strtotime($start_date));
-
-            $end_date = get_post_meta($post->ID, '_mem_end_date', true);
-            $mem_end_date = strftime('%d %B %Y', strtotime($end_date));
+            $start_date = get_post_meta(get_the_ID(), '_mem_start_date', true);
+            $mem_start_date = date_i18n( get_option( 'date_format' ), strtotime( $start_date ) );
+            $end_date = get_post_meta(get_the_ID(), '_mem_end_date', true);
+            $mem_end_date = date_i18n( get_option( 'date_format' ), strtotime( $end_date ) );
 
             if ($mem_start_date !== "") {
                 echo '<div class="periode">'.$mem_start_date.' / ';
@@ -113,11 +110,6 @@ get_header(); ?>
             }
         }
         ?>
-
-        <div class="date-box">
-            <div class="day"><?php echo $day_date; ?></div>
-            <div class="month"><?php echo $month_date; ?></div>
-        </div>
 
         <div class="post-text page-content">
             <h2 class="single-title"><?php the_title(); ?></h2>

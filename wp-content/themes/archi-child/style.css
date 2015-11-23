@@ -105,7 +105,7 @@ header h1#logo {
 /*Blog excerpt----------------------------------------*/
 .de_light .blog-list .btn-more {
     background: black;
-    color: white;
+    color: white !important;
 }
 
 .de_light .blog-list .btn-more:hover {
@@ -405,7 +405,15 @@ footer .widget {
     color: #ccc;
 }
 
-/*Modifications espaces dans le titre haut--------------------*/
+/*Modifications espaces dans le titre haut et couleur titre------------*/
 #content {
-    padding: 70px 0 90px 0;
+    padding: 60px 0 90px 0;
+}
+
+.de_light a {
+    color: black !important;
+}
+
+.de_light a:hover {
+    color: #888 !important;
 }
