@@ -67,6 +67,7 @@ header h1#logo {
     margin-right: 40px;
     max-width: 85%;
     text-transform: none !important;
+    font-family: lato,sans-serif!important;
 }
 
 #subheader span {
@@ -104,13 +105,15 @@ header h1#logo {
 
 /*Blog excerpt----------------------------------------*/
 .de_light .blog-list .btn-more {
-    background: black;
-    color: white !important;
+    background: white;
+    color: black !important;
+    border: 1px solid!important;
 }
 
 .de_light .blog-list .btn-more:hover {
-    background: black;
-    color: orange !important;
+    background: black!important;
+    color: white !important;
+    border: 1px solid!important;
 }
 
 .blog-list .date-box .month {
@@ -148,7 +151,8 @@ header h1#logo {
 }
 
 #mainmenu li li a:hover {
-    color: orange;
+    color: #c0c0c0!important;
+    background-color: black!important;
 }
 
 header.smaller #mainmenu li li a {
@@ -181,7 +185,7 @@ header.smaller #mainmenu li li a {
 
 /*button grid vert en orange----------------------------*/
 .pt-cv-wrapper .btn-success {
-    font-family: lato, sans-serif;
+    font-family: lato, sans-serif!important;
     color: black;
     background-color: white;
     border: 1px solid;
@@ -190,8 +194,8 @@ header.smaller #mainmenu li li a {
 }
 
 .pt-cv-wrapper .btn-success:hover {
-    color: white;
-    background-color: black;
+    color: white!important;
+    background-color: black!important;
 }
 
 /*button submit newsletter en orange-----------------------*/
@@ -342,12 +346,19 @@ footer .widget {
     margin: -2px;
     font-weight: 900;
     text-decoration: none;
-    background-color: orange;
+    background-color: white;
+    color: white!important;
+}
+
+.mc-main.mini .day-with-date span, .mc-main.mini .day-with-date a {
+    font: .9em lato, sans-serif;
+    padding: 1px;
+    text-align: center;
 }
 
 /*Titre de la homepage-------------------------------------*/
-.title-homepage {
-    color: white;
+h1.title-homepage {
+    color: white!important;
     font-family: lato, sans-serif !important;
     font-weight: 700;
     font-size: 45px;
@@ -426,7 +437,16 @@ h2 {
     margin-bottom: 0;
 }
 
-.de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6, .de_light a {
-    color: #000000 !important;
+.de_light a {
+    /*color: #000000 !important;*/
     font-family: lato, sans-serif !important;
+}
+
+/*Dropdown menu-------------------------------------------------------*/
+#mainmenu li ul {
+    top: 45px;
+}
+
+.dropdown-menu {
+    margin-top: 0;
 }
