@@ -66,7 +66,7 @@ header h1#logo {
     padding-right: 40px;
     margin-right: 40px;
     max-width: 85%;
-    text-transform: uppercase;
+    text-transform: none !important;
 }
 
 #subheader span {
@@ -410,10 +410,23 @@ footer .widget {
     padding: 60px 0 90px 0;
 }
 
-.de_light a {
-    color: black !important;
+h2 .de_light a {
+    color: #000000;
 }
 
 .de_light a:hover {
-    color: #888 !important;
+    color: #ffa500 !important;
+}
+.de_light a:active {
+    color: #ffa500 !important;
+}
+
+/*Titre, typos et auteur-----------------------------------------------*/
+h2 {
+    margin-bottom: 0;
+}
+
+.de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6, .de_light a {
+    color: #000000 !important;
+    font-family: lato, sans-serif !important;
 }

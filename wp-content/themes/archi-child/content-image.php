@@ -39,6 +39,7 @@
 
         <div class="post-text">
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h4>Auteur : <?php the_author();?></h4>
 
 
             <p><?php echo archi_excerpt(); ?></p>

@@ -27,6 +27,7 @@
 
         <div class="post-text">
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h4>Auteur : <?php the_author();?></h4>
 
 
             <a href="<?php the_permalink(); ?>" class="btn-more"><?php _e('Voir +', 'archi'); ?></a>
