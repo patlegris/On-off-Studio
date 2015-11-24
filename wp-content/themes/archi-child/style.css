@@ -67,7 +67,7 @@ header h1#logo {
     margin-right: 40px;
     max-width: 85%;
     text-transform: none !important;
-    font-family: lato,sans-serif!important;
+    font-family: lato, sans-serif !important;
 }
 
 #subheader span {
@@ -107,13 +107,13 @@ header h1#logo {
 .de_light .blog-list .btn-more {
     background: white;
     color: black !important;
-    border: 1px solid!important;
+    border: 1px solid !important;
 }
 
 .de_light .blog-list .btn-more:hover {
-    background: black!important;
+    background: black !important;
     color: white !important;
-    border: 1px solid!important;
+    border: 1px solid !important;
 }
 
 .blog-list .date-box .month {
@@ -146,14 +146,14 @@ header h1#logo {
 /*Sous-menus-----------------------------------------------*/
 #mainmenu li li a {
     padding: 10px 15px 10px 15px;
-    background: white;
-    color: #8e8f90!important;
+    background: white !important;
+    color: #8e8f90 !important;
     text-align: left;
 }
 
 #mainmenu li li a:hover {
-    color: #c0c0c0!important;
-    background-color: black!important;
+    color: #c0c0c0 !important;
+    background-color: black !important;
 }
 
 header.smaller #mainmenu li li a {
@@ -186,7 +186,7 @@ header.smaller #mainmenu li li a {
 
 /*button grid vert en orange----------------------------*/
 .pt-cv-wrapper .btn-success {
-    font-family: lato, sans-serif!important;
+    font-family: lato, sans-serif !important;
     color: black;
     background-color: white;
     border: 1px solid;
@@ -195,8 +195,8 @@ header.smaller #mainmenu li li a {
 }
 
 .pt-cv-wrapper .btn-success:hover {
-    color: white!important;
-    background-color: black!important;
+    color: white !important;
+    background-color: black !important;
 }
 
 /*button submit newsletter en orange-----------------------*/
@@ -209,15 +209,15 @@ header.smaller #mainmenu li li a {
 
 /*Réduction de l'inter-mot dans les menus items------------*/
 #mainmenu li {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 #mainmenu li a {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 #mainmenu {
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 /*Fin de blog single suivant/précédent-----------------------*/
@@ -330,7 +330,7 @@ footer .widget {
 }
 
 .blog-list .post-text {
-     padding-left: 0;
+    padding-left: 0;
 }
 
 .box-fx .inner, .dark .box-fx .inner, .post-image, .arrow-up {
@@ -348,7 +348,7 @@ footer .widget {
     font-weight: 900;
     text-decoration: none;
     background-color: white;
-    color: white!important;
+    color: white !important;
 }
 
 .mc-main.mini .day-with-date span, .mc-main.mini .day-with-date a {
@@ -359,7 +359,7 @@ footer .widget {
 
 /*Titre de la homepage-------------------------------------*/
 h1.title-homepage {
-    color: white!important;
+    color: white !important;
     font-family: lato, sans-serif !important;
     font-weight: 700;
     font-size: 45px;
@@ -404,9 +404,9 @@ h1.title-homepage {
 }
 
 .mc-main.mini .my-calendar-date-switcher label {
-     display: inline-block;
-     float: none;
-     width: auto;
+    display: inline-block;
+    float: none;
+    width: auto;
 }
 
 .my-calendar-month {
@@ -422,15 +422,27 @@ h1.title-homepage {
     padding: 60px 0 90px 0;
 }
 
-h2 .de_light a {
-    color: #000000;
+.single-title {
+    color: black !important;
+    font-family: lato, sans-serif !important;
+}
+
+div.post-text h2 a {
+    color: black !important;
+    font-family: lato, sans-serif !important;
 }
 
 .de_light a:hover {
-    color: #ffa500 !important;
+    color: black !important;
+    text-decoration: none;
 }
+
 .de_light a:active {
     color: #ffa500 !important;
+}
+
+.de_light h4 {
+    font-family: lato, sans-serif !important;
 }
 
 /*Titre, typos et auteur-----------------------------------------------*/
@@ -450,4 +462,61 @@ h2 {
 
 .dropdown-menu {
     margin-top: 0;
+}
+
+/* ================================================== */
+/* R E S P O N S I V E */
+/* ================================================== */
+@media (min-width: 980px) and (max-width: 1199px) {
+
+    header #mainmenu a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #mainmenu li a:after {
+        margin-left: 0;
+    }
+}
+
+/* --------------------------------------------------
+design for 767px
+/* -------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    footer {
+        height: 500px!important;
+        padding-top: 70px;
+    }
+}
+
+/* --------------------------------------------------
+   design for 768px
+   /* ================================================== */
+@media only screen and (max-width: 992px) {
+    #subheader h1 {
+        color: black;
+        margin: 140px 40px 0 0;
+        font-size: 32px;
+        letter-spacing: 5px;
+        text-align: left;
+        padding-right: 40px;
+        max-width: 85%;
+        text-transform: none !important;
+        font-family: lato, sans-serif !important;
+    }
+
+    #content {
+        padding: 20px 0 90px 0;
+    }
+
+    header, header.fixed {
+        display: block;
+        position: fixed;
+        margin: 0;
+        /*padding:0;*/
+        /*margin-top:0;*/
+        height: auto !important;
+        background: #000000;
+        padding: 15px 0 15px 0;
+    }
 }
