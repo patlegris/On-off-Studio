@@ -488,7 +488,7 @@ design for 767px
 /* -------------------------------------------------- */
 @media only screen and (max-width: 767px) {
     footer {
-        height: 500px!important;
+        height: 550px!important;
         padding-top: 70px;
     }
 }

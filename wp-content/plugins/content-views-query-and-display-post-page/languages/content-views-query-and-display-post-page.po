@@ -329,7 +329,7 @@ msgid "loading"
 msgstr ""
 
 #: code/includes/html.php:488
-msgid "Read More"
+msgid "VOIR +"
 msgstr ""
 
 #: code/includes/html.php:663
@@ -419,7 +419,7 @@ msgid "Open item in"
 msgstr ""
 
 #: code/includes/settings.php:236
-msgid "How to open an item when click on Title, Thumbnail, Read more button"
+msgid "How to open an item when click on Title, Thumbnail, VOIR + button"
 msgstr ""
 
 #: code/includes/settings.php:275
