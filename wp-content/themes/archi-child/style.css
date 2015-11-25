@@ -238,6 +238,14 @@ header {
     background-clip: padding-box !important;
 }
 
+/*#mainmenu li.current-menu-item a {*/
+    /*padding: 25px 0 25px 5px;*/
+/*}*/
+
+header.smaller #mainmenu a {
+    padding: 25px 0 25px 5px;
+}
+
 /*Icones réseaux sociaux + gros (à gauche si possible--------*/
 .social-icons i {
     width: 36px;
@@ -555,6 +563,9 @@ design for 767px
         top: 0;
     }
 
+    #mainmenu li a {
+        background-color: white;
+    }
     #mainmenu a:hover {
          background: black !important;
         color: white !important;
@@ -562,5 +573,25 @@ design for 767px
 
     .vc_empty_space {
         height: 120px !important;
+    }
+
+    header {
+        height: 120px!important;
+    }
+
+    header.header-bg.smaller {
+        height: 120px!important;
+    }
+
+    .periode {
+        font-family: lato, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        Width: 260px;
+        background-color: #8e8f90;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        letter-spacing: 2px;
     }
 }

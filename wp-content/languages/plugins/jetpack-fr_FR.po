@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-06 11:40:39+0000\n"
+"PO-Revision-Date: 2015-11-16 09:15:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -804,10 +804,6 @@ msgstr "Identifiant utilisateur non valide, vérifiez et réessayez de saisir vo
 msgid "It looks like your Facebook URL is incorrectly configured. Please check it in your <a href=\"%s\">widget settings</a>."
 msgstr "Il semble que votre URL Facebook soit mal configurée. Veuillez la vérifier dans les <a href=\"%s\">paramètres du widget</a>."
 
-#: views/admin/admin-page.php:56
-msgid "Jetpack can help secure your site, increase performance &amp; traffic, and simplify how you manage your site."
-msgstr "Jetpack pour vous aider à rendre votre site plus sécurisé, à améliorer son traffic et sa performance, et à simplifier la façon dont vous gérez vos sites."
-
 #: views/admin/admin-page.php:172
 msgid "Jetpack includes many other features that you can use to customize how your site looks and functions. These include Contact Forms, Tiled Photo Galleries, Custom CSS, Image Carousel, and a lot more."
 msgstr "Jetpack inclut de nombreuses autres fonctionnalités que vous pouvez utiliser pour améliorer le design de votre site, et la manière dont il fonctionne. Essayez nos formulaires de contact, nos mosaïques de galleries, notre éditeur de CSS, ou l&rsquo;un des autres modules de Jetpack."
@@ -1305,6 +1301,10 @@ msgstr "%s si&nbsp;:"
 #: views/admin/admin-page.php:208
 msgid "<a href=\"%1$s\" target=\"_blank\">View our support page</a>, <a href=\"%2$s\" target=\"_blank\">check the forums for answers</a>, or <a href=\"%3$s\" target=\"_blank\">contact us directly</a>"
 msgstr "<a href=\"%1$s\" target=\"_blank\">Consultez notre documentation</a>, <a href=\"%2$s\" target=\"_blank\">cherchez une réponse à vos questions sur les forums</a>, ou <a href=\"%3$s\" target=\"_blank\">Contactez-nous via email</a>"
+
+#: views/admin/admin-page.php:56
+msgid "Jetpack can help secure your site, increase performance &amp; traffic, and simplify how you manage your site."
+msgstr "Jetpack peut vous aider à rendre votre site plus sécurisé, à améliorer son traffic et sa performance, et à simplifier la façon dont vous gérez vos sites."
 
 #. translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views"
