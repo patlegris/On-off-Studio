@@ -238,10 +238,6 @@ header {
     background-clip: padding-box !important;
 }
 
-/*#mainmenu li.current-menu-item a {*/
-    /*padding: 25px 0 25px 5px;*/
-/*}*/
-
 header.smaller #mainmenu a {
     padding: 25px 0 25px 5px;
 }

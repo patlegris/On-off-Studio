@@ -40,7 +40,11 @@
 
         <div class="post-text">
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <h4><?php the_author(); ?></h4>
+            <?php if (in_category('artistes')) : ?>
+            <?php else :?>
+                <h4><?php the_author(); ?></h4>
+            <?php endif; ?>
+
 
 
             <p><?php echo archi_excerpt(); ?></p>

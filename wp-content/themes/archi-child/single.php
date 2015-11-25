@@ -115,11 +115,12 @@ get_header(); ?>
 
                                 <div class="post-text page-content">
                                     <h2 class="single-title"><?php the_title(); ?></h2>
-                                    <?php if (in_category('artistes')) : ?>
 
+                                    <?php if (in_category('artistes')) : ?>
                                     <?php else :?>
                                     <h4><?php the_author(); ?></h4>
                                     <?php endif; ?>
+
                                     <?php the_content(); ?>
                                 </div>
                             </div>
