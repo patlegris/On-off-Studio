@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Archi Child
+ Theme URI:    http://demo.vegatheme.com/archi
+ Description:  Archi Child Theme
+ Author:       OceanThemes Team
+ Author URI:   http://oceanthemes.net
+ Template:     archi
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  archi-child
+*/
+@import url("../archi/css/light.css");
+
+
+/*Typo Lato par défaut------------------------------------------------*/
+body{
+    font-family: lato, sans-serif!important;
+}
+
+h1,h2,h3,h4,h5,h6,
+.big-white,
+.ultra-big-white,
+.de_tab.tab_steps .de_nav li span,
+.teaser-text,
+.text-slider,
+#mainmenu,
+.btn,
+a.btn,
+.btn-line,
+a.btn-line,
+#filters{
+    font-family: lato, sans-serif!important;
+}

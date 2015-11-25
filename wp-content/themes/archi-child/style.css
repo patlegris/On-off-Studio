@@ -464,10 +464,31 @@ h2 {
     margin-top: 0;
 }
 
-/*Titre des grid-------------------------------------------------------*/
+/*Titre et alignement texte des grid----------------------------------*/
 .pt-cv-title {
     text-align: left;
 }
+
+.pt-cv-content, .pt-cv-content * {
+    text-align: left;
+}
+
+/*Typo Lato par défaut------------------------------------------------*/
+h1,h2,h3,h4,h5,h6,
+.big-white,
+.ultra-big-white,
+.de_tab.tab_steps .de_nav li span,
+.teaser-text,
+.text-slider,
+#mainmenu,
+.btn,
+a.btn,
+.btn-line,
+a.btn-line,
+#filters{
+    font-family: lato, sans-serif!important;
+}
+
 /* ================================================== */
 /* R E S P O N S I V E */
 /* ================================================== */
@@ -522,5 +543,24 @@ design for 767px
         height: auto !important;
         background: #000000;
         padding: 15px 0 15px 0;
+    }
+
+    header h1#logo a img {
+        height: 60px !important;
+        max-width: 340px;
+        max-height: 60px;
+    }
+
+    #mainmenu li ul {
+        top: 0;
+    }
+
+    #mainmenu a:hover {
+         background: black !important;
+        color: white !important;
+    }
+
+    .vc_empty_space {
+        height: 120px !important;
     }
 }
