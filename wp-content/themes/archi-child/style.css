@@ -201,10 +201,10 @@ header.smaller #mainmenu li li a {
 
 /*button submit newsletter en orange-----------------------*/
 .widget_wysija_cont .wysija-submit {
-    background-color: orange;
+    background-color: black;
     font-family: lato, sans-serif;
     font-weight: 400;
-    color: black;
+    color: white;
 }
 
 /*Réduction de l'inter-mot dans les menus items------------*/
@@ -223,6 +223,20 @@ header.smaller #mainmenu li li a {
 /*Fin de blog single suivant/précédent-----------------------*/
 .nav-links {
     padding-top: 20px;
+}
+
+/*Bouton de recherche, modification de couleurs-------------*/
+button#btn-search {
+    background-color: black;
+}
+
+#btn-search:before {
+    color: white;
+}
+
+button#btn-search:hover {
+    background-color: #8e8f90!important;
+    color: black!important;
 }
 
 /*Sous barre de menu, espace--------------------------------*/

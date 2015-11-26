@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c49fa8-98a2-4050-aeb2-727654bb9acf" name="Default" comment="Date dans single ok">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/content-audio.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/content-audio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/content-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/content-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/content-video.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/content-video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" />
     </list>
     <ignored path="on-off-studio.iws" />
@@ -35,17 +27,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3728814">
-              <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.288136">
+              <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-1611.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page-1611.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.728813">
+            <state vertical-scroll-proportion="1.1792115">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -72,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19399539">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state vertical-scroll-proportion="-24.5">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -118,7 +110,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/html.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/css/light.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/content-audio.php" />
@@ -126,6 +117,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/content-video.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/search.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" />
       </list>
     </option>
   </component>
@@ -705,22 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.728813">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3728814">
-          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.338983">
@@ -779,8 +755,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19399539">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state vertical-scroll-proportion="-24.5">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.288136">
+          <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1792115">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
