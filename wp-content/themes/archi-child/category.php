@@ -21,9 +21,15 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="blog-list">
-                    <?php 
+                    <?php
                       while (have_posts()) : the_post();
-                      get_template_part( 'content', get_post_format() ) ;   // End the loop.
+                          $mem_date = mem_date_processing(
+                              get_post_meta($post->ID, '_mem_start_date', true) ,
+                              get_post_meta($post->ID, '_mem_end_date', true)
+                          );
+                    if ( $mem_date["is-ongoing"] === true ) {
+                        get_template_part( 'content', get_post_format() ) ;
+                    }   // End the loop.
                       endwhile;
                     ?>
 
@@ -35,10 +41,6 @@
                     </ul>
                 </div>
             </div>
-<!--            <div id="sidebar" class="col-md-4">-->
-<!--                --><?php //get_sidebar();?>
-<!--            </div>-->
-            
         </div>
     </div>
 </div>
