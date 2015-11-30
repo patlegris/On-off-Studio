@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c49fa8-98a2-4050-aeb2-727654bb9acf" name="Default" comment="Date dans single ok">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositionsHOLD.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/HOLDfooter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/page-1640.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositionsHOLD.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/content-views-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/content-views-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/includes/options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/includes/options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/includes/plugin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/includes/plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/views/view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/views/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/content-views.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/content-views.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/hooks.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/html.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/values.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/values.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/languages/content-views-query-and-display-post-page.po" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/languages/content-views-query-and-display-post-page.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-shortcode-filter.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax/class-shortcode-filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dashboard-302.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dashboard-302.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dashboard-302.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dashboard-302.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-replace-vars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/yoast-seo/yoast-seo-302.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/yoast-seo/yoast-seo-302.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-post-scraper-302.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-post-scraper-302.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-post-scraper-302.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-post-scraper-302.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-shortcode-plugin-302.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-shortcode-plugin-302.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-shortcode-plugin-302.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/wp-seo-shortcode-plugin-302.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/category.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/footer.php" />
     </list>
     <ignored path="on-off-studio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,33 +38,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-archives-expositionsHOLD.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositionsHOLD.php">
+      <file leaf-file-name="page-1640.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-1640.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.2">
-              <caret line="77" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding>
-                <element signature="e#696#752#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-archives-expositions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.072748266">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.95150113">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/single.php">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.266666">
-              <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="74" />
+            <state vertical-scroll-proportion="-23.8">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive-service.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive-service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-51.266666">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -113,8 +81,8 @@
       <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.3">
-              <caret line="29" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="20" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,7 +112,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/archi/content-audio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/framework/color.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi/framework/color.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi/single.php" />
@@ -166,9 +133,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archive-1.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/category-archives-expositions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archives-expositions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/loop-archives.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/archi-child/page-1611.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archives-expositions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archives.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archive-hold-expositions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/archive-expositions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/category-expos.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/archi-child/page-1640.php" />
       </list>
     </option>
   </component>
@@ -300,32 +275,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="on-off-studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="on-off-studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archi-child" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -393,9 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,13 +387,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/assets/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="266" column="1" selection-start-line="266" selection-start-column="1" selection-end-line="266" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../webofpat/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -486,6 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.7288136">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,6 +465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.2">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -550,6 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,20 +503,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.8">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -719,14 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.566668">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-audio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.566668">
@@ -767,60 +690,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php">
+    <entry file="file://$PROJECT_DIR$/../gomobility/wp-content/themes/gomobility/page-24.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1154734">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.3">
-          <caret line="29" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19399539">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="22" selection-end-column="21" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.266666">
-          <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.47690532">
+          <caret line="94" column="71" selection-start-line="94" selection-start-column="71" selection-end-line="94" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositionsHOLD.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.2">
-          <caret line="77" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding>
-            <element signature="e#696#752#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-25.9">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-archives-expositions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/content-image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072748266">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state vertical-scroll-proportion="-32.2">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7817552">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-51.266666">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.8">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi/archive-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="20" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/page-1640.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95150113">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
