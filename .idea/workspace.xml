@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c49fa8-98a2-4050-aeb2-727654bb9acf" name="Default" comment="Date dans single ok">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/page-templates/template-fullwidth.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/views/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/tmp-content-views-query-and-display-post-page.pot" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/GeoIP.dat" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/GeoIP.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/assets/css/menu.css" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/assets/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/content-views-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/content-views-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/views/view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/admin/views/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/content-views.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/content-views.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/values.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/includes/values.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/languages/content-views-query-and-display-post-page.po" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/languages/content-views-query-and-display-post-page.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/public/content-views.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/public/content-views.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/public/templates/collapsible/html/main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/content-views-query-and-display-post-page/public/templates/collapsible/html/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfBrowscapCache.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfBrowscapCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfCrawl.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfCrawl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfLog.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wfLog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wordfenceClass.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wordfenceClass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wordfenceConstants.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/lib/wordfenceConstants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordfence/wordfence.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordfence/wordfence.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/archi-child/style.css" />
     </list>
     <ignored path="on-off-studio.iws" />
@@ -51,8 +27,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79928315">
-              <caret line="600" column="5" selection-start-line="600" selection-start-column="5" selection-end-line="600" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.892132">
+              <caret line="427" column="19" selection-start-line="427" selection-start-column="19" selection-end-line="427" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -152,10 +128,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1034" />
+    <option name="x" value="399" />
+    <option name="width" value="1523" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -367,10 +342,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
+    <frame x="399" y="0" width="1523" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23357664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -808,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/archi-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79928315">
-          <caret line="600" column="5" selection-start-line="600" selection-start-column="5" selection-end-line="600" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.892132">
+          <caret line="427" column="19" selection-start-line="427" selection-start-column="19" selection-end-line="427" selection-end-column="19" />
           <folding />
         </state>
       </provider>

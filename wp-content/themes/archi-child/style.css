@@ -202,10 +202,10 @@ header.smaller #mainmenu li li a {
 
 /*button submit newsletter en orange-----------------------*/
 .widget_wysija_cont .wysija-submit {
-    background-color: black;
+    /*background-color: black;*/
     font-family: lato, sans-serif;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
 /*Réduction de l'inter-mot dans les menus items------------*/
@@ -334,7 +334,7 @@ footer .widget {
 .wysija-input {
     margin-top: 15px;
     padding-left: 10px;
-    width: 196px;
+    width: 210px;
     color: #888;
     /*width: 70%;*/
 }
@@ -375,22 +375,6 @@ footer .widget {
     border-bottom: solid 2px;
 }
 
-/*Modifications du calendar---------------------------------*/
-.mc-main.mini .day-with-date a {
-    display: block;
-    margin: -2px;
-    font-weight: 900;
-    text-decoration: none;
-    background-color: white;
-    color: white !important;
-}
-
-.mc-main.mini .day-with-date span, .mc-main.mini .day-with-date a {
-    font: .9em lato, sans-serif;
-    padding: 1px;
-    text-align: center;
-}
-
 /*Titre de la homepage-------------------------------------*/
 h1.title-homepage {
     color: white !important;
@@ -412,6 +396,26 @@ h1.title-homepage {
 }
 
 /*Modification calendrier-----------------------*/
+.mc-main.mini .day-with-date a {
+    display: block;
+    margin: -2px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white !important;
+    background-color: white;
+}
+
+.mc-main.mini .day-with-date span, .mc-main.mini .day-with-date a {
+    font: .9em lato, sans-serif;
+    padding: 1px;
+    text-align: center;
+}
+
+.mini .my-calendar-nav li a {
+    padding: 1px 3px !important;
+    font-size: 14px!important;
+}
+
 .mc-main .nextmonth .mc-date {
     background-color: #c4c4c4;
 }
@@ -421,8 +425,7 @@ h1.title-homepage {
 }
 
 .mc-main.mini .day-with-date a {
-    background-color: black;
-    color: #a2a2a2;
+    /*color: #a2a2a2;*/
 }
 
 .mc-date {
@@ -594,10 +597,30 @@ design for 767px
         font-family: lato, sans-serif !important;
     }
 
-    .bg-fixed.vc_rows.wpb_rows.vc_rows-fluid.vc_custom_1449241558633 {
-        margin-top: 0px !important;
-        padding: 0 0 200px 0 !important;
-        /*padding-bottom: 380px !important;*/
+    .wpb_column.col-md-12 {
+        margin-bottom: 0;
+    }
+
+    /*ul#mainmenu ul li a {*/
+        /*padding: 5px 0 5px 5px;*/
+    /*}*/
+
+    ul#mainmenu li li a {
+        padding: 5px 0 5px 15px;
+
+    }
+    #mainmenu a {
+       line-height: 5px!important;
+    }
+    ul#mainmenu.no-separator {
+        padding-top: 0;
+    }
+
+    section.bg-fixed.vc_rows.wpb_rows.vc_rows-fluid.vc_custom_1449241558633 {
+        margin-top: 0 !important;
+        padding: 50px 0 50px 0 !important;
+        height: 250px !important;
+        padding-top: 0 !important;
     }
 
     #content {
