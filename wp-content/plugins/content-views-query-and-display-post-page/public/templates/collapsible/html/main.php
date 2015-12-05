@@ -45,6 +45,7 @@ switch ( $layout ) {
 $random_id	 = PT_CV_Functions::string_random();
 ?>
 <div class="panel panel-default pt-cv-content-item">
+	<?php echo apply_filters( PT_CV_PREFIX_ . 'collapsible_before_heading', '' ); ?>
 	<div class="panel-heading">
 		<a class="panel-title" data-toggle="collapse" data-parent="#<?php echo esc_attr( PT_CV_PREFIX_UPPER . 'ID' ); ?>" href="#<?php echo esc_attr( $random_id ); ?>">
 			<?php echo strip_tags( $heading ); ?>

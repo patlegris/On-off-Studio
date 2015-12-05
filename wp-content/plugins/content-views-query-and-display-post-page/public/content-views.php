@@ -230,7 +230,7 @@ class PT_Content_Views {
 	 * Start SESSION
 	 */
 	public function register_session() {
-		if ( !session_id() ) {
+		if ( !session_id() && !headers_sent() && apply_filters( PT_CV_PREFIX_ . 'start_session', true ) ) {
 			do_action( PT_CV_PREFIX_ . 'session_start' );
 			session_start();
 		}

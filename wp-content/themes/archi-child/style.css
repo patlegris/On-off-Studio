@@ -236,8 +236,8 @@ button#btn-search {
 }
 
 button#btn-search:hover {
-    background-color: #8e8f90!important;
-    color: black!important;
+    background-color: #8e8f90 !important;
+    color: black !important;
 }
 
 /*Sous barre de menu, espace--------------------------------*/
@@ -266,15 +266,27 @@ header.smaller #mainmenu a {
 
 /*Couleur autres pages footer (widget)-------------------------*/
 .widget_nav_menu ul li a, .widget_pages ul li a {
-    /*color: white;*/
+    /*color: white !important;*/
     font-size: 18px;
     line-height: 25px;
     font-family: lato, sans-serif;
 }
 
-.widget_nav_menu ul li a, .widget_pages ul li a :hover {
-    text-decoration: none;
-    color: black;
+/*.widget_nav_menu ul li a:hover, .widget_pages ul li a:hover {*/
+/*text-align: left !important;*/
+/*text-decoration: none;*/
+/*color: black !important;*/
+/*background-color: white !important;*/
+/*}*/
+
+.widget_nav_menu {
+    text-align: left !important;
+}
+
+.widget_nav_menu ul li:hover {
+    text-align: left !important;
+    color: black !important;
+    background-color: white !important;
 }
 
 /*Interlignage 3 colonnes home et texte blanc sur image--------*/
@@ -336,12 +348,14 @@ footer .widget {
     font-family: lato, sans-serif;
     font-weight: 400;
     font-size: 20px;
-    Width: 450px;
+    Width: 480px;
     background-color: #8e8f90;
     color: white;
     padding: 8px;
     text-align: center;
     letter-spacing: 2px;
+    text-transform: uppercase;
+
 }
 
 .date-box {
@@ -358,6 +372,7 @@ footer .widget {
 
 .post-image {
     border-bottom-color: #8e8f90 !important;
+    border-bottom: solid 2px;
 }
 
 /*Modifications du calendar---------------------------------*/
@@ -383,6 +398,7 @@ h1.title-homepage {
     font-weight: 700;
     font-size: 55px;
     /*ombrage*/
+    letter-spacing: 3px;
     text-shadow: 2px 2px 6px black;
     filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=135, Strength=8);
     zoom: 1;
@@ -444,11 +460,16 @@ h1.title-homepage {
 .single-title {
     color: black !important;
     font-family: lato, sans-serif !important;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
 }
 
-div.post-text h2 a {
+h2 a {
     color: black !important;
     font-family: lato, sans-serif !important;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .de_light a:hover {
@@ -462,15 +483,28 @@ div.post-text h2 a {
 
 .de_light h4 {
     font-family: lato, sans-serif !important;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.widget_nav_menu ul li:hover {
+    background-color: white;
+}
+
+/*Espace bottom VOIR + -------------------------------------------------*/
+.de_light .blog-list li {
+    margin-bottom: 140px;
+
 }
 
 /*Titre, typos et auteur-----------------------------------------------*/
 h2 {
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .de_light a {
-    /*color: #000000 !important;*/
+    color: black !important;
     font-family: lato, sans-serif !important;
 }
 
@@ -493,7 +527,7 @@ h2 {
 }
 
 /*Typo Lato par défaut------------------------------------------------*/
-h1,h2,h3,h4,h5,h6,
+h1, h2, h3, h4, h5, h6,
 .big-white,
 .ultra-big-white,
 .de_tab.tab_steps .de_nav li span,
@@ -504,8 +538,13 @@ h1,h2,h3,h4,h5,h6,
 a.btn,
 .btn-line,
 a.btn-line,
-#filters{
-    font-family: lato, sans-serif!important;
+#filters {
+    font-family: lato, sans-serif !important;
+}
+
+/*Boutons à télécharger et calendrier----------------------------*/
+.vc_btn3.vc_btn3-color-inverse.vc_btn3-style-modern {
+    color: #fff !important;
 }
 
 /* ================================================== */
@@ -521,6 +560,7 @@ a.btn-line,
     #mainmenu li a:after {
         margin-left: 0;
     }
+
 }
 
 /* --------------------------------------------------
@@ -528,9 +568,14 @@ design for 767px
 /* -------------------------------------------------- */
 @media only screen and (max-width: 767px) {
     footer {
-        height: 550px!important;
+        height: 550px !important;
         padding-top: 70px;
     }
+
+    h1, h2, h3, h4 {
+        text-align: left;
+    }
+
 }
 
 /* --------------------------------------------------
@@ -547,6 +592,12 @@ design for 767px
         max-width: 85%;
         text-transform: uppercase !important;
         font-family: lato, sans-serif !important;
+    }
+
+    .bg-fixed.vc_rows.wpb_rows.vc_rows-fluid.vc_custom_1449241558633 {
+        margin-top: 0px !important;
+        padding: 0 0 200px 0 !important;
+        /*padding-bottom: 380px !important;*/
     }
 
     #content {
@@ -577,21 +628,18 @@ design for 767px
     #mainmenu li a {
         background-color: white;
     }
+
     #mainmenu a:hover {
-         background: black !important;
+        background: black !important;
         color: white !important;
     }
 
-    .vc_empty_space {
+    header {
         height: 120px !important;
     }
 
-    header {
-        height: 120px!important;
-    }
-
     header.header-bg.smaller {
-        height: 120px!important;
+        height: 120px !important;
     }
 
     .periode {
@@ -604,5 +652,6 @@ design for 767px
         padding: 8px;
         text-align: center;
         letter-spacing: 2px;
+        text-transform: uppercase;
     }
 }

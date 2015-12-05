@@ -300,7 +300,7 @@ class PT_Content_Views_Admin {
 		$user_role = current_user_can( 'administrator' ) ? 'administrator' : PT_CV_Functions::get_option_value( 'access_role', 'edit_posts' );
 
 		$this->plugin_screen_hook_suffix = add_menu_page(
-		__( 'Content View Settings', PT_CV_TEXTDOMAIN ), __( 'Content View Settings', PT_CV_TEXTDOMAIN ), $user_role, $this->plugin_slug, array( $this, 'display_plugin_admin_page' ), '', '45.6'
+		__( 'Content Views Settings', PT_CV_TEXTDOMAIN ), __( 'Content Views', PT_CV_TEXTDOMAIN ), $user_role, $this->plugin_slug, array( $this, 'display_plugin_admin_page' ), '', '45.6'
 		);
 
 		$this->plugin_sub_screen_hook_suffix[] = PT_CV_Functions::menu_add_sub(
@@ -310,6 +310,18 @@ class PT_Content_Views_Admin {
 		$this->plugin_sub_screen_hook_suffix[] = PT_CV_Functions::menu_add_sub(
 		$this->plugin_slug, __( 'Add New View', PT_CV_TEXTDOMAIN ), __( 'Add New', PT_CV_TEXTDOMAIN ), $user_role, 'add', __CLASS__
 		);
+
+		$this->plugin_sub_screen_hook_suffix[] = add_submenu_page(
+		$this->plugin_slug, __( 'Content Views Settings', PT_CV_TEXTDOMAIN ), __( 'Settings', PT_CV_TEXTDOMAIN ), $user_role, $this->plugin_slug, array( $this, 'display_plugin_admin_page' )
+		);
+
+		global $submenu;
+		// Modify URL of "All Views"
+		if ( !empty( $submenu[ 'content-views' ][ 1 ][ 2 ] ) ) {
+			$submenu[ 'content-views' ][ 1 ][ 2 ] = 'edit.php?post_type=pt_view';
+		}
+		// Remove first submenu which is similar to parent menu
+		unset( $submenu[ 'content-views' ][ 0 ] );
 	}
 
 	/**
@@ -334,13 +346,6 @@ class PT_Content_Views_Admin {
 	 */
 	public static function display_plugin_admin_page() {
 		include_once( 'views/admin.php' );
-	}
-
-	/**
-	 * List all Views page
-	 */
-	public static function display_sub_page_list() {
-		include_once( 'views/list.php' );
 	}
 
 	/**

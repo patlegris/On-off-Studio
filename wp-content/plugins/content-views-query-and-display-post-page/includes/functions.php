@@ -326,7 +326,11 @@ if ( !class_exists( 'PT_CV_Functions' ) ) {
 		 * @param array      $array_to_get Array to get values of wanted setting
 		 * @param mixed|null $assign       The value to assign if setting is not found
 		 */
-		static function setting_value( $field, $array_to_get, $assign = NULL ) {
+		static function setting_value( $field, $array_to_get = NULL, $assign = NULL ) {
+			if ( empty( $array_to_get ) ) {
+				$array_to_get = PT_CV_Functions::get_global_variable( 'view_settings' );
+			}
+
 			return isset( $array_to_get[ $field ] ) ? $array_to_get[ $field ] : $assign;
 		}
 

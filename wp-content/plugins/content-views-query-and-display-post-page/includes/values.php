@@ -239,8 +239,8 @@ if ( !class_exists( 'PT_CV_Values' ) ) {
 		 */
 		static function orders() {
 			return array(
-				'asc'	 => __( 'ASC', PT_CV_TEXTDOMAIN ),
-				'desc'	 => __( 'DESC', PT_CV_TEXTDOMAIN ),
+				'asc'	 => __( 'Ascending', PT_CV_TEXTDOMAIN ),
+				'desc'	 => __( 'Descending', PT_CV_TEXTDOMAIN ),
 			);
 		}
 

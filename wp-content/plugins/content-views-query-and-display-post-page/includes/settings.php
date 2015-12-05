@@ -144,20 +144,24 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 				),
 				// Items per page
 				array(
-					'label'		 => array(
+					'label'			 => array(
 						'text' => __( 'Items per page', PT_CV_TEXTDOMAIN ),
 					),
-					'params'	 => array(
+					'extra_setting'	 => array(
+						'params' => array(
+							'wrap-class' => PT_CV_PREFIX . 'w200',
+						),
+					),
+					'params'		 => array(
 						array(
 							'type'			 => 'number',
 							'name'			 => $prefix . 'items-per-page',
 							'std'			 => '5',
 							'placeholder'	 => 'e.g. 5',
-							'append_text'	 => '1 &rarr; 100',
 							'desc'			 => __( 'The number of items per page.<br>If value of <code>Limit</code> setting is not blank (empty), this value should be smaller than <code>Limit</code> value', PT_CV_TEXTDOMAIN ),
 						),
 					),
-					'dependence' => array( 'enable-pagination', 'yes' ),
+					'dependence'	 => array( 'enable-pagination', 'yes' ),
 				),
 				// Pagination Type
 				array(
@@ -272,7 +276,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 					),
 				),
 				// Upgrade to Pro: Drag & Drop
-				!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Display Title above Thumbnail?', PT_CV_TEXTDOMAIN ), 12, 'margin-top: -15px; margin-bottom: 5px;' ) : '',
+				!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Display Title above Thumbnail ?', PT_CV_TEXTDOMAIN ), 12, 'margin-top: -15px; margin-bottom: 5px;' ) : '',
 				// Title settings
 				apply_filters( PT_CV_PREFIX_ . 'settings_title_display', array(), $prefix, $prefix2 ),
 				// Thumbnail settings
@@ -355,7 +359,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 									),
 								),
 								// Upgrade to Pro: Manual excerpt
-								!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Use manual excerpt?', PT_CV_TEXTDOMAIN ), 9 ) : '',
+								!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Use manual excerpt, change "Read More" text ?', PT_CV_TEXTDOMAIN ), 9 ) : '',
 								// Allow HTML tags
 								array(
 									'label'			 => array(
@@ -705,7 +709,7 @@ if ( !class_exists( 'PT_CV_Settings' ) ) {
 							'type'			 => 'number',
 							'name'			 => $prefix . 'number-columns',
 							'std'			 => '2',
-							'append_text'	 => '1 &rarr; 4',
+							'append_text'	 => '1 &rarr; 12',
 							'desc'			 => __( 'The number of columns in layout', PT_CV_TEXTDOMAIN ),
 						),
 					),

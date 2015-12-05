@@ -223,17 +223,16 @@ PT_CV_Functions::view_submit();
 										),
 										'params' => array(
 											array(
-												'type'			 => 'number',
-												'name'			 => 'limit',
-												'std'			 => '10',
-												'min'			 => '1',
-												'append_text'	 => '1 &rarr; 999',
-												'desc'			 => __( 'The number of posts to show. Set empty to show all found posts (which match all filter settings)', PT_CV_TEXTDOMAIN ),
+												'type'	 => 'number',
+												'name'	 => 'limit',
+												'std'	 => '10',
+												'min'	 => '1',
+												'desc'	 => __( 'The number of posts to show. Set empty to show all found posts (which match all filter settings)', PT_CV_TEXTDOMAIN ),
 											),
 										),
 									),
 									// Upgrade to Pro: Offset
-									apply_filters( PT_CV_PREFIX_ . 'after_limit_option', PT_CV_Settings::get_cvpro( __( 'Skip initial post(s)?', PT_CV_TEXTDOMAIN ), 12 ) ),
+									apply_filters( PT_CV_PREFIX_ . 'after_limit_option', PT_CV_Settings::get_cvpro( __( 'Skip some posts ?', PT_CV_TEXTDOMAIN ), 12 ) ),
 								),
 							),
 						),
@@ -314,6 +313,8 @@ PT_CV_Functions::view_submit();
 												),
 											),
 										),
+										// Upgrade to Pro: Custom taxonomy
+										!get_option( 'pt_cv_version_pro' ) ? PT_CV_Settings::get_cvpro( __( 'Filter by custom taxonomies ?', PT_CV_TEXTDOMAIN ), 10 ) : '',
 										// Terms list
 										array(
 											'label'			 => array(

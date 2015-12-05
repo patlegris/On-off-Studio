@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: post, display, recent, posts, recent post, page, pages, query, queries, search, display, show, grid, column, layout, author, blog, categories, category, comment, content, custom, editor, filter, Formatting, image, list, meta, plugin, responsive, shortcode, excerpt, title, tag, term, Taxonomy, thumbnail, pagination, date, scrollable, slider, collapsible
 Requires at least: 3.3
 Tested up to: 4.3.1
-Stable tag: 1.7.3
+Stable tag: 1.7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,15 +101,15 @@ With [Content Views Pro](http://www.contentviewspro.com/?utm_source=wordpress&ut
 
 = How can I start? =
 
-In left menu of your Admin dashboard, click 'Content View Settings > Add View'
+In WordPress dashboard menu, click Content Views
 
 = What is 'View'? =
 
-'View' is a custom post type which Content Views uses to store all settings to query & display your posts
+'View' is a custom post type which Content Views plugin uses to store all settings to query & display your posts
 
-= How can I see all my Views? =
+= How can I see all Views? =
 
-In left menu of your Admin dashboard, click 'Content View Settings > All Views'
+In WordPress dashboard menu, click Content Views > All Views
 
 = How can I edit a View? =
 
@@ -132,20 +132,7 @@ Otherwise, if you are choosing "Your latest posts" for Front page, you should ad
 Please add this code to file **functions.php** of your theme
 `
 // CVPro - Fix Session error
-add_action( 'pt_cv_session_start', 'my_session_start' );
-
-function my_session_start() {
-	// Get default path to save session
-	$session_save_path = ini_get( 'session.save_path' );
-	if ( empty( $session_save_path ) ) {
-		$session_save_path = "/tmp";
-		session_save_path( $session_save_path );
-	}
-	// Create it if not exist
-	if ( !file_exists( $session_save_path ) ) {
-		mkdir( $session_save_path, 0755, true );
-	}
-}
+add_filter( 'pt_cv_start_session', '__return_false' );
 `
 
 
@@ -162,6 +149,11 @@ function my_session_start() {
 
 
 == Changelog ==
+
+= 1.7.4 =
+* Bug fixed: "Session start" warning
+* Improvement: Rename & restructure Content Views menus in WordPress dashboard
+* Improvement: Remove/Update appended value (for example: 1 → 6) which can make misunderstand about limitation of some numerical settings
 
 = 1.7.3 =
 * Bug fixed: Empty date caused by custom hook to WordPress "get_the_date" filter (of another plugin/active theme)
