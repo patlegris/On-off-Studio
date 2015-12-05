@@ -7,13 +7,6 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /on-off-studio/index.php [L]
-AddType audio/mp4 .m4a
-AddType video/mp4 .mp4
-AddType video/x-m4v .m4v
-AddType video/ogg .ogv
-AddType audio/ogg .oga
-AddType video/webm .webm
-AddType audio/mpeg .mp3
 </IfModule>
 
 # END WordPress
