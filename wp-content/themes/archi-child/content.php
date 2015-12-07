@@ -39,6 +39,8 @@
 
         <p><?php echo archi_excerpt(); ?></p>
 
+        <?php if ((in_category('expositions')) OR (in_category('ateliers/stages')) OR (in_category('evenements'))) : {?>}
         <a href="<?php the_permalink(); ?>" class="btn-more"><?php _e('Voir +', 'archi'); ?></a>
+    <?php }endif; ?>
     </div>
 </li>
