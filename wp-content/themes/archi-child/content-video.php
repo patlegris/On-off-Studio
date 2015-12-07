@@ -5,9 +5,8 @@
         <div class="post-image">
             <iframe height="420" src="<?php echo esc_url($link_video); ?>"></iframe>
         </div>
-        <?php if (in_category('artistes')) : ?>
+        <?php if ((in_category('expositions')) OR (in_category('ateliers/stages')) OR (in_category('evenements'))) :
 
-        <?php else :
             $start_date = get_post_meta(get_the_ID(), '_mem_start_date', true);
             $mem_start_date = date_i18n(get_option('date_format'), strtotime($start_date));
             $end_date = get_post_meta(get_the_ID(), '_mem_end_date', true);

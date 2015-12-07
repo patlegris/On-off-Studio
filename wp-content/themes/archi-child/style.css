@@ -417,11 +417,16 @@ h1.title-homepage {
 }
 
 .mc-main .nextmonth .mc-date {
-    background-color: #c4c4c4;
+    background-color: palegreen;
 }
 
 .mc-main .mc-date {
-    background-color: #a2a2a2;
+    background-color: limegreen;
+}
+
+.mc-main .current-day .mc-date {
+    background-color: green;
+    color: white;
 }
 
 .mc-main.mini .day-with-date a {
@@ -433,8 +438,8 @@ h1.title-homepage {
     font-size: 1.7em !important;
 }
 
-.current-day {
-
+.my-calendar-month {
+    text-transform: uppercase;
 }
 
 .mc_bottomnav {
